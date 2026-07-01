@@ -1,8 +1,10 @@
 import { writeFile } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
 
 const USERNAME = 'uwusu';
 const API_ROOT = 'https://api.jikan.moe/v4';
 const OUTPUT_FILE = new URL('../anime-data.json', import.meta.url);
+const INPUT_FILE = OUTPUT_FILE;
 const PAGE_SIZE = 100;
 const MAX_ATTEMPTS = 4;
 const RETRYABLE_STATUS = new Set([429, 500, 502, 503, 504]);
@@ -58,8 +60,16 @@ async function fetchJsonWithRetry(url, attemptCount = MAX_ATTEMPTS) {
         return await response.json();
       }
 
+      if (response.status === 404) {
+        const notFoundError = new Error('User not found on Jikan (404)');
+        notFoundError.code = 404;
+        throw notFoundError;
+      }
+
       if (!RETRYABLE_STATUS.has(response.status) || attempt === attemptCount) {
-        throw new Error(`Request failed with status ${response.status}`);
+        const requestError = new Error(`Request failed with status ${response.status}`);
+        requestError.code = response.status;
+        throw requestError;
       }
 
       const retryAfter = Number(response.headers.get('Retry-After'));
@@ -75,6 +85,25 @@ async function fetchJsonWithRetry(url, attemptCount = MAX_ATTEMPTS) {
   }
 
   throw lastError ?? new Error('Unknown fetch error');
+}
+
+async function readExistingOutput() {
+  try {
+    const raw = await readFile(INPUT_FILE, 'utf8');
+    const parsed = JSON.parse(raw);
+    if (parsed && Array.isArray(parsed.entries)) {
+      return parsed;
+    }
+  } catch (_error) {
+    // No existing cache available.
+  }
+
+  return {
+    username: USERNAME,
+    generatedAt: null,
+    count: 0,
+    entries: [],
+  };
 }
 
 async function fetchAllAnime(username) {
@@ -99,8 +128,21 @@ async function fetchAllAnime(username) {
 }
 
 async function main() {
-  const rawEntries = await fetchAllAnime(USERNAME);
-  const entries = rawEntries.map(normalizeEntry).sort(compareEntries);
+  let entries = [];
+
+  try {
+    const rawEntries = await fetchAllAnime(USERNAME);
+    entries = rawEntries.map(normalizeEntry).sort(compareEntries);
+  } catch (error) {
+    if (error && error.code === 404) {
+      const fallback = await readExistingOutput();
+      console.warn('Jikan returned 404 for @' + USERNAME + '; keeping existing cached anime data.');
+      await writeFile(OUTPUT_FILE, `${JSON.stringify(fallback, null, 2)}\n`, 'utf8');
+      return;
+    }
+
+    throw error;
+  }
 
   const output = {
     username: USERNAME,
