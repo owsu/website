@@ -15,20 +15,13 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
-<<<<<<< HEAD
         with:
           fetch-depth: 0
-=======
->>>>>>> gh-pages
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-<<<<<<< HEAD
           node-version: '24'
-=======
-          node-version: '20'
->>>>>>> gh-pages
 
       - name: Generate anime-data.json
         run: node scripts/update-anime-data.mjs
