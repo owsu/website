@@ -385,6 +385,14 @@ img { max-width: 100%; display: block; }
   padding: 0.6rem 0.85rem;
 }
 
+.anime-row .number {
+  width: 2rem;
+  flex-shrink: 0;
+  color: var(--ink-mute);
+  font-size: 0.8rem;
+  text-align: right;
+}
+
 .anime-row .icon {
   width: 36px;
   height: 48px;

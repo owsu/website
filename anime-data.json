@@ -1,8 +1,26 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-07-01T18:00:10.996Z",
-  "count": 300,
+  "generatedAt": "2026-07-01T19:38:57.254Z",
+  "count": 582,
   "entries": [
+    {
+      "id": 38524,
+      "title": "Attack on Titan Season 3 Part 2",
+      "score": 10,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1517/100633.jpg?s=ffa3499b40efc73e5372e2783f84ea3f",
+      "malUrl": "https://myanimelist.net/anime/38524/Shingeki_no_Kyojin_Season_3_Part_2",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 16498,
+      "title": "Attack on Titan",
+      "score": 9,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/10/47347.jpg?s=0c5745fd0b1559ebf88af1c403b4e288",
+      "malUrl": "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin",
+      "status": "completed",
+      "mediaType": "TV"
+    },
     {
       "id": 1535,
       "title": "Death Note",
@@ -58,6 +76,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 21,
+      "title": "One Piece",
+      "score": 9,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1244/138851.jpg?s=efa0bb34987933dc15f7869a6049838d",
+      "malUrl": "https://myanimelist.net/anime/21/One_Piece",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 60022,
       "title": "One Piece Fan Letter",
       "score": 9,
@@ -65,6 +92,33 @@
       "malUrl": "https://myanimelist.net/anime/60022/One_Piece_Fan_Letter",
       "status": "completed",
       "mediaType": "TV Special"
+    },
+    {
+      "id": 9253,
+      "title": "Steins;Gate",
+      "score": 9,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1935/127974.jpg?s=82ada9442e8693db63d325f457cf186b",
+      "malUrl": "https://myanimelist.net/anime/9253/Steins_Gate",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 37779,
+      "title": "The Promised Neverland",
+      "score": 9,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1830/118780.jpg?s=fdd351fc4865e9d5ef100f065e90f596",
+      "malUrl": "https://myanimelist.net/anime/37779/Yakusoku_no_Neverland",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52034,
+      "title": "[Oshi No Ko]",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1812/134736.jpg?s=49b7c1afde7e4ba8040a1a4e17d9c70f",
+      "malUrl": "https://myanimelist.net/anime/52034/Oshi_no_Ko",
+      "status": "completed",
+      "mediaType": "TV"
     },
     {
       "id": 6547,
@@ -92,6 +146,51 @@
       "malUrl": "https://myanimelist.net/anime/30654/Ansatsu_Kyoushitsu_2nd_Season",
       "status": "completed",
       "mediaType": "TV"
+    },
+    {
+      "id": 25777,
+      "title": "Attack on Titan Season 2",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/4/84177.jpg?s=734c3745263da83f97200b61cd9c173f",
+      "malUrl": "https://myanimelist.net/anime/25777/Shingeki_no_Kyojin_Season_2",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 35760,
+      "title": "Attack on Titan Season 3",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1173/92110.jpg?s=1e6986dedb9d081635004598bf879a5f",
+      "malUrl": "https://myanimelist.net/anime/35760/Shingeki_no_Kyojin_Season_3",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 40028,
+      "title": "Attack on Titan: Final Season",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1000/110531.jpg?s=cfe99c0cc7a3b3c1cde9f884b7c94e64",
+      "malUrl": "https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 48583,
+      "title": "Attack on Titan: Final Season Part 2",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1948/120625.jpg?s=50540c1fe697b6e87c6064536a66cb19",
+      "malUrl": "https://myanimelist.net/anime/48583/Shingeki_no_Kyojin__The_Final_Season_Part_2",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59571,
+      "title": "Attack on Titan: The Last Attack",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1379/145452.jpg?s=dadcbc81fb6640c66509222c61f98e09",
+      "malUrl": "https://myanimelist.net/anime/59571/Shingeki_no_Kyojin_Movie__Kanketsu-hen_-_The_Last_Attack",
+      "status": "completed",
+      "mediaType": "Movie"
     },
     {
       "id": 33,
@@ -164,6 +263,15 @@
       "malUrl": "https://myanimelist.net/anime/35120/Devilman__Crybaby",
       "status": "completed",
       "mediaType": "ONA"
+    },
+    {
+      "id": 52991,
+      "title": "Frieren: Beyond Journey's End",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1015/138006.jpg?s=ce1002699d33adc692baf5e3c32e80c1",
+      "malUrl": "https://myanimelist.net/anime/52991/Sousou_no_Frieren",
+      "status": "completed",
+      "mediaType": "TV"
     },
     {
       "id": 37105,
@@ -254,6 +362,15 @@
       "malUrl": "https://myanimelist.net/anime/37514/Made_in_Abyss_Movie_1__Tabidachi_no_Yoake",
       "status": "completed",
       "mediaType": "Movie"
+    },
+    {
+      "id": 41084,
+      "title": "Made in Abyss: The Golden City of the Scorching Sun",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1864/122519.jpg?s=4920f5736e115a4c860352d5fed167e0",
+      "malUrl": "https://myanimelist.net/anime/41084/Made_in_Abyss__Retsujitsu_no_Ougonkyou",
+      "status": "on-hold",
+      "mediaType": "TV"
     },
     {
       "id": 37515,
@@ -382,6 +499,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 37450,
+      "title": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1301/93586.jpg?s=c5816f00664086dd8c815a1d79cafa4f",
+      "malUrl": "https://myanimelist.net/anime/37450/Seishun_Buta_Yarou_wa_Bunny_Girl_Senpai_no_Yume_wo_Minai",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 31240,
       "title": "Re:ZERO -Starting Life in Another World-",
       "score": 8,
@@ -418,11 +544,101 @@
       "mediaType": "Special"
     },
     {
+      "id": 50265,
+      "title": "Spy x Family",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1441/122795.jpg?s=346291a4d41400ff951e8f7d65a402c6",
+      "malUrl": "https://myanimelist.net/anime/50265/Spy_x_Family",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 50602,
+      "title": "Spy x Family Part 2",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1111/127508.jpg?s=ac29a3b4c032a7bf566c63f277a68822",
+      "malUrl": "https://myanimelist.net/anime/50602/Spy_x_Family_Part_2",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53887,
+      "title": "Spy x Family Season 2",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1506/138982.jpg?s=c672f311f9beda2970058984a264db4e",
+      "malUrl": "https://myanimelist.net/anime/53887/Spy_x_Family_Season_2",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 60489,
+      "title": "Takopi's Original Sin",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1182/149879.jpg?s=688b3449e5f7fafcb5ac33bf516afd7b",
+      "malUrl": "https://myanimelist.net/anime/60489/Takopii_no_Genzai",
+      "status": "completed",
+      "mediaType": "ONA"
+    },
+    {
+      "id": 35790,
+      "title": "The Rising of the Shield Hero",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1490/101365.jpg?s=a86cf7ae62762116809daa3576131d03",
+      "malUrl": "https://myanimelist.net/anime/35790/Tate_no_Yuusha_no_Nariagari",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53447,
+      "title": "To Be Hero X",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1492/150628.jpg?s=50ac0dfd7d005872d9faefa3e11b24c9",
+      "malUrl": "https://myanimelist.net/anime/53447/Tu_Bian_Yingxiong_X",
+      "status": "on-hold",
+      "mediaType": "ONA"
+    },
+    {
       "id": 41025,
       "title": "To Your Eternity",
       "score": 8,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1880/118484.jpg?s=8a91ad10eef629d7ce90a6bead46c470",
       "malUrl": "https://myanimelist.net/anime/41025/Fumetsu_no_Anata_e",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 37521,
+      "title": "Vinland Saga",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1500/103005.jpg?s=dda752dd4d154818e895e45bb098e1e6",
+      "malUrl": "https://myanimelist.net/anime/37521/Vinland_Saga",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 49387,
+      "title": "Vinland Saga Season 2",
+      "score": 8,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1170/124312.jpg?s=e160ec66cb38a741fd647f6c40109084",
+      "malUrl": "https://myanimelist.net/anime/49387/Vinland_Saga_Season_2",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 55791,
+      "title": "[Oshi No Ko] Season 2",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1006/143302.jpg?s=b553cf7ccbda969b973783ddb59463d8",
+      "malUrl": "https://myanimelist.net/anime/55791/Oshi_no_Ko_2nd_Season",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 55866,
+      "title": "A Sign of Affection",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1478/140828.jpg?s=37764ae4feaeff4bb9482078eea9f533",
+      "malUrl": "https://myanimelist.net/anime/55866/Yubisaki_to_Renren",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -460,6 +676,15 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1976/122302.jpg?s=89485dbc9a927ed7bc0501b0053f3f1e",
       "malUrl": "https://myanimelist.net/anime/42429/Honzuki_no_Gekokujou__Shisho_ni_Naru_Tame_ni_wa_Shudan_wo_Erandeiraremasen_3rd_Season",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 57466,
+      "title": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1371/155054.jpg?s=6d7469456864a1d815c6d94efd47e6dc",
+      "malUrl": "https://myanimelist.net/anime/57466/Honzuki_no_Gekokujou__Shisho_ni_Naru_Tame_ni_wa_Shudan_wo_Erandeiraremasen_-_Ryoushu_no_Youjo",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -526,12 +751,66 @@
       "mediaType": "TV"
     },
     {
+      "id": 35507,
+      "title": "Classroom of the Elite",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/5/86830.jpg?s=b4f4f8a7a3e05334c6b1e46a4f13d850",
+      "malUrl": "https://myanimelist.net/anime/35507/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59708,
+      "title": "Classroom of the Elite 4th Season: Second Year, First Semester",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1176/153626.jpg?s=f3b2c44d4be5d8235fb28c7b5fcee33d",
+      "malUrl": "https://myanimelist.net/anime/59708/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_4th_Season__2-nensei-hen_1_Gakki",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 51096,
+      "title": "Classroom of the Elite II",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1010/124180.jpg?s=af82a81a064df6c4031973a6f61412c1",
+      "malUrl": "https://myanimelist.net/anime/51096/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_2nd_Season",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 51180,
+      "title": "Classroom of the Elite III",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1332/139318.jpg?s=079119a2088af8274e0f316b78ecf7da",
+      "malUrl": "https://myanimelist.net/anime/51180/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_3rd_Season",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 59205,
       "title": "Clevatess",
       "score": 7,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1255/150593.jpg?s=53768233102bb06ca06424234552ca0a",
       "malUrl": "https://myanimelist.net/anime/59205/Clevatess__Majuu_no_Ou_to_Akago_to_Shikabane_no_Yuusha",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 42310,
+      "title": "Cyberpunk: Edgerunners",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1818/126435.jpg?s=0be17183a1db49a9a2fb43affb404d81",
+      "malUrl": "https://myanimelist.net/anime/42310/Cyberpunk__Edgerunners",
+      "status": "watching",
+      "mediaType": "ONA"
+    },
+    {
+      "id": 6880,
+      "title": "Deadman Wonderland",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/9/75299.jpg?s=5aed9c6067aea8eda60c668bb7ef2a25",
+      "malUrl": "https://myanimelist.net/anime/6880/Deadman_Wonderland",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
@@ -661,6 +940,51 @@
       "mediaType": "TV"
     },
     {
+      "id": 28171,
+      "title": "Food Wars! Shokugeki no Soma",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1444/148976.jpg?s=3499beb8a9b316e90c8824ad9bd5c28f",
+      "malUrl": "https://myanimelist.net/anime/28171/Shokugeki_no_Souma",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 32282,
+      "title": "Food Wars! The Second Plate",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/8/79353.jpg?s=9a56d3ce84f4b88008d059af4f30d7f3",
+      "malUrl": "https://myanimelist.net/anime/32282/Shokugeki_no_Souma__Ni_no_Sara",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59978,
+      "title": "Frieren: Beyond Journey's End Season 2",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1921/154528.jpg?s=60e2aab87c2f2ed3146565ae5e9df703",
+      "malUrl": "https://myanimelist.net/anime/59978/Sousou_no_Frieren_2nd_Season",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59062,
+      "title": "Gachiakuta",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1682/150432.jpg?s=c9b6dd643dab40516950d9e261903c91",
+      "malUrl": "https://myanimelist.net/anime/59062/Gachiakuta",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53770,
+      "title": "Go! Go! Loser Ranger!",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1183/141489.jpg?s=cc06161392e55b3c221857f932682f28",
+      "malUrl": "https://myanimelist.net/anime/53770/Sentai_Daishikkaku",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 17895,
       "title": "Golden Time",
       "score": 7,
@@ -670,12 +994,39 @@
       "mediaType": "TV"
     },
     {
+      "id": 32542,
+      "title": "Haven't You Heard? I'm Sakamoto",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/4/79468.jpg?s=602205f697564907097d47021fa779cf",
+      "malUrl": "https://myanimelist.net/anime/32542/Sakamoto_desu_ga",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 51020,
       "title": "Helck",
       "score": 7,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1002/138524.jpg?s=f90473902a7b2d15fd533f437a763d92",
       "malUrl": "https://myanimelist.net/anime/51020/Helck",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 46569,
+      "title": "Hell's Paradise",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1075/131925.jpg?s=d7a306cad06c4f49cd1064d59616320f",
+      "malUrl": "https://myanimelist.net/anime/46569/Jigokuraku",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 42897,
+      "title": "Horimiya",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1695/111486.jpg?s=09bb0aa26d6a24eaee2f2cc4b1971830",
+      "malUrl": "https://myanimelist.net/anime/42897/Horimiya",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
@@ -751,6 +1102,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 48661,
+      "title": "JoJo's Bizarre Adventure: Stone Ocean",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1896/119844.jpg?s=0e5e584abedd4b512f24d139522c1f1e",
+      "malUrl": "https://myanimelist.net/anime/48661/JoJo_no_Kimyou_na_Bouken_Part_6__Stone_Ocean",
+      "status": "on-hold",
+      "mediaType": "ONA"
+    },
+    {
       "id": 40748,
       "title": "Jujutsu Kaisen",
       "score": 7,
@@ -769,6 +1129,15 @@
       "mediaType": "Movie"
     },
     {
+      "id": 57658,
+      "title": "Jujutsu Kaisen: The Culling Game Part 1",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1659/154920.jpg?s=ababb922ddf0b81f26af0df3a5e16a82",
+      "malUrl": "https://myanimelist.net/anime/57658/Jujutsu_Kaisen__Shimetsu_Kaiyuu_-_Zenpen",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 52588,
       "title": "Kaiju No. 8",
       "score": 7,
@@ -784,6 +1153,24 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1794/135148.jpg?s=9a5d731c43738e92ef14e5b4d6943562",
       "malUrl": "https://myanimelist.net/anime/51693/Kaminaki_Sekai_no_Kamisama_Katsudou",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 60223,
+      "title": "Kaya-chan Isn't Scary",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1194/153705.jpg?s=4c0afa5d732894f9e19b9f1fa53c64de",
+      "malUrl": "https://myanimelist.net/anime/60223/Kaya-chan_wa_Kowakunai",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 48926,
+      "title": "Komi Can't Communicate",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1899/117237.jpg?s=1ae3e5a7671ca90a21a816e207796484",
+      "malUrl": "https://myanimelist.net/anime/48926/Komi-san_wa_Comyushou_desu",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
@@ -895,6 +1282,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 39247,
+      "title": "Miss Kobayashi's Dragon Maid S",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1252/115539.jpg?s=cc4d0524acd1e62ffe63f52c6e36b5cf",
+      "malUrl": "https://myanimelist.net/anime/39247/Kobayashi-san_Chi_no_Maid_Dragon_S",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 50360,
       "title": "Mushoku Tensei: Jobless Reincarnation - Eris the Goblin Slayer",
       "score": 7,
@@ -902,6 +1298,15 @@
       "malUrl": "https://myanimelist.net/anime/50360/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_-_Eris_no_Goblin_Toubatsu",
       "status": "completed",
       "mediaType": "Special"
+    },
+    {
+      "id": 48736,
+      "title": "My Dress-Up Darling",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1179/119897.jpg?s=947c4f14aa219793bf7cbc170a6ad951",
+      "malUrl": "https://myanimelist.net/anime/48736/Sono_Bisque_Doll_wa_Koi_wo_Suru",
+      "status": "completed",
+      "mediaType": "TV"
     },
     {
       "id": 31964,
@@ -931,6 +1336,24 @@
       "mediaType": "TV"
     },
     {
+      "id": 41587,
+      "title": "My Hero Academia Season 5",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1911/113611.jpg?s=0dd15fed60fd27b38532a8a43ffdc511",
+      "malUrl": "https://myanimelist.net/anime/41587/Boku_no_Hero_Academia_5th_Season",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 14227,
+      "title": "My Little Monster",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/4/39779.jpg?s=478e4139a6bdfc02910a52594804e54e",
+      "malUrl": "https://myanimelist.net/anime/14227/Tonari_no_Kaibutsu-kun",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 38555,
       "title": "My Next Life as a Villainess: All Routes Lead to Doom!",
       "score": 7,
@@ -946,6 +1369,15 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1088/116439.jpg?s=80315dbe72da538fafa355676949fdd4",
       "malUrl": "https://myanimelist.net/anime/42282/Otome_Game_no_Hametsu_Flag_shika_Nai_Akuyaku_Reijou_ni_Tensei_shiteshimatta_X",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 1735,
+      "title": "Naruto Shippuden",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1565/111305.jpg?s=a70bb9f00fdf76c47af05e003d6d42f7",
+      "malUrl": "https://myanimelist.net/anime/1735/Naruto__Shippuuden",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
@@ -1021,6 +1453,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 527,
+      "title": "Pokémon",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1787/140239.jpg?s=92e648676eacc534c2fd406954337a5a",
+      "malUrl": "https://myanimelist.net/anime/527/Pokemon",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 32485,
       "title": "Prison School: Mad Wax",
       "score": 7,
@@ -1054,6 +1495,15 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1763/140359.jpg?s=2bb25af6d5d8823022b4d342d29577c1",
       "malUrl": "https://myanimelist.net/anime/51297/Ragna_Crimson",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 54857,
+      "title": "Re:ZERO -Starting Life in Another World- Season 3",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1706/144725.jpg?s=df372c1c2a6cde4f842370b613bd8743",
+      "malUrl": "https://myanimelist.net/anime/54857/Re_Zero_kara_Hajimeru_Isekai_Seikatsu_3rd_Season",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
@@ -1093,6 +1543,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 52347,
+      "title": "Shangri-La Frontier",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1500/139931.jpg?s=e7ed5d4858d64269d73d664532a3372d",
+      "malUrl": "https://myanimelist.net/anime/52347/Shangri-La_Frontier__Kusoge_Hunter_Kamige_ni_Idoman_to_su",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 52299,
       "title": "Solo Leveling",
       "score": 7,
@@ -1111,12 +1570,75 @@
       "mediaType": "TV"
     },
     {
+      "id": 3588,
+      "title": "Soul Eater",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1071/149486.jpg?s=49944287387450e7f3ebd6f72a775b1d",
+      "malUrl": "https://myanimelist.net/anime/3588/Soul_Eater",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 47194,
+      "title": "Summer Time Rendering",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1120/120796.jpg?s=eaf9ba799fb1f94b63897704222b4eb7",
+      "malUrl": "https://myanimelist.net/anime/47194/Summertime_Render",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 36474,
+      "title": "Sword Art Online: Alicization",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1993/93837.jpg?s=b69c3a1bf36c04612aa8a4801a7e3c92",
+      "malUrl": "https://myanimelist.net/anime/36474/Sword_Art_Online__Alicization",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 39597,
+      "title": "Sword Art Online: Alicization - War of Underworld",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1630/103417.jpg?s=8d911babfbbed9424de686be56410915",
+      "malUrl": "https://myanimelist.net/anime/39597/Sword_Art_Online__Alicization_-_War_of_Underworld",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 49778,
+      "title": "Sword of the Demon Hunter: Kijin Gentosho",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1722/148906.jpg?s=0a0ebbecbf7b7efc628a2222edd574a0",
+      "malUrl": "https://myanimelist.net/anime/49778/Kijin_Gentoushou",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 41619,
       "title": "Talentless Nana",
       "score": 7,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1301/110433.jpg?s=1f6ac25269f3e4f52238ba8393321f96",
       "malUrl": "https://myanimelist.net/anime/41619/Munou_na_Nana",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 37430,
+      "title": "That Time I Got Reincarnated as a Slime",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1069/123309.jpg?s=2169b69cb5a6b8c5d7f51115bf41adbc",
+      "malUrl": "https://myanimelist.net/anime/37430/Tensei_shitara_Slime_Datta_Ken",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59970,
+      "title": "That Time I Got Reincarnated as a Slime Season 4",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1695/156389.jpg?s=43fd46a7bb8e8fcfc3b0604f9bbd2c3e",
+      "malUrl": "https://myanimelist.net/anime/59970/Tensei_shitara_Slime_Datta_Ken_4th_Season",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -1219,11 +1741,56 @@
       "mediaType": "TV"
     },
     {
+      "id": 49709,
+      "title": "To Your Eternity Season 2",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1271/127700.jpg?s=dcd7ec150d777e593a88ebbe63f188e3",
+      "malUrl": "https://myanimelist.net/anime/49709/Fumetsu_no_Anata_e_Season_2",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 22319,
+      "title": "Tokyo Ghoul",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1498/134443.jpg?s=3b5201f5bc801c531f525b99f3adf99c",
+      "malUrl": "https://myanimelist.net/anime/22319/Tokyo_Ghoul",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 42249,
+      "title": "Tokyo Revengers",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1839/122012.jpg?s=82466c26d2ed25dc3a00ca6c8f62047e",
+      "malUrl": "https://myanimelist.net/anime/42249/Tokyo_Revengers",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 41389,
+      "title": "Tonikawa: Over The Moon For You",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1613/108722.jpg?s=9a04f38896ee227c16a5f11ac5ea5f50",
+      "malUrl": "https://myanimelist.net/anime/41389/Tonikaku_Kawaii",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 40221,
       "title": "Tower of God",
       "score": 7,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1702/106229.jpg?s=3c239ff0d943738c8ee03d2a65995460",
       "malUrl": "https://myanimelist.net/anime/40221/Kami_no_Tou",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 54726,
+      "title": "TsumaSho",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1752/145548.jpg?s=f52c44e28b04d1ca0720969e4e994a70",
+      "malUrl": "https://myanimelist.net/anime/54726/Tsuma_Shougakusei_ni_Naru",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -1246,11 +1813,38 @@
       "mediaType": "TV"
     },
     {
+      "id": 58059,
+      "title": "Wistoria: Wand and Sword",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1281/144104.jpg?s=c3b37e599f8f5a4e47eace91c240db56",
+      "malUrl": "https://myanimelist.net/anime/58059/Tsue_to_Tsurugi_no_Wistoria",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 51553,
+      "title": "Witch Hat Atelier",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1726/155542.jpg?s=2a0110011d38821331665929297edee9",
+      "malUrl": "https://myanimelist.net/anime/51553/Tongari_Boushi_no_Atelier",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 50380,
       "title": "Ya Boy Kongming!",
       "score": 7,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1970/122297.jpg?s=6e74252752fa1e7b481c2b87c2175af6",
       "malUrl": "https://myanimelist.net/anime/50380/Paripi_Koumei",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 23273,
+      "title": "Your Lie in April",
+      "score": 7,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1405/143284.jpg?s=63be887b9c5e5ab01914217ed8c92282",
+      "malUrl": "https://myanimelist.net/anime/23273/Shigatsu_wa_Kimi_no_Uso",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -1264,11 +1858,38 @@
       "mediaType": "TV"
     },
     {
+      "id": 59644,
+      "title": "A Wild Last Boss Appeared!",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1599/155164.jpg?s=42e71b41dc4aef6551d684884d82954c",
+      "malUrl": "https://myanimelist.net/anime/59644/Yasei_no_Last_Boss_ga_Arawareta",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 13161,
       "title": "Aesthetica of a Rogue Hero",
       "score": 6,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/9/74047.jpg?s=94fb2adb3bfca1012c38f06ba9ae4268",
       "malUrl": "https://myanimelist.net/anime/13161/Hagure_Yuusha_no_Aesthetica",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 61687,
+      "title": "An Observation Log of My Fiancée Who Calls Herself a Villainess",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1769/153376.jpg?s=240c0269d96cc3ee9f8072fd43bb982f",
+      "malUrl": "https://myanimelist.net/anime/61687/Jishou_Akuyaku_Reijou_na_Konyakusha_no_Kansatsu_Kiroku",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 55265,
+      "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1763/139538.jpg?s=39b270d15aace261b5bc69de4792f64e",
+      "malUrl": "https://myanimelist.net/anime/55265/Tensei_Kizoku_Kantei_Skill_de_Nariagaru",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -1300,6 +1921,42 @@
       "mediaType": "TV"
     },
     {
+      "id": 47917,
+      "title": "Bocchi the Rock!",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1448/127956.jpg?s=18b1224e7a7b47317fdc79504b5e9c71",
+      "malUrl": "https://myanimelist.net/anime/47917/Bocchi_the_Rock",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 50346,
+      "title": "Call of the Night",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1045/123711.jpg?s=2d670afb602588397df4345791c3b512",
+      "malUrl": "https://myanimelist.net/anime/50346/Yofukashi_no_Uta",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 38659,
+      "title": "Cautious Hero: The Hero Is Overpowered but Overly Cautious",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1715/103419.jpg?s=731f661e845ffcb27839a414ba4c6f96",
+      "malUrl": "https://myanimelist.net/anime/38659/Shinchou_Yuusha__Kono_Yuusha_ga_Ore_Tueee_Kuse_ni_Shinchou_Sugiru",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 37141,
+      "title": "Cells at Work!",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1141/117446.jpg?s=497b81f7d4f1661f7a1ec10b8e9f73ff",
+      "malUrl": "https://myanimelist.net/anime/37141/Hataraku_Saibou",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 50392,
       "title": "Chained Soldier",
       "score": 6,
@@ -1314,6 +1971,15 @@
       "score": 6,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/9/76493.jpg?s=7135eec624e9652fa344076a292c3d03",
       "malUrl": "https://myanimelist.net/anime/30296/Rakudai_Kishi_no_Cavalry",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 41456,
+      "title": "Combatants Will Be Dispatched!",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1444/115118.jpg?s=ce391ad6c756c5ec77b4c9a66e4d414b",
+      "malUrl": "https://myanimelist.net/anime/41456/Sentouin_Haken_shimasu",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -1333,6 +1999,15 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1016/107222.jpg?s=435126f485228fb3be21ef8350861d99",
       "malUrl": "https://myanimelist.net/anime/38656/Darwins_Game",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52701,
+      "title": "Delicious in Dungeon",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1711/142478.jpg?s=f3493d93a2fa26c2aacbd22cb2bec4e0",
+      "malUrl": "https://myanimelist.net/anime/52701/Dungeon_Meshi",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
@@ -1363,6 +2038,24 @@
       "mediaType": "TV"
     },
     {
+      "id": 61917,
+      "title": "Dusk Beyond the End of the World",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1294/151734.jpg?s=6b1a8f2e3805ee94c85d8b6d50fe574a",
+      "malUrl": "https://myanimelist.net/anime/61917/Towa_no_Yuugure",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 61549,
+      "title": "Easygoing Territory Defense by the Optimistic Lord: Production Magic Turns a Nameless Village into the Strongest Fortified City",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1264/153908.jpg?s=2aef77222d75a7ee744613fd2b36e4cf",
+      "malUrl": "https://myanimelist.net/anime/61549/Okiraku_Ryoushu_no_Tanoshii_Ryouchi_Bouei__Seisankei_Majutsu_de_Na_mo_Naki_Mura_wo_Saikyou_no_Jousai_Toshi_ni",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 6702,
       "title": "Fairy Tail",
       "score": 6,
@@ -1390,11 +2083,65 @@
       "mediaType": "OVA"
     },
     {
+      "id": 49785,
+      "title": "Fairy Tail: 100 Years Quest",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1087/144083.jpg?s=130dda01714ad55aebf97a48e0b27b5a",
+      "malUrl": "https://myanimelist.net/anime/49785/Fairy_Tail__100-nen_Quest",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 51462,
       "title": "Farming Life in Another World",
       "score": 6,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1983/132329.jpg?s=30f0db531db35a84cd5ac9a724069e80",
       "malUrl": "https://myanimelist.net/anime/51462/Isekai_Nonbiri_Nouka",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 38671,
+      "title": "Fire Force",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1664/103275.jpg?s=250ad27eb0dd2e6eef6cfb7814eeae83",
+      "malUrl": "https://myanimelist.net/anime/38671/Enen_no_Shouboutai",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 40902,
+      "title": "Food Wars! The Fifth Plate",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1756/108000.jpg?s=a48d48a3c21208ec2ce5163c132cb214",
+      "malUrl": "https://myanimelist.net/anime/40902/Shokugeki_no_Souma__Gou_no_Sara",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 39940,
+      "title": "Food Wars! The Fourth Plate",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1072/110175.jpg?s=674418f13364b088ccd4e93ade9a5a29",
+      "malUrl": "https://myanimelist.net/anime/39940/Shokugeki_no_Souma__Shin_no_Sara",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 35788,
+      "title": "Food Wars! The Third Plate",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/3/88434.jpg?s=ac40ec67435f30585ad164f586ccd43b",
+      "malUrl": "https://myanimelist.net/anime/35788/Shokugeki_no_Souma__San_no_Sara",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 36949,
+      "title": "Food Wars! The Third Plate: Totsuki Train Arc",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1604/93531.jpg?s=1722c73179768524c6af827eaaa422bb",
+      "malUrl": "https://myanimelist.net/anime/36949/Shokugeki_no_Souma__San_no_Sara_-_Tootsuki_Ressha-hen",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -1444,6 +2191,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 56230,
+      "title": "Grandpa and Grandma Turn Young Again",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1676/141714.jpg?s=3e63e93ff31c0ac7ddd26e8f35035ca5",
+      "malUrl": "https://myanimelist.net/anime/56230/Jiisan_Baasan_Wakagaeru",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 20583,
       "title": "Haikyu!!",
       "score": 6,
@@ -1468,6 +2224,15 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/7/81992.jpg?s=1a3286e37a8c30ad725e40906e83c349",
       "malUrl": "https://myanimelist.net/anime/32935/Haikyuu_Karasuno_Koukou_vs_Shiratorizawa_Gakuen_Koukou",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 60460,
+      "title": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1151/152479.jpg?s=2d97e63008cc7b0841472ec5b00e5933",
+      "malUrl": "https://myanimelist.net/anime/60460/Hell_Mode__Yarikomizuki_no_Gamer_wa_Hai_Settei_no_Isekai_de_Musou_suru",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -1552,11 +2317,38 @@
       "mediaType": "TV"
     },
     {
+      "id": 59095,
+      "title": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability Season 2",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1154/149614.jpg?s=ea92fce38174837eb326c346fbbb6135",
+      "malUrl": "https://myanimelist.net/anime/59095/Tensei_shitara_Dainana_Ouji_Datta_node_Kimama_ni_Majutsu_wo_Kiwamemasu_2nd_Season",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 56228,
       "title": "I'll Become a Villainess Who Goes Down in History",
       "score": 6,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1005/145339.jpg?s=0a44f9de778af2325a37b50b459a2a2b",
       "malUrl": "https://myanimelist.net/anime/56228/Rekishi_ni_Nokoru_Akujo_ni_Naru_zo",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 50175,
+      "title": "I'm Quitting Heroing",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1934/122301.jpg?s=984b6c6b5fa248cfebcf532ac3edf07c",
+      "malUrl": "https://myanimelist.net/anime/50175/Yuusha_Yamemasu",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 39324,
+      "title": "If It's for My Daughter, I'd Even Defeat a Demon Lord",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1568/101203.jpg?s=e2485473605264944a215b726af534e2",
+      "malUrl": "https://myanimelist.net/anime/39324/Uchi_no_Ko_no_Tame_naraba_Ore_wa_Moshikashitara_Maou_mo_Taoseru_kamo_Shirenai",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -1606,6 +2398,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 47164,
+      "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? IV",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1318/126474.jpg?s=d179b1576d385a3119b4430b298ce4a5",
+      "malUrl": "https://myanimelist.net/anime/47164/Dungeon_ni_Deai_wo_Motomeru_no_wa_Machigatteiru_Darou_ka_IV__Shin_Shou_-_Meikyuu-hen",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 665,
       "title": "JoJo's Bizarre Adventure (2000)",
       "score": 6,
@@ -1639,6 +2440,15 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1472/93813.jpg?s=99a274d9dc5c13c7fcf56edb76af9974",
       "malUrl": "https://myanimelist.net/anime/34104/Knights___Magic",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 60810,
+      "title": "Kunon the Sorcerer Can See",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1704/154459.jpg?s=7598032fffd4a81806cfb4d5f340f9cc",
+      "malUrl": "https://myanimelist.net/anime/60810/Majutsushi_Kunon_wa_Mieteiru",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -1714,12 +2524,48 @@
       "mediaType": "TV"
     },
     {
+      "id": 47158,
+      "title": "My Friend's Little Sister Has It In for Me!",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1699/151694.jpg?s=3f67558aac7d7f84cc5699846332c1a8",
+      "malUrl": "https://myanimelist.net/anime/47158/Tomodachi_no_Imouto_ga_Ore_ni_dake_Uzai",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 33486,
       "title": "My Hero Academia Season 2",
       "score": 6,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/12/85221.jpg?s=d65251d6fb3c8aea81b25cafeeea52ee",
       "malUrl": "https://myanimelist.net/anime/33486/Boku_no_Hero_Academia_2nd_Season",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 14813,
+      "title": "My Teen Romantic Comedy SNAFU",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1786/120117.jpg?s=df260e70167afdeed0cc3f40ca5b9492",
+      "malUrl": "https://myanimelist.net/anime/14813/Yahari_Ore_no_Seishun_Love_Comedy_wa_Machigatteiru",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62913,
+      "title": "Needy Girl Overdose",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1755/154935.jpg?s=f73c49ba898e6080d61681dab81b1099",
+      "malUrl": "https://myanimelist.net/anime/62913/Needy_Girl_Overdose",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52807,
+      "title": "One-Punch Man Season 3",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1168/148347.jpg?s=25b71dbcc633227b1ff6a32670377eaf",
+      "malUrl": "https://myanimelist.net/anime/52807/One_Punch_Man_3",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -1750,6 +2596,24 @@
       "mediaType": "TV"
     },
     {
+      "id": 60162,
+      "title": "Pass the Monster Meat, Milady!",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1264/152012.jpg?s=8ba2c620dd60dddabde4f1b24c162d4f",
+      "malUrl": "https://myanimelist.net/anime/60162/Akujiki_Reijou_to_Kyouketsu_Koushaku",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 325,
+      "title": "Peach Girl: Super Pop Love Hurricane",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/13/75579.jpg?s=0777e0de9fda329e4dc6ac59e2675b18",
+      "malUrl": "https://myanimelist.net/anime/325/Peach_Girl",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 42963,
       "title": "Rent-a-Girlfriend Season 2",
       "score": 6,
@@ -1777,12 +2641,30 @@
       "mediaType": "TV"
     },
     {
+      "id": 61587,
+      "title": "Roll Over and Die",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1360/153435.jpg?s=4c5db3780062cf07b6fb8e420104618b",
+      "malUrl": "https://myanimelist.net/anime/61587/Omae_Gotoki_ga_Maou_ni_Kateru_to_Omouna_to_Yuusha_Party_wo_Tsuihou_sareta_node_Outo_de_Kimama_ni_Kurashitai",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 52482,
       "title": "Sasaki and Peeps",
       "score": 6,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1624/139672.jpg?s=b9d2162511f8ea5c89ebd81c472226a0",
       "malUrl": "https://myanimelist.net/anime/52482/Sasaki_to_Pii-chan",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 56009,
+      "title": "Sentenced to Be a Hero",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1062/151911.jpg?s=1f31f95ae770f623178c4876cbc4cc1a",
+      "malUrl": "https://myanimelist.net/anime/56009/Yuusha-kei_ni_Shosu__Choubatsu_Yuusha_9004-tai_Keimu_Kiroku",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -1804,12 +2686,111 @@
       "mediaType": "TV"
     },
     {
+      "id": 529,
+      "title": "She, The Ultimate Weapon",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1/529.jpg?s=b305678b6cbc0bc98bbf252a9870f889",
+      "malUrl": "https://myanimelist.net/anime/529/Saishuu_Heiki_Kanojo",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 48849,
+      "title": "Sonny Boy",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1509/117149.jpg?s=b010067ccdc242240adc31aedb6fab32",
+      "malUrl": "https://myanimelist.net/anime/48849/Sonny_Boy",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 11757,
+      "title": "Sword Art Online",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/11/39717.jpg?s=55f88992df908bdcb872db3a398aea49",
+      "malUrl": "https://myanimelist.net/anime/11757/Sword_Art_Online",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 36475,
+      "title": "Sword Art Online Alternative: Gun Gale Online",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1141/93288.jpg?s=f76333cdf8dd35da7250d3d10a009fcd",
+      "malUrl": "https://myanimelist.net/anime/36475/Sword_Art_Online_Alternative__Gun_Gale_Online",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 40540,
+      "title": "Sword Art Online: Alicization - War of Underworld Part 2",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1438/105106.jpg?s=032cbd915a4a7026a6039dd00cd501b8",
+      "malUrl": "https://myanimelist.net/anime/40540/Sword_Art_Online__Alicization_-_War_of_Underworld_2nd_Season",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 32887,
       "title": "Sword Oratoria: Is It Wrong to Try to Pick Up Girls in a Dungeon? On the Side",
       "score": 6,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1181/123312.jpg?s=9892d05a8c700ffe76997ead30881bc7",
       "malUrl": "https://myanimelist.net/anime/32887/Dungeon_ni_Deai_wo_Motomeru_no_wa_Machigatteiru_Darou_ka_Gaiden__Sword_Oratoria",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52962,
+      "title": "Tearmoon Empire",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1901/139910.jpg?s=e6958e6ef1ba56aabc7d6e1e7efeba11",
+      "malUrl": "https://myanimelist.net/anime/52962/Tearmoon_Teikoku_Monogatari__Dantoudai_kara_Hajimaru_Hime_no_Tensei_Gyakuten_Story",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 38793,
+      "title": "That Time I Got Reincarnated as a Slime OAD",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1230/118297.jpg?s=0e5182d5004a2de305e57908ad6bb3e4",
+      "malUrl": "https://myanimelist.net/anime/38793/Tensei_shitara_Slime_Datta_Ken_OVA",
+      "status": "completed",
+      "mediaType": "OVA"
+    },
+    {
+      "id": 39551,
+      "title": "That Time I Got Reincarnated as a Slime Season 2",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1271/109841.jpg?s=d36399369db71b2828e6c30fde9b7d37",
+      "malUrl": "https://myanimelist.net/anime/39551/Tensei_shitara_Slime_Datta_Ken_2nd_Season",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 41487,
+      "title": "That Time I Got Reincarnated as a Slime Season 2 Part 2",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1033/118296.jpg?s=28c822c79ba10c9a4eccfc831ce56c7f",
+      "malUrl": "https://myanimelist.net/anime/41487/Tensei_shitara_Slime_Datta_Ken_2nd_Season_Part_2",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53580,
+      "title": "That Time I Got Reincarnated as a Slime Season 3",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1211/143476.jpg?s=a33c8c3a602bd8fdd18ee3bfd72e4ff4",
+      "malUrl": "https://myanimelist.net/anime/53580/Tensei_shitara_Slime_Datta_Ken_3rd_Season",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 61831,
+      "title": "The Beginning After the End Season 2",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1738/156028.jpg?s=71bd8feda47738491a07aaad05a727ec",
+      "malUrl": "https://myanimelist.net/anime/61831/Saikyou_no_Ousama_Nidome_no_Jinsei_wa_Nani_wo_Suru_Season_2",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -1820,6 +2801,15 @@
       "malUrl": "https://myanimelist.net/anime/55749/Megami_no_Café_Terrace_2nd_Season",
       "status": "completed",
       "mediaType": "TV"
+    },
+    {
+      "id": 41094,
+      "title": "The Daily Life of the Immortal King",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1931/157562.jpg?s=1d1fcb74dff37ec2a3ed5a5ade6c36f2",
+      "malUrl": "https://myanimelist.net/anime/41094/Xian_Wang_de_Richang_Shenghuo",
+      "status": "completed",
+      "mediaType": "ONA"
     },
     {
       "id": 52578,
@@ -1840,12 +2830,57 @@
       "mediaType": "TV"
     },
     {
+      "id": 61884,
+      "title": "The Demon King's Daughter Is Too Kind!!",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1160/154083.jpg?s=9338420a308bd5a2364a2b3562c427cd",
+      "malUrl": "https://myanimelist.net/anime/61884/Maou_no_Musume_wa_Yasashisugiru",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53632,
+      "title": "The Dreaming Boy is a Realist",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1239/134810.jpg?s=0a0c01b2a793bdeac4e7fd7f8c60be05",
+      "malUrl": "https://myanimelist.net/anime/53632/Yumemiru_Danshi_wa_Genjitsushugisha",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 42340,
       "title": "The Dungeon of Black Company",
       "score": 6,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1753/116290.jpg?s=12653324ef38f92f31829fa0f7db01ae",
       "malUrl": "https://myanimelist.net/anime/42340/Meikyuu_Black_Company",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 1195,
+      "title": "The Familiar of Zero",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/8/20680.jpg?s=81fff271be02055eef31b1994d40cfa5",
+      "malUrl": "https://myanimelist.net/anime/1195/Zero_no_Tsukaima",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 1840,
+      "title": "The Familiar of Zero: Knight of the Twin Moons",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/2/22740.jpg?s=bdd23f5d71bdef0962049fe11fba217e",
+      "malUrl": "https://myanimelist.net/anime/1840/Zero_no_Tsukaima__Futatsuki_no_Kishi",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 3712,
+      "title": "The Familiar of Zero: Rondo of Princesses",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/6/10256.jpg?s=5a255c734d55bd629584818327e60cc0",
+      "malUrl": "https://myanimelist.net/anime/3712/Zero_no_Tsukaima__Princesses_no_Rondo",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
@@ -1858,6 +2893,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 55129,
+      "title": "The Foolish Angel Dances with the Devil",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1902/139271.jpg?s=5580f77764198ebd2f240b5bf8385888",
+      "malUrl": "https://myanimelist.net/anime/55129/Oroka_na_Tenshi_wa_Akuma_to_Odoru",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 10620,
       "title": "The Future Diary",
       "score": 6,
@@ -1867,11 +2911,47 @@
       "mediaType": "TV"
     },
     {
+      "id": 41353,
+      "title": "The God of High School",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1722/107269.jpg?s=d9ae4095facc92778d1538ea8597146e",
+      "malUrl": "https://myanimelist.net/anime/41353/The_God_of_High_School",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 48753,
       "title": "The Great Jahy Will Not Be Defeated!",
       "score": 6,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1154/115599.jpg?s=26d2e2fa06efcbc70ceaf0a828d4e3e6",
       "malUrl": "https://myanimelist.net/anime/48753/Jahy-sama_wa_Kujikenai",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 60151,
+      "title": "The Holy Grail of Eris",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1404/154931.jpg?s=ac5e0e8d4d17b789f23f822347e0599f",
+      "malUrl": "https://myanimelist.net/anime/60151/Eris_no_Seihai",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 33926,
+      "title": "The King's Avatar",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1534/104725.jpg?s=ede77767261e274fffc148457616984e",
+      "malUrl": "https://myanimelist.net/anime/33926/Quanzhi_Gaoshou",
+      "status": "on-hold",
+      "mediaType": "ONA"
+    },
+    {
+      "id": 40356,
+      "title": "The Rising of the Shield Hero Season 2",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1143/121873.jpg?s=dc6f945ff0b50e0cf6d3075be8aeded7",
+      "malUrl": "https://myanimelist.net/anime/40356/Tate_no_Yuusha_no_Nariagari_Season_2",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -1894,6 +2974,24 @@
       "mediaType": "TV"
     },
     {
+      "id": 41488,
+      "title": "The Slime Diaries",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1458/117607.jpg?s=e8420e440b0124b51aa07973bf067f7c",
+      "malUrl": "https://myanimelist.net/anime/41488/Tensura_Nikki__Tensei_shitara_Slime_Datta_Ken",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62825,
+      "title": "The Strongest Job Is Apparently Not a Hero or a Sage, but an Appraiser (Provisional)!",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1632/155095.jpg?s=a8187c41b0eb04d97b10fc4e5b06e348",
+      "malUrl": "https://myanimelist.net/anime/62825/Saikyou_no_Shokugyou_wa_Yuusha_demo_Kenja_demo_Naku_Kanteishi_Kari_Rashii_desu_yo",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 60157,
       "title": "The Too-Perfect Saint: Tossed Aside by My Fiancé and Sold to Another Kingdom",
       "score": 6,
@@ -1912,6 +3010,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 60028,
+      "title": "The Warrior Princess and the Barbaric King",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1229/155022.jpg?s=98413b318c65cc37f951bbd68ca89f2b",
+      "malUrl": "https://myanimelist.net/anime/60028/Himekishi_wa_Barbaroi_no_Yome",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 60732,
       "title": "The Water Magician",
       "score": 6,
@@ -1926,6 +3033,33 @@
       "score": 6,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/2/43361.jpg?s=eeb9b97ad96958675e805de286cf44c7",
       "malUrl": "https://myanimelist.net/anime/8525/Kami_nomi_zo_Shiru_Sekai",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 47790,
+      "title": "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1928/117620.jpg?s=8097f7e7332635a9c6deedc426c491cc",
+      "malUrl": "https://myanimelist.net/anime/47790/Sekai_Saikou_no_Ansatsusha_Isekai_Kizoku_ni_Tensei_suru",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52305,
+      "title": "Tomo-chan Is a Girl!",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1444/131828.jpg?s=564fd7ec428e164ff792ebb42ef2df4a",
+      "malUrl": "https://myanimelist.net/anime/52305/Tomo-chan_wa_Onnanoko",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 50273,
+      "title": "Tomodachi Game",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1247/121345.jpg?s=0d32a4563b292b20e998281aaf11de21",
+      "malUrl": "https://myanimelist.net/anime/50273/Tomodachi_Game",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -1948,12 +3082,75 @@
       "mediaType": "TV"
     },
     {
+      "id": 16742,
+      "title": "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/12/51619.jpg?s=f5bd115b446610a100a7007435847fbb",
+      "malUrl": "https://myanimelist.net/anime/16742/Watashi_ga_Motenai_no_wa_Dou_Kangaetemo_Omaera_ga_Warui",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 39196,
       "title": "Welcome to Demon School! Iruma-kun",
       "score": 6,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1009/103187.jpg?s=26848b10ae927c8ddc8c81f7b6c5e3a2",
       "malUrl": "https://myanimelist.net/anime/39196/Mairimashita_Iruma-kun",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59983,
+      "title": "Wistoria: Wand and Sword Season 2",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1190/155788.jpg?s=b79db1852eddde1a4361ad37feb470b1",
+      "malUrl": "https://myanimelist.net/anime/59983/Tsue_to_Tsurugi_no_Wistoria_Season_2",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 33502,
+      "title": "WorldEnd: What do you do at the end of the world? Are you busy? Will you save us?",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/4/85260.jpg?s=730a42ad6d970601fee8329d87df03fe",
+      "malUrl": "https://myanimelist.net/anime/33502/Shuumatsu_Nani_Shitemasu_ka_Isogashii_desu_ka_Sukutte_Moratte_Ii_desu_ka",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 37976,
+      "title": "Zombie Land Saga",
+      "score": 6,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1084/128208.jpg?s=b18d10f36e1bd2b77712128d384a2986",
+      "malUrl": "https://myanimelist.net/anime/37976/Zombieland_Saga",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53802,
+      "title": "2.5 Dimensional Seduction",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1779/143584.jpg?s=bb864e2879ebd9fa1458fdaaacc9ee2b",
+      "malUrl": "https://myanimelist.net/anime/53802/25-jigen_no_Ririsa",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 61174,
+      "title": "A Gatherer's Adventure in Isekai",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1289/151136.jpg?s=b9bb01ef5b042759fd96af02297a102d",
+      "malUrl": "https://myanimelist.net/anime/61174/Sozai_Saishuka_no_Isekai_Ryokouki",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62432,
+      "title": "A Misanthrope Teaches a Class for Demi-Humans",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1387/154934.jpg?s=6f03149b7bcc2b461914d2c521730fd2",
+      "malUrl": "https://myanimelist.net/anime/62432/Jingai_Kyoushitsu_no_Ningengirai_Kyoushi",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -1975,12 +3172,57 @@
       "mediaType": "TV"
     },
     {
+      "id": 54744,
+      "title": "Alya Sometimes Hides Her Feelings in Russian",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1596/152806.jpg?s=64aac445ab1c58ebbf79f039548a531f",
+      "malUrl": "https://myanimelist.net/anime/54744/Tokidoki_Bosotto_Russia-go_de_Dereru_Tonari_no_Alya-san",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52969,
+      "title": "Am I Actually the Strongest?",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1153/154175.jpg?s=0778eec4fecb9d13db5c94a41d44edc8",
+      "malUrl": "https://myanimelist.net/anime/52969/Jitsu_wa_Ore_Saikyou_deshita",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 53434,
       "title": "An Archdemon's Dilemma: How to Love Your Elf Bride",
       "score": 5,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1346/141203.jpg?s=c88be3259949566f51a334a78031a023",
       "malUrl": "https://myanimelist.net/anime/53434/Maou_no_Ore_ga_Dorei_Elf_wo_Yome_ni_Shitanda_ga_Dou_Medereba_Ii",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 44037,
+      "title": "Banished From The Hero's Party, I Decided To Live A Quiet Life In The Countryside",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1723/117854.jpg?s=fe6004f129a34f0ee1ba3e1c2eff09c5",
+      "malUrl": "https://myanimelist.net/anime/44037/Shin_no_Nakama_ja_Nai_to_Yuusha_no_Party_wo_Oidasareta_node_Henkyou_de_Slow_Life_suru_Koto_ni_Shimashita",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52046,
+      "title": "Beast Tamer",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1084/126652.jpg?s=94f950955d928893c2d5ad4375b9d8e3",
+      "malUrl": "https://myanimelist.net/anime/52046/Yuusha_Party_wo_Tsuihou_sareta_Beast_Tamer_Saikyoushu_no_Nekomimi_Shoujo_to_Deau",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53439,
+      "title": "Berserk of Gluttony",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1951/138462.jpg?s=3992e77b34ddb0513936a9ab3d3b9cd4",
+      "malUrl": "https://myanimelist.net/anime/53439/Boushoku_no_Berserk",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -2011,12 +3253,39 @@
       "mediaType": "TV"
     },
     {
+      "id": 56923,
+      "title": "Chillin' in Another World with Level 2 Super Cheat Powers",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1103/142513.jpg?s=1a4b7bda3a0d0b6f303b92bfb5c98caf",
+      "malUrl": "https://myanimelist.net/anime/56923/Lv2_kara_Cheat_datta_Motoyuusha_Kouho_no_Mattari_Isekai_Life",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 52446,
       "title": "Chillin' in My 30s after Getting Fired from the Demon King's Army",
       "score": 5,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1224/132328.jpg?s=c50c8e5e1d1bac86811348a0b61c8a84",
       "malUrl": "https://myanimelist.net/anime/52446/Kaiko_sareta_Ankoku_Heishi_30-dai_no_Slow_na_Second_Life",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 49894,
+      "title": "Classroom for Heroes",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1179/136000.jpg?s=19d68f7b6a7e57e46dcdc8918cd6850f",
+      "malUrl": "https://myanimelist.net/anime/49894/Eiyuu_Kyoushitsu",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 57888,
+      "title": "Dad is a Hero, Mom is a Spirit, I'm a Reincarnator",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1811/151799.jpg?s=882b171723ee927bf37a73fce434a529",
+      "malUrl": "https://myanimelist.net/anime/57888/Chichi_wa_Eiyuu_Haha_wa_Seirei_Musume_no_Watashi_wa_Tenseisha",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
@@ -2043,6 +3312,15 @@
       "score": 5,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1754/113897.jpg?s=1a9a1dba9a62b8a18d7298774cf097e3",
       "malUrl": "https://myanimelist.net/anime/38297/Maou-sama_Retry",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 38573,
+      "title": "Do You Love Your Mom and Her Two-Hit Multi-Target Attacks?",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1225/102250.jpg?s=56a327ee0da789fb0f008edf0519ed7d",
+      "malUrl": "https://myanimelist.net/anime/38573/Tsuujou_Kougeki_ga_Zentai_Kougeki_de_Ni-kai_Kougeki_no_Okaasan_wa_Suki_desu_ka",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -2083,6 +3361,24 @@
       "mediaType": "TV"
     },
     {
+      "id": 57719,
+      "title": "From Bureaucrat to Villainess: Dad's Been Reincarnated!",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1255/146484.jpg?s=669fd0deb1dbcb3c50a106b645ca6aba",
+      "malUrl": "https://myanimelist.net/anime/57719/Akuyaku_Reijou_Tensei_Ojisan",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59452,
+      "title": "From Old Country Bumpkin to Master Swordsman",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1069/148148.jpg?s=0690fe03e56d5956667b737ec13041bd",
+      "malUrl": "https://myanimelist.net/anime/59452/Katainaka_no_Ossan_Kensei_ni_Naru",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 34300,
       "title": "Full-Time Magister",
       "score": 5,
@@ -2101,12 +3397,39 @@
       "mediaType": "TV"
     },
     {
+      "id": 47160,
+      "title": "Goblin Slayer II",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1100/138338.jpg?s=ac1aaba0fcb3b450b24764bab6e563ed",
+      "malUrl": "https://myanimelist.net/anime/47160/Goblin_Slayer_II",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 31859,
       "title": "Grimgar: Ashes and Illusions",
       "score": 5,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/13/77976.jpg?s=913d9c11ed773cc67e854d9efa8defa0",
       "malUrl": "https://myanimelist.net/anime/31859/Hai_to_Gensou_no_Grimgar",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 61142,
+      "title": "Hands Off: Sawaranaide Kotesashi-kun",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1025/150482.jpg?s=571f089c0caf3fb057b202e40accdda6",
+      "malUrl": "https://myanimelist.net/anime/61142/Sawaranaide_Kotesashi-kun",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 50854,
+      "title": "Handyman Saitou in Another World",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1805/132335.jpg?s=5b941b7ffe1e10ac8ee508e126b8e53d",
+      "malUrl": "https://myanimelist.net/anime/50854/Benriya_Saitou-san_Isekai_ni_Iku",
+      "status": "dropped",
       "mediaType": "TV"
     },
     {
@@ -2133,6 +3456,15 @@
       "score": 5,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1668/144352.jpg?s=b6afc55f5d4008ea76f6d78919195425",
       "malUrl": "https://myanimelist.net/anime/59349/Salaryman_ga_Isekai_ni_Ittara_Shitennou_ni_Natta_Hanashi",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 5958,
+      "title": "Heaven's Lost Property",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1623/151209.jpg?s=7b30993a304b43f6a7d292fbee55bab0",
+      "malUrl": "https://myanimelist.net/anime/5958/Sora_no_Otoshimono",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -2173,6 +3505,24 @@
       "mediaType": "TV"
     },
     {
+      "id": 59361,
+      "title": "I Have a Crush at Work",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1123/146384.jpg?s=3cce17848c332afff5b4ebdc0cae85f9",
+      "malUrl": "https://myanimelist.net/anime/59361/Kono_Kaisha_ni_Suki_na_Hito_ga_Imasu",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59730,
+      "title": "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1897/149800.jpg?s=d60c8dfcadb7049747964fc97db2d649",
+      "malUrl": "https://myanimelist.net/anime/59730/A-Rank_Party_wo_Ridatsu_shita_Ore_wa_Moto_Oshiego-tachi_to_Meikyuu_Shinbu_wo_Mezasu",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 55997,
       "title": "I May Be a Guild Receptionist, but I'll Solo Any Boss to Clock Out on Time",
       "score": 5,
@@ -2188,6 +3538,24 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1747/143101.jpg?s=aee8c28b870fe4ce304dd2f5ca7eee85",
       "malUrl": "https://myanimelist.net/anime/57058/Ore_wa_Subete_wo_Parry_suru__Gyaku_Kanchigai_no_Sekai_Saikyou_wa_Boukensha_ni_Naritai",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53516,
+      "title": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1580/141243.jpg?s=1b4c11e7bd7aa3b043147ccc28a59e1c",
+      "malUrl": "https://myanimelist.net/anime/53516/Tensei_shitara_Dainana_Ouji_Datta_node_Kimama_ni_Majutsu_wo_Kiwamemasu",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59135,
+      "title": "I'm Getting Married to a Girl I Hate in My Class",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1775/147330.jpg?s=a1726af8113930aeda9bcacbc19301d0",
+      "malUrl": "https://myanimelist.net/anime/59135/Class_no_Daikirai_na_Joshi_to_Kekkon_suru_Koto_ni_Natta",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
@@ -2236,6 +3604,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 61128,
+      "title": "Jack-of-All-Trades, Party of None",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1486/153135.jpg?s=f9613e153ebcb24e660d5004c76a2752",
+      "malUrl": "https://myanimelist.net/anime/61128/Yuusha_Party_wo_Oidasareta_Kiyoubinbou",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 37086,
       "title": "Kakegurui××",
       "score": 5,
@@ -2254,6 +3631,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 58172,
+      "title": "Let This Grieving Soul Retire",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1679/145660.jpg?s=180c0856e0c33d9638b037e4ca503f57",
+      "malUrl": "https://myanimelist.net/anime/58172/Nageki_no_Bourei_wa_Intai_shitai",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 48633,
       "title": "Liar Liar",
       "score": 5,
@@ -2263,11 +3649,56 @@
       "mediaType": "TV"
     },
     {
+      "id": 49818,
+      "title": "Lord of Mysteries",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1952/149229.jpg?s=229cf79e0cbabce77d6367db180b7c2c",
+      "malUrl": "https://myanimelist.net/anime/49818/Guimi_Zhi_Zhu__Xiaochou_Pian",
+      "status": "dropped",
+      "mediaType": "ONA"
+    },
+    {
+      "id": 48643,
+      "title": "Love After World Domination",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1347/120593.jpg?s=b2067acbf3f932fcdcccb84e696198c3",
+      "malUrl": "https://myanimelist.net/anime/48643/Koi_wa_Sekai_Seifuku_no_Ato_de",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 55996,
+      "title": "Love Is Indivisible by Twins",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1315/142250.jpg?s=7f1734df76149f5b9af67b81227000cc",
+      "malUrl": "https://myanimelist.net/anime/55996/Koi_wa_Futago_de_Warikirenai",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59846,
+      "title": "May I Ask for One Final Thing?",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1190/151754.jpg?s=739ab5e53c9aebd274eb0a35e4df78cc",
+      "malUrl": "https://myanimelist.net/anime/59846/Saigo_ni_Hitotsu_dake_Onegai_shitemo_Yoroshii_deshou_ka",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 53494,
       "title": "My Daughter Left the Nest and Returned an S-Rank Adventurer",
       "score": 5,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1563/139990.jpg?s=5aa75cb0c709d2e08f0f2228a53cfb29",
       "malUrl": "https://myanimelist.net/anime/53494/Boukensha_ni_Naritai_to_Miyako_ni_Deteitta_Musume_ga_S-Rank_ni_Natteta",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53730,
+      "title": "My Instant Death Ability is So Overpowered, No One in This Other World Stands a Chance Against Me!",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1734/139673.jpg?s=f9479e4b24305a7c428f43c960715bc3",
+      "malUrl": "https://myanimelist.net/anime/53730/Sokushi_Cheat_ga_Saikyou_sugite_Isekai_no_Yatsura_ga_Marude_Aite_ni_Naranai_n_desu_ga",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -2290,6 +3721,24 @@
       "mediaType": "Special"
     },
     {
+      "id": 51219,
+      "title": "My One-Hit Kill Sister",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1250/135256.jpg?s=b16362054bad115b621c1a0d72e53b69",
+      "malUrl": "https://myanimelist.net/anime/51219/Isekai_One_Turn_Kill_Neesan__Ane_Douhan_no_Isekai_Seikatsu_Hajimemashita",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 63376,
+      "title": "My Ribdiculous Reincarnation",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1228/156696.jpg?s=c9972ebacfe824ceecfe2daa58f4db28",
+      "malUrl": "https://myanimelist.net/anime/63376/Megami_Isekai_Tensei_Nani_ni_Naritai_desu_ka_Ore_Yuusha_no_Rokkotsu_de",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 61026,
       "title": "My Status as an Assassin Obviously Exceeds the Hero's",
       "score": 5,
@@ -2308,12 +3757,48 @@
       "mediaType": "TV"
     },
     {
+      "id": 58272,
+      "title": "My Wife Has No Emotion",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1101/143646.jpg?s=8d6eb09b689c97aac4dbb25251eacd16",
+      "malUrl": "https://myanimelist.net/anime/58272/Boku_no_Tsuma_wa_Kanjou_ga_Nai",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 49612,
       "title": "Ningen Fushin: Adventurers Who Don't Believe in Humanity Will Save the World",
       "score": 5,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1446/131578.jpg?s=f67133009a25e5b0bc6f703094e0f404",
       "malUrl": "https://myanimelist.net/anime/49612/Ningen_Fushin_no_Boukensha-tachi_ga_Sekai_wo_Sukuu_you_desu",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52367,
+      "title": "No Longer Allowed in Another World",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1252/143457.jpg?s=8326298b07b01a06f374bb7ea517e752",
+      "malUrl": "https://myanimelist.net/anime/52367/Isekai_Shikkaku",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 60692,
+      "title": "Noble Reincarnation: Born Blessed, So I'll Obtain Ultimate Power",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1629/153722.jpg?s=c29a713869776c9e55add7e75d8bdc63",
+      "malUrl": "https://myanimelist.net/anime/60692/Kizoku_Tensei__Megumareta_Umare_kara_Saikyou_no_Chikara_wo_Eru",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52990,
+      "title": "Our Dating Story: The Experienced You and The Inexperienced Me",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1848/140019.jpg?s=fcc74e06f1558b9c5a1a6b7a5a3e0d8d",
+      "malUrl": "https://myanimelist.net/anime/52990/Keikenzumi_na_Kimi_to_Keiken_Zero_na_Ore_ga_Otsukiai_suru_Hanashi",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
@@ -2371,6 +3856,78 @@
       "mediaType": "TV"
     },
     {
+      "id": 50582,
+      "title": "Reign of the Seven Spellblades",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1396/136273.jpg?s=7030a11ebe274c166454ba1c140cc636",
+      "malUrl": "https://myanimelist.net/anime/50582/Nanatsu_no_Maken_ga_Shihai_suru",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 61207,
+      "title": "Reincarnated as a Dragon Hatchling",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1250/156107.jpg?s=1a641ad5e3b1f23a1ce819fc15486fc9",
+      "malUrl": "https://myanimelist.net/anime/61207/Tensei_shitara_Dragon_no_Tamago_datta",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 49891,
+      "title": "Reincarnated as a Sword",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1191/127909.jpg?s=a66e2e5077f67e9dfb9d7671ecacf05e",
+      "malUrl": "https://myanimelist.net/anime/49891/Tensei_shitara_Ken_deshita",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52461,
+      "title": "Saving 80,000 Gold in Another World for My Retirement",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1890/131473.jpg?s=ed08b1c10dc02394d55be4a5fd081bc9",
+      "malUrl": "https://myanimelist.net/anime/52461/Rougo_ni_Sonaete_Isekai_de_8-manmai_no_Kinka_wo_Tamemasu",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59424,
+      "title": "Scooped Up by an S-Rank Adventurer!",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1072/149889.jpg?s=64289b2120281a8ae64a9604647a8d14",
+      "malUrl": "https://myanimelist.net/anime/59424/Yuusha_Party_wo_Tsuihou_sareta_Shiromadoushi_S-Rank_Boukensha_ni_Hirowareru__Kono_Shiromadoushi_ga_Kikakugai_Sugiru",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 44203,
+      "title": "Seirei Gensouki: Spirit Chronicles",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1836/116060.jpg?s=119abbf76778676e8395b7a32bfccd0e",
+      "malUrl": "https://myanimelist.net/anime/44203/Seirei_Gensouki",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 42072,
+      "title": "She Professed Herself Pupil of the Wise Man",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1583/119223.jpg?s=655f4ab47cb500f45cac6e32c6f9ae20",
+      "malUrl": "https://myanimelist.net/anime/42072/Kenja_no_Deshi_wo_Nanoru_Kenja",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 79,
+      "title": "Shuffle!",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1290/133860.jpg?s=69a5374409300047d623d7d67d5e9d68",
+      "malUrl": "https://myanimelist.net/anime/79/Shuffle",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 48760,
       "title": "Skeleton Knight in Another World",
       "score": 5,
@@ -2389,11 +3946,65 @@
       "mediaType": "TV"
     },
     {
+      "id": 21507,
+      "title": "Soul Eater NOT!",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1401/153016.jpg?s=3c423897b0db6f05437a131a53611207",
+      "malUrl": "https://myanimelist.net/anime/21507/Soul_Eater_NOT",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 30484,
+      "title": "Steins;Gate 0",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1375/93521.jpg?s=2cc439b457bcb5ca6ffc87c1eb27912b",
+      "malUrl": "https://myanimelist.net/anime/30484/Steins_Gate_0",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 55848,
+      "title": "Suicide Squad Isekai",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1644/142052.jpg?s=5337e27cf9e883b6f134ce01e6182241",
+      "malUrl": "https://myanimelist.net/anime/55848/Isekai_Suicide_Squad",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 21881,
+      "title": "Sword Art Online II",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1223/121999.jpg?s=7acaaea9cca4b77091994a11393346ed",
+      "malUrl": "https://myanimelist.net/anime/21881/Sword_Art_Online_II",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 57945,
+      "title": "Tasuketsu: Fate of the Majority",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1482/143629.jpg?s=f8c7a0780c02f4eddbd76bf96514720d",
+      "malUrl": "https://myanimelist.net/anime/57945/Tasuuketsu",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 38830,
       "title": "The 8th Son? Are You Kidding Me?",
       "score": 5,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1834/110718.jpg?s=d7bedbc62198965b225b4890cb802686",
       "malUrl": "https://myanimelist.net/anime/38830/Hachi-nan_tte_Sore_wa_Nai_deshou",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52608,
+      "title": "The Aristocrat's Otherworldly Adventure: Serving Gods Who Go Too Far",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1071/135255.jpg?s=924fb5b6ffe0b12ef2082f63135b87d4",
+      "malUrl": "https://myanimelist.net/anime/52608/Tensei_Kizoku_no_Isekai_Boukenroku__Jichou_wo_Shiranai_Kamigami_no_Shito",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -2407,6 +4018,15 @@
       "mediaType": "TV"
     },
     {
+      "id": 61276,
+      "title": "The Banished Court Magician Aims to Become the Strongest",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1732/153360.jpg?s=f4ff6fc9f1ebd569360b8d80231f8144",
+      "malUrl": "https://myanimelist.net/anime/61276/Mikata_ga_Yowasugite_Hojo_Mahou_ni_Tesshiteita_Kyuutei_Mahoushi_Tsuihou_sarete_Saikyou_wo_Mezasu",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
       "id": 60146,
       "title": "The Beginning After the End",
       "score": 5,
@@ -2416,11 +4036,56 @@
       "mediaType": "TV"
     },
     {
+      "id": 58146,
+      "title": "The Dark History of the Reincarnated Villainess",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1347/150603.jpg?s=1862464df937ae3cfa98a95a368ed64f",
+      "malUrl": "https://myanimelist.net/anime/58146/Tensei_Akujo_no_Kuro_Rekishi",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 48842,
       "title": "The Dawn of the Witch",
       "score": 5,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1093/121114.jpg?s=6b53aec6db65aa020f7527d62b2bfd6c",
       "malUrl": "https://myanimelist.net/anime/48842/Mahoutsukai_Reimeiki",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 50184,
+      "title": "The Demon Sword Master of Excalibur Academy",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1506/138529.jpg?s=53e16b9b5d3d973712f70c697f19098a",
+      "malUrl": "https://myanimelist.net/anime/50184/Seiken_Gakuin_no_Makentsukai",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 47162,
+      "title": "The Executioner and Her Way of Life",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1423/122029.jpg?s=8a10af2da1ca166c17dcad10a2fa2dd1",
+      "malUrl": "https://myanimelist.net/anime/47162/Shokei_Shoujo_no_Virgin_Road",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 47159,
+      "title": "The Genius Prince's Guide to Raising a Nation Out of Debt",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1263/119511.jpg?s=4b043cfe67a7cfa8a48b663946fafe1f",
+      "malUrl": "https://myanimelist.net/anime/47159/Tensai_Ouji_no_Akaji_Kokka_Saisei_Jutsu",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 48415,
+      "title": "The Greatest Demon Lord Is Reborn as a Typical Nobody",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1904/120095.jpg?s=cb93e00bd6e5be2382d28cb018ffc948",
+      "malUrl": "https://myanimelist.net/anime/48415/Shijou_Saikyou_no_Daimaou_Murabito_A_ni_Tensei_suru",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -2443,11 +4108,47 @@
       "mediaType": "TV"
     },
     {
+      "id": 53438,
+      "title": "The Most Heretical Last Boss Queen: From Villainess to Savior",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1722/135542.jpg?s=03bacacb7f3698f98cc582945434c4fc",
+      "malUrl": "https://myanimelist.net/anime/53438/Higeki_no_Genkyou_to_Naru_Saikyou_Gedou_Last_Boss_Joou_wa_Tami_no_Tame_ni_Tsukushimasu",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 54913,
+      "title": "The Ossan Newbie Adventurer, Trained to Death by the Most Powerful Party, Became Invincible",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1212/144711.jpg?s=1f1e2423b8f377b439c470e7899d2803",
+      "malUrl": "https://myanimelist.net/anime/54913/Shinmai_Ossan_Boukensha_Saikyou_Party_ni_Shinu_hodo_Kitaerarete_Muteki_ni_Naru",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 50932,
       "title": "The Reincarnation of the Strongest Exorcist in Another World",
       "score": 5,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1547/125900.jpg?s=58deea29e7c7df88f2daa9581302229a",
       "malUrl": "https://myanimelist.net/anime/50932/Saikyou_Onmyouji_no_Isekai_Tenseiki",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 40357,
+      "title": "The Rising of the Shield Hero Season 3",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1317/139802.jpg?s=097195dfd3edfb330d1659246e6df74c",
+      "malUrl": "https://myanimelist.net/anime/40357/Tate_no_Yuusha_no_Nariagari_Season_3",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 42826,
+      "title": "The Saint's Magic Power is Omnipotent",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1947/114235.jpg?s=3e5261e4c25ce30dc43ded58876f48f7",
+      "malUrl": "https://myanimelist.net/anime/42826/Seijo_no_Maryoku_wa_Bannou_desu",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -2475,6 +4176,96 @@
       "score": 5,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1384/140829.jpg?s=af99b4378537a8e320f01b0618947022",
       "malUrl": "https://myanimelist.net/anime/56845/Saikyou_Tank_no_Meikyuu_Kouryaku__Tairyoku_9999_no_Rare_Skill-mochi_Tank_Yuusha_Party_wo_Tsuihou_sareru",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62000,
+      "title": "The Villainess Is Adored by the Prince of the Neighbor Kingdom",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1383/151284.jpg?s=7afefee6636a328d133327c927daae7a",
+      "malUrl": "https://myanimelist.net/anime/62000/Akuyaku_Reijou_wa_Ringoku_no_Outaishi_ni_Dekiai_sareru",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53590,
+      "title": "The Weakest Tamer Began a Journey to Pick Up Trash",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1280/138474.jpg?s=66a8395d6dd08352da7a9a538ab6efbd",
+      "malUrl": "https://myanimelist.net/anime/53590/Saijaku_Tamer_wa_Gomi_Hiroi_no_Tabi_wo_Hajimemashita",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 49613,
+      "title": "The Wrong Way to Use Healing Magic",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1733/140802.jpg?s=8716d9c78660a840727e3937d882316f",
+      "malUrl": "https://myanimelist.net/anime/49613/Chiyu_Mahou_no_Machigatta_Tsukaikata",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 61983,
+      "title": "There was a Cute Girl in the Hero's Party, so I Tried Confessing to Her",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1573/152828.jpg?s=cf919de0a2bd156bb12f15a87321becf",
+      "malUrl": "https://myanimelist.net/anime/61983/Yuusha_Party_ni_Kawaii_Ko_ga_Ita_node_Kokuhaku_shitemita",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 3455,
+      "title": "To Love Ru",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1292/147431.jpg?s=5de8696b52e14f85d3458a4d3b7f3e35",
+      "malUrl": "https://myanimelist.net/anime/3455/To_LOVE-Ru",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 27899,
+      "title": "Tokyo Ghoul √A",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1889/123307.jpg?s=1e871b483648b74d27e4708d6aa0b6bb",
+      "malUrl": "https://myanimelist.net/anime/27899/Tokyo_Ghoul_√A",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 36511,
+      "title": "Tokyo Ghoul:re",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1063/95086.jpg?s=1dc54f647d187da03d424d63e3ea1767",
+      "malUrl": "https://myanimelist.net/anime/36511/Tokyo_Ghoul_re",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 37799,
+      "title": "Tokyo Ghoul:re 2nd Season",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1545/121995.jpg?s=d4e5380e549d0a3a4b26b911159b1d8c",
+      "malUrl": "https://myanimelist.net/anime/37799/Tokyo_Ghoul_re_2nd_Season",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 49889,
+      "title": "Tsukimichi -Moonlit Fantasy- Season 2",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1794/142621.jpg?s=019decccac0ddb4596aa86147c2d7550",
+      "malUrl": "https://myanimelist.net/anime/49889/Tsuki_ga_Michibiku_Isekai_Douchuu_2nd_Season",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 43523,
+      "title": "Tsukimichi: Moonlit Fantasy",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1950/116474.jpg?s=de87fe2c1664dba7c4558e0446584048",
+      "malUrl": "https://myanimelist.net/anime/43523/Tsuki_ga_Michibiku_Isekai_Douchuu",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -2515,6 +4306,42 @@
       "mediaType": "TV"
     },
     {
+      "id": 41946,
+      "title": "World's End Harem",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1491/117296.jpg?s=3ae26ae2d2a8405e061a3628473b97d8",
+      "malUrl": "https://myanimelist.net/anime/41946/Shuumatsu_no_Harem",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 61359,
+      "title": "You Can't Be In a Rom-Com with Your Childhood Friends!",
+      "score": 5,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1729/153502.jpg?s=f44d2d81c6790defec40243fad040fa4",
+      "malUrl": "https://myanimelist.net/anime/61359/Osananajimi_to_wa_Love_Comedy_ni_Naranai",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53300,
+      "title": "A Girl & Her Guard Dog",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1016/139805.jpg?s=f46ebfb864836da56f0ba7b181c27782",
+      "malUrl": "https://myanimelist.net/anime/53300/Ojou_to_Banken-kun",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 61637,
+      "title": "An Adventurer's Daily Grind at Age 29",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1765/154087.jpg?s=15d9e611ed4b6fd2f10f94086acffbab",
+      "malUrl": "https://myanimelist.net/anime/61637/29-sai_Dokushin_Chuuken_Boukensha_no_Nichijou",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 36882,
       "title": "Arifureta: From Commonplace to World's Strongest",
       "score": 4,
@@ -2524,12 +4351,84 @@
       "mediaType": "TV"
     },
     {
+      "id": 38572,
+      "title": "Assassins Pride",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1267/103421.jpg?s=46c6b4b7d4d0277ff26719759a158a68",
+      "malUrl": "https://myanimelist.net/anime/38572/Assassins_Pride",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 58473,
       "title": "Beheneko: The Elf-Girl's Cat is Secretly an S-Ranked Monster!",
       "score": 4,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1656/146916.jpg?s=318ce73f35206920503998208a94ec20",
       "malUrl": "https://myanimelist.net/anime/58473/S-Rank_Monster_no_Behemoth_dakedo_Neko_to_Machigawarete_Elf_Musume_no_Pet_toshite_Kurashitemasu",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 38790,
+      "title": "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense.",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1579/113812.jpg?s=b7404721c101f5e549ff4a55364aeca5",
+      "malUrl": "https://myanimelist.net/anime/38790/Itai_no_wa_Iya_nanode_Bougyoryoku_ni_Kyokufuri_Shitai_to_Omoimasu",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 1536,
+      "title": "Buso Renkin",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/6/75566.jpg?s=85a8bc37cb68ee006042138a5203eb48",
+      "malUrl": "https://myanimelist.net/anime/1536/Busou_Renkin",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 41312,
+      "title": "By the Grace of the Gods",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1654/108801.jpg?s=728f3b55c7632293bf8a894100aca1d3",
+      "malUrl": "https://myanimelist.net/anime/41312/Kami-tachi_ni_Hirowareta_Otoko",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53446,
+      "title": "Campfire Cooking in Another World with My Absurd Skill",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1661/131889.jpg?s=2b41bbc5d122998bc8ce6d21042ea393",
+      "malUrl": "https://myanimelist.net/anime/53446/Tondemo_Skill_de_Isekai_Hourou_Meshi",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 39523,
+      "title": "CHOYOYU!: High School Prodigies Have It Easy Even in Another World!",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1132/111619.jpg?s=8b1f11255cba4277b375d25f81ec8879",
+      "malUrl": "https://myanimelist.net/anime/39523/Choujin_Koukousei-tachi_wa_Isekai_demo_Yoyuu_de_Ikinuku_you_desu",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 61694,
+      "title": "Does It Count If You Lose Your Innocence to an Android?",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1084/149783.jpg?s=8c8bcf6d0e27fe601e0c3bcdb61d57c6",
+      "malUrl": "https://myanimelist.net/anime/61694/Android_wa_Keiken_Ninzuu_ni_Hairimasu_ka",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 42192,
+      "title": "Edens Zero",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1011/111811.jpg?s=39c032389b2d08ba5cd2618dc736ebd9",
+      "malUrl": "https://myanimelist.net/anime/42192/Edens_Zero",
+      "status": "dropped",
       "mediaType": "TV"
     },
     {
@@ -2548,6 +4447,15 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1525/139345.jpg?s=5e1f183f6d4cdb5cd3506ac9c03c23af",
       "malUrl": "https://myanimelist.net/anime/54722/Mahou_Shoujo_ni_Akogarete",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 39326,
+      "title": "Hensuki: Are you willing to Fall in Love with a Pervert, as long as she's a Cutie?",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1430/102439.jpg?s=914e211585a7e5f2db978799a7442656",
+      "malUrl": "https://myanimelist.net/anime/39326/Kawaikereba_Hentai_demo_Suki_ni_Natte_Kuremasu_ka",
+      "status": "dropped",
       "mediaType": "TV"
     },
     {
@@ -2578,12 +4486,84 @@
       "mediaType": "TV"
     },
     {
+      "id": 17265,
+      "title": "Log Horizon",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/5/84004.jpg?s=5ff064e03d94b7c4faeaef2dad7187b7",
+      "malUrl": "https://myanimelist.net/anime/17265/Log_Horizon",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 23321,
+      "title": "Log Horizon 2",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/5/68097.jpg?s=1a1e54ae5aa596e5f6ee35fc274c8740",
+      "malUrl": "https://myanimelist.net/anime/23321/Log_Horizon_2nd_Season",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 57891,
+      "title": "Loner Life in Another World",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1714/145320.jpg?s=dcc05b7d665855c731f22aadff679a66",
+      "malUrl": "https://myanimelist.net/anime/57891/Hitoribocchi_no_Isekai_Kouryaku",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 60303,
+      "title": "My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dungeon, I'm Out for Revenge!",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1163/151246.jpg?s=eff16e5947e7edc1605db2b8fef3064e",
+      "malUrl": "https://myanimelist.net/anime/60303/Shinjiteita_Nakama-tachi_ni_Dungeon_Okuchi_de_Korosarekaketa_ga_Gift_Mugen_Gacha_de_Level_9999_no_Nakama-tachi_wo_Te_ni_Irete_Moto_Party_Member_to_Sekai_ni_Fukushuu___Zamaa_Shimasu",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 47163,
+      "title": "My Isekai Life: I Gained a Second Character Class and Became the Strongest Sage in the World",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1563/148868.jpg?s=494af4d031022fc11f83ee0372851a31",
+      "malUrl": "https://myanimelist.net/anime/47163/Tensei_Kenja_no_Isekai_Life__Dai-2_no_Shokugyou_wo_Ete_Sekai_Saikyou_ni_Narimashita",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 51764,
+      "title": "My Unique Skill Makes Me OP Even at Level 1",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1579/136295.jpg?s=26a59873f92c6dd115ac183d0e475acc",
+      "malUrl": "https://myanimelist.net/anime/51764/Level_1_dakedo_Unique_Skill_de_Saikyou_desu",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 41345,
+      "title": "Noblesse",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1903/111646.jpg?s=aa898f7c6b32337465ddcae0cee5fb2a",
+      "malUrl": "https://myanimelist.net/anime/41345/Noblesse",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 13659,
       "title": "OreImo 2",
       "score": 4,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1325/100406.jpg?s=9c595eee00ba8b395863dca58d26a8bb",
       "malUrl": "https://myanimelist.net/anime/13659/Ore_no_Imouto_ga_Konnani_Kawaii_Wake_ga_Nai",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 40595,
+      "title": "Our Last Crusade or the Rise of a New World",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1100/109044.jpg?s=4775a05c769e7eec9a437fa4e8a814aa",
+      "malUrl": "https://myanimelist.net/anime/40595/Kimi_to_Boku_no_Saigo_no_Senjou_Aruiwa_Sekai_ga_Hajimaru_Seisen",
+      "status": "dropped",
       "mediaType": "TV"
     },
     {
@@ -2605,11 +4585,47 @@
       "mediaType": "TV"
     },
     {
+      "id": 56690,
+      "title": "Re:Monster",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1523/141680.jpg?s=4888d8c75cd32b9ed082efb671706859",
+      "malUrl": "https://myanimelist.net/anime/56690/Re_Monster",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52611,
+      "title": "Sweet Reincarnation",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1251/136232.jpg?s=5213a6f295b567f50ee1462e844e4708",
+      "malUrl": "https://myanimelist.net/anime/52611/Okashi_na_Tensei",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 54265,
       "title": "Tales of Wedding Rings",
       "score": 4,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1452/139991.jpg?s=20bf80c1cefabd89d5505883f4273638",
       "malUrl": "https://myanimelist.net/anime/54265/Kekkon_Yubiwa_Monogatari",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 46985,
+      "title": "The Fruit of Evolution: Before I Knew It, My Life Had It Made",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1537/117590.jpg?s=ff853d3742b9563cb72c54a17f332696",
+      "malUrl": "https://myanimelist.net/anime/46985/Shinka_no_Mi__Shiranai_Uchi_ni_Kachigumi_Jinsei",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53263,
+      "title": "The Great Cleric",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1490/137816.jpg?s=8f012a1322df5342e05c2765492c595d",
+      "malUrl": "https://myanimelist.net/anime/53263/Seija_Musou__Salaryman_Isekai_de_Ikinokoru_Tame_ni_Ayumu_Michi",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -2632,12 +4648,48 @@
       "mediaType": "TV"
     },
     {
+      "id": 51711,
+      "title": "The Iceblade Sorcerer Shall Rule the World",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1049/131580.jpg?s=bfe964bb86ad4bb6c78d86d62a2d7dd6",
+      "malUrl": "https://myanimelist.net/anime/51711/Hyouken_no_Majutsushi_ga_Sekai_wo_Suberu",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 20785,
       "title": "The Irregular at Magic High School",
       "score": 4,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/11/61039.jpg?s=25b3c93a7a0422ccff8ae38166733ae8",
       "malUrl": "https://myanimelist.net/anime/20785/Mahouka_Koukou_no_Rettousei",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 54362,
+      "title": "The Kingdoms of Ruin",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1610/138189.jpg?s=8b878755f598342985540620c039f129",
+      "malUrl": "https://myanimelist.net/anime/54362/Hametsu_no_Oukoku",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 51706,
+      "title": "The Legendary Hero Is Dead!",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1868/133866.jpg?s=faf9ef7da58937940efc45bb88d0bd0f",
+      "malUrl": "https://myanimelist.net/anime/51706/Yuusha_ga_Shinda",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52736,
+      "title": "The Magical Revolution of the Reincarnated Princess and the Genius Young Lady",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1053/129004.jpg?s=d7e789e441f689c3d19dc155fcfdfd23",
+      "malUrl": "https://myanimelist.net/anime/52736/Tensei_Oujo_to_Tensai_Reijou_no_Mahou_Kakumei",
+      "status": "dropped",
       "mediaType": "TV"
     },
     {
@@ -2650,11 +4702,65 @@
       "mediaType": "TV"
     },
     {
+      "id": 57100,
+      "title": "The New Gate",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1898/141857.jpg?s=723531b9a8102d1c3e3cfe68ba8eb63a",
+      "malUrl": "https://myanimelist.net/anime/57100/The_New_Gate",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 39617,
+      "title": "The Promised Neverland Season 2",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1815/110626.jpg?s=68e3ae1f9580ee4527263d2f9c74bda9",
+      "malUrl": "https://myanimelist.net/anime/39617/Yakusoku_no_Neverland_2nd_Season",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 39701,
       "title": "The Seven Deadly Sins: Imperial Wrath of the Gods",
       "score": 4,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1546/103418.jpg?s=84a5216ea6b1c025c6ebe9b790680590",
       "malUrl": "https://myanimelist.net/anime/39701/Nanatsu_no_Taizai__Kamigami_no_Gekirin",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 47161,
+      "title": "The Strongest Sage with the Weakest Crest",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1132/120388.jpg?s=035ab5bd33a0cf62c1fa9d78126318eb",
+      "malUrl": "https://myanimelist.net/anime/47161/Shikkakumon_no_Saikyou_Kenja",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 16706,
+      "title": "The World God Only Knows: Goddesses",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/6/51949.jpg?s=c5f98fcd72f67005ba7ab65a8510ba09",
+      "malUrl": "https://myanimelist.net/anime/16706/Kami_nomi_zo_Shiru_Sekai__Megami-hen",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52635,
+      "title": "Tower of God Season 2: Return of the Prince",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1218/143537.jpg?s=d0eb747daab7411d286369c4708d28ad",
+      "malUrl": "https://myanimelist.net/anime/52635/Kami_no_Tou__Ouji_no_Kikan",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 41226,
+      "title": "Uzaki-chan Wants to Hang Out!",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1540/108292.jpg?s=760b31846a80f45c2618d4c277bcbbcb",
+      "malUrl": "https://myanimelist.net/anime/41226/Uzaki-chan_wa_Asobitai",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -2668,12 +4774,30 @@
       "mediaType": "ONA"
     },
     {
+      "id": 49572,
+      "title": "Versatile Mage Season 6",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1695/155861.jpg?s=f06be27cf925e4a89aa4c2e662a0dfe8",
+      "malUrl": "https://myanimelist.net/anime/49572/Quanzhi_Fashi_VI",
+      "status": "dropped",
+      "mediaType": "ONA"
+    },
+    {
       "id": 56062,
       "title": "Why Does Nobody Remember Me in This World?",
       "score": 4,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1664/144272.jpg?s=84c6fab68387aa7c5a8326b63a9b6a6b",
       "malUrl": "https://myanimelist.net/anime/56062/Naze_Boku_no_Sekai_wo_Daremo_Oboeteinai_no_ka",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 38397,
+      "title": "Why the Hell are You Here, Teacher!?",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1765/99673.jpg?s=3baf6e4877fbf8571d71f5ac0ef2d7ee",
+      "malUrl": "https://myanimelist.net/anime/38397/Nande_Koko_ni_Sensei_ga",
+      "status": "dropped",
       "mediaType": "TV"
     },
     {
@@ -2686,12 +4810,138 @@
       "mediaType": "TV"
     },
     {
+      "id": 24405,
+      "title": "World Trigger",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1783/106843.jpg?s=897f8cd863de4db1e4b473c815b00b90",
+      "malUrl": "https://myanimelist.net/anime/24405/World_Trigger",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
       "id": 59745,
       "title": "Yandere Dark Elf: She Chased Me All the Way From Another World!",
       "score": 4,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1192/148314.jpg?s=3288d7356caec1158f72c16fe0bfda61",
       "malUrl": "https://myanimelist.net/anime/59745/Chotto_dake_Ai_ga_Omoi_Dark_Elf_ga_Isekai_kara_Oikaketekita",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 8861,
+      "title": "Yosuga no Sora: In Solitude, Where We Are Least Alone",
+      "score": 4,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/5/76216.jpg?s=1d041d86fb23ea7efcb9e6f63bd93e78",
+      "malUrl": "https://myanimelist.net/anime/8861/Yosuga_no_Sora",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 37823,
+      "title": "Conception",
+      "score": 3,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1849/95019.jpg?s=00e75c7365b1eb124db6e02cc0824583",
+      "malUrl": "https://myanimelist.net/anime/37823/Conception",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 52481,
+      "title": "Days with My Stepsister",
+      "score": 3,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1420/143707.jpg?s=049fe48e12260c81679e5e5c09381ba3",
+      "malUrl": "https://myanimelist.net/anime/52481/Gimai_Seikatsu",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 37393,
+      "title": "Didn't I Say to Make My Abilities Average in the Next Life?!",
+      "score": 3,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1205/111403.jpg?s=984b9c5827cb0ef3d7344bb694e3206e",
+      "malUrl": "https://myanimelist.net/anime/37393/Watashi_Nouryoku_wa_Heikinchi_de_tte_Itta_yo_ne",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59144,
+      "title": "Even Given the Worthless \"Appraiser\" Class, I’m Actually the Strongest",
+      "score": 3,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1683/146293.jpg?s=83f5aacc7d7fd57dc52c3651f2ad2d92",
+      "malUrl": "https://myanimelist.net/anime/59144/Fuguushoku_Kanteishi_ga_Jitsu_wa_Saikyou_Datta",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 50481,
+      "title": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire ♀",
+      "score": 3,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1044/129594.jpg?s=9cba17a3aedbe7d92283adacf69ee087",
+      "malUrl": "https://myanimelist.net/anime/50481/Eiyuuou_Bu_wo_Kiwameru_Tame_Tenseisu__Soshite_Sekai_Saikyou_no_Minarai_Kishi♀",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 32615,
+      "title": "Saga of Tanya the Evil",
+      "score": 3,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/5/82890.jpg?s=b64f06c15c2eaa9d8717494e4b30138d",
+      "malUrl": "https://myanimelist.net/anime/32615/Youjo_Senki",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 50306,
+      "title": "Seirei Gensouki: Spirit Chronicles Season 2",
+      "score": 3,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1087/144583.jpg?s=809837367f3a5e26f06438e3a2f3b243",
+      "malUrl": "https://myanimelist.net/anime/50306/Seirei_Gensouki_2",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 50220,
+      "title": "Summoned to Another World for a Second Time",
+      "score": 3,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1387/134151.jpg?s=29a83214733f7eaa6bc72739ef808ce3",
+      "malUrl": "https://myanimelist.net/anime/50220/Isekai_Shoukan_wa_Nidome_desu",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 51632,
+      "title": "In Another World With My Smartphone 2",
+      "score": 2,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1932/131464.jpg?s=b8330be4913d5a860e9784b6cc4b5109",
+      "malUrl": "https://myanimelist.net/anime/51632/Isekai_wa_Smartphone_to_Tomo_ni_2",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 51495,
+      "title": "The Fruit of Evolution: Before I Knew It, My Life Had It Made Season 2",
+      "score": 2,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1862/128297.jpg?s=fa41629c0c80b14ada00605841ab01fc",
+      "malUrl": "https://myanimelist.net/anime/51495/Shin_Shinka_no_Mi__Shiranai_Uchi_ni_Kachigumi_Jinsei",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 60058,
+      "title": "[Oshi No Ko] Season 3",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1979/153329.jpg?s=f210d53288f5ec35ce6a5d6436a31b94",
+      "malUrl": "https://myanimelist.net/anime/60058/Oshi_no_Ko_3rd_Season",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 4654,
+      "title": "A Certain Magical Index",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/2/75533.jpg?s=781d396b95b68e7c197251362385c97a",
+      "malUrl": "https://myanimelist.net/anime/4654/Toaru_Majutsu_no_Index",
+      "status": "plan-to-watch",
       "mediaType": "TV"
     },
     {
@@ -2702,6 +4952,294 @@
       "malUrl": "https://myanimelist.net/anime/5251/Angel_Densetsu",
       "status": "completed",
       "mediaType": "OVA"
+    },
+    {
+      "id": 9989,
+      "title": "Anohana: The Flower We Saw That Day",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/5/79697.jpg?s=2b13de71da5fc9c38c136763893d4a9e",
+      "malUrl": "https://myanimelist.net/anime/9989/Ano_Hi_Mita_Hana_no_Namae_wo_Bokutachi_wa_Mada_Shiranai",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 11111,
+      "title": "Another",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/4/75509.jpg?s=fd2eb26444e34572a283475bd00aa6d4",
+      "malUrl": "https://myanimelist.net/anime/11111/Another",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 5081,
+      "title": "Bakemonogatari",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/11/75274.jpg?s=9a41fef3ec70b47cd603d3495dec5735",
+      "malUrl": "https://myanimelist.net/anime/5081/Bakemonogatari",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 10681,
+      "title": "Blood-C: The Last Dark",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1159/94216.jpg?s=9f1c8a98de4ee37478d5f3fe1931ac15",
+      "malUrl": "https://myanimelist.net/anime/10681/Blood-C__The_Last_Dark",
+      "status": "plan-to-watch",
+      "mediaType": "Movie"
+    },
+    {
+      "id": 58505,
+      "title": "Chained Soldier Season 2",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1668/148737.jpg?s=4c0c92e8fbdf388cd3063690f1d35fd4",
+      "malUrl": "https://myanimelist.net/anime/58505/Mato_Seihei_no_Slave_2",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 11843,
+      "title": "Daily Lives of High School Boys",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/3/33257.jpg?s=cb207ec9c410171c3a89369add721b9e",
+      "malUrl": "https://myanimelist.net/anime/11843/Danshi_Koukousei_no_Nichijou",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 48549,
+      "title": "Dr. Stone: New World",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1316/136268.jpg?s=5d44f064bf249172d3718bef8047b758",
+      "malUrl": "https://myanimelist.net/anime/48549/Dr_Stone__New_World",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 55644,
+      "title": "Dr. Stone: New World Part 2",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1236/138696.jpg?s=100ab6a109cba82731af402637a27d2d",
+      "malUrl": "https://myanimelist.net/anime/55644/Dr_Stone__New_World_Part_2",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 40960,
+      "title": "Drug Store in Another World: The Slow Life of a Cheat Pharmacist",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1787/115817.jpg?s=2c686bec62f10f839bdbd406c2f50c15",
+      "malUrl": "https://myanimelist.net/anime/40960/Cheat_Kusushi_no_Slow_Life__Isekai_ni_Tsukurou_Drugstore",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59986,
+      "title": "Grand Blue Dreaming Season 2",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1108/150583.jpg?s=a5e5e340859a67fa768d26614113bbbb",
+      "malUrl": "https://myanimelist.net/anime/59986/Grand_Blue_Season_2",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 2001,
+      "title": "Gurren Lagann",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/4/5123.jpg?s=ea53808ecf45b91df0ce86a856084fd3",
+      "malUrl": "https://myanimelist.net/anime/2001/Tengen_Toppa_Gurren_Lagann",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 55825,
+      "title": "Hell's Paradise Season 2",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1772/154456.jpg?s=9533247e34c8d5527e5367e4c78c97b8",
+      "malUrl": "https://myanimelist.net/anime/55825/Jigokuraku_2nd_Season",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53111,
+      "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? IV Part 2",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1476/128693.jpg?s=d620aed9c89a825eacea133c400f9fc7",
+      "malUrl": "https://myanimelist.net/anime/53111/Dungeon_ni_Deai_wo_Motomeru_no_wa_Machigatteiru_Darou_ka_IV__Shin_Shou_-_Yakusai-hen",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 51367,
+      "title": "JoJo's Bizarre Adventure: Stone Ocean Part 2",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1051/121959.jpg?s=02dbac176d346b73042667d0fd73f63c",
+      "malUrl": "https://myanimelist.net/anime/51367/JoJo_no_Kimyou_na_Bouken_Part_6__Stone_Ocean_Part_2",
+      "status": "plan-to-watch",
+      "mediaType": "ONA"
+    },
+    {
+      "id": 53273,
+      "title": "JoJo's Bizarre Adventure: Stone Ocean Part 3",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1233/128920.jpg?s=50f47ca431d49689c06fa701b0e0da30",
+      "malUrl": "https://myanimelist.net/anime/53273/JoJo_no_Kimyou_na_Bouken_Part_6__Stone_Ocean_Part_3",
+      "status": "plan-to-watch",
+      "mediaType": "ONA"
+    },
+    {
+      "id": 59177,
+      "title": "Kaiju No. 8 Season 2",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1177/150344.jpg?s=5073408ba687c325f10eee6456215bcb",
+      "malUrl": "https://myanimelist.net/anime/59177/Kaijuu_8-gou_2nd_Season",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 3572,
+      "title": "Macross Frontier",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/9/15648.jpg?s=c5abe77641891a97f3d7a983ca1758bb",
+      "malUrl": "https://myanimelist.net/anime/3572/Macross_F",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 10465,
+      "title": "Manyu Scroll",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/9/75184.jpg?s=e185c1cedb7b58c26a361e8adcfc178d",
+      "malUrl": "https://myanimelist.net/anime/10465/Manyuu_Hikenchou",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 53065,
+      "title": "My Dress-Up Darling Season 2",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1024/150787.jpg?s=f9a2aa0a32dcc0674005dc11e2d51b8c",
+      "malUrl": "https://myanimelist.net/anime/53065/Sono_Bisque_Doll_wa_Koi_wo_Suru_Season_2",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 30,
+      "title": "Neon Genesis Evangelion",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1314/108941.jpg?s=dfafabfbb184bafdd8649c73b705097c",
+      "malUrl": "https://myanimelist.net/anime/30/Shinseiki_Evangelion",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 19369,
+      "title": "Outbreak Company",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/7/54343.jpg?s=06b057860b5cb00d232d731f87a0918b",
+      "malUrl": "https://myanimelist.net/anime/19369/Outbreak_Company",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 8795,
+      "title": "Panty & Stocking with Garterbelt",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1296/142674.jpg?s=e452e9697ed2ccbd71a205cc80297042",
+      "malUrl": "https://myanimelist.net/anime/8795/Panty___Stocking_with_Garterbelt",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 54968,
+      "title": "Pseudo Harem",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1607/143547.jpg?s=67076969f4aec9da8116dcc4d16cbd47",
+      "malUrl": "https://myanimelist.net/anime/54968/Giji_Harem",
+      "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 13601,
+      "title": "Psycho-Pass",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1314/142015.jpg?s=45ef034a08f69f41c9d5bfa247367bcd",
+      "malUrl": "https://myanimelist.net/anime/13601/Psycho-Pass",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59277,
+      "title": "Rent-a-Girlfriend Season 4",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1071/150808.jpg?s=74c628a27931fe260d684782477c1af1",
+      "malUrl": "https://myanimelist.net/anime/59277/Kanojo_Okarishimasu_4th_Season",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 58357,
+      "title": "Sakuna: Of Rice and Ruin",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1888/143803.jpg?s=5bf85c1db8c2570886b46c5283b1b33d",
+      "malUrl": "https://myanimelist.net/anime/58357/Tensui_no_Sakuna-hime",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59027,
+      "title": "Spy x Family Season 3",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1697/151793.jpg?s=7221eeb3dd7c4eda89d8ffd22d7274f3",
+      "malUrl": "https://myanimelist.net/anime/59027/Spy_x_Family_Season_3",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 58886,
+      "title": "The Darwin Incident",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1341/152829.jpg?s=d981d8c6709e9db1a20ba4fc64ba7ef8",
+      "malUrl": "https://myanimelist.net/anime/58886/Darwin_Jihen",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 48417,
+      "title": "The Misfit of Demon King Academy Ⅱ",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1369/139553.jpg?s=9422e9656f07dc22bffa2851a9b78bab",
+      "malUrl": "https://myanimelist.net/anime/48417/Maou_Gakuin_no_Futekigousha_II__Shijou_Saikyou_no_Maou_no_Shiso_Tensei_shite_Shison-tachi_no_Gakkou_e_Kayou",
+      "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 48548,
+      "title": "The Quintessential Quintuplets Movie",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1037/122516.jpg?s=13ca0975d7b7e24ecf4d1857737fe039",
+      "malUrl": "https://myanimelist.net/anime/48548/5-toubun_no_Hanayome_Movie",
+      "status": "plan-to-watch",
+      "mediaType": "Movie"
+    },
+    {
+      "id": 54703,
+      "title": "To Your Eternity Season 3",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1140/152364.jpg?s=22e9f8cb9b051bfd37cd9ef8671e795a",
+      "malUrl": "https://myanimelist.net/anime/54703/Fumetsu_no_Anata_e_Season_3",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
+      "id": 41402,
+      "title": "Welcome to Demon School! Iruma-kun Season 2",
+      "score": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1527/113656.jpg?s=3ecee3f129dc5f006795057e723a59e8",
+      "malUrl": "https://myanimelist.net/anime/41402/Mairimashita_Iruma-kun_2nd_Season",
+      "status": "on-hold",
+      "mediaType": "TV"
     }
   ]
 }

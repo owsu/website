@@ -2,9 +2,10 @@ import { writeFile } from 'node:fs/promises';
 import { readFile } from 'node:fs/promises';
 
 const USERNAME = 'uwusu';
-const MAL_LIST_URL = `https://myanimelist.net/animelist/${encodeURIComponent(USERNAME)}?status=2`;
+const MAL_LIST_URL = `https://myanimelist.net/animelist/${encodeURIComponent(USERNAME)}`;
 const OUTPUT_FILE = new URL('../anime-data.json', import.meta.url);
 const INPUT_FILE = OUTPUT_FILE;
+const PAGE_SIZE = 300;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -36,7 +37,12 @@ function normalizeEntry(item) {
     score: Number(item?.score ?? 0) || 0,
     imageUrl,
     malUrl: malUrl.startsWith('/') ? `https://myanimelist.net${malUrl}` : malUrl,
-    status: item?.status === 2 ? 'completed' : 'unknown',
+    status: item?.status === 1 ? 'watching'
+      : item?.status === 2 ? 'completed'
+      : item?.status === 3 ? 'on-hold'
+      : item?.status === 4 ? 'dropped'
+      : item?.status === 6 ? 'plan-to-watch'
+      : 'unknown',
     mediaType: item?.anime_media_type_string ?? '',
   };
 }
@@ -86,7 +92,7 @@ async function fetchMalListPage(url) {
       throw requestError;
     } catch (error) {
       lastError = error;
-      if (attempt === attemptCount) {
+      if (attempt === 3) {
         break;
       }
       await sleep(1000 * attempt);
@@ -94,6 +100,40 @@ async function fetchMalListPage(url) {
   }
 
   throw lastError ?? new Error('Unknown fetch error');
+}
+
+async function fetchAllAnimeItems() {
+  const collected = [];
+  const seenIds = new Set();
+
+  for (let offset = 0; offset < 5000; offset += PAGE_SIZE) {
+    const pageUrl = `${MAL_LIST_URL}?offset=${offset}`;
+    const html = await fetchMalListPage(pageUrl);
+    const pageItems = extractListItems(html);
+
+    if (!pageItems.length) {
+      break;
+    }
+
+    for (const item of pageItems) {
+      const id = item?.anime_id ?? null;
+      if (id !== null && seenIds.has(id)) {
+        continue;
+      }
+
+      if (id !== null) {
+        seenIds.add(id);
+      }
+
+      collected.push(item);
+    }
+
+    if (pageItems.length < PAGE_SIZE) {
+      break;
+    }
+  }
+
+  return collected;
 }
 
 async function readExistingOutput() {
@@ -106,14 +146,20 @@ async function readExistingOutput() {
   } catch (_error) {
     // No existing cache available.
   }
+
+  return {
+    username: USERNAME,
+    generatedAt: null,
+    count: 0,
+    entries: [],
+  };
 }
 
 async function main() {
   let entries = [];
 
   try {
-    const html = await fetchMalListPage(MAL_LIST_URL);
-    const rawEntries = extractListItems(html);
+    const rawEntries = await fetchAllAnimeItems();
     entries = rawEntries.map(normalizeEntry).sort(compareEntries);
   } catch (error) {
     const fallback = await readExistingOutput();

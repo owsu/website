@@ -90,6 +90,23 @@
     return entry.score;
   }
 
+  function getScoreLabel(score) {
+    const labels = {
+      10: 'peak',
+      9: 'masterpiece',
+      8: 'great',
+      7: 'good',
+      6: 'solid',
+      5: 'average',
+      4: 'subpar',
+      3: 'bad',
+      2: 'horrible',
+      1: 'apalling',
+    };
+
+    return labels[score] || 'unrated';
+  }
+
   function scoreToFilter(score) {
     if (!score || score === 0) {
       return 'unrated';
@@ -103,7 +120,7 @@
     return 'all';
   }
 
-  function createRow(entry) {
+  function createRow(entry, index) {
     const row = document.createElement('div');
     row.className = 'anime-row';
     row.dataset.filter = scoreToFilter(getEntryScore(entry));
@@ -112,6 +129,10 @@
     const imageUrl = getEntryImageUrl(entry);
     const score = getEntryScore(entry);
     const scoreLabel = score > 0 ? String(score) : 'nil';
+
+    const number = document.createElement('span');
+    number.className = 'number';
+    number.textContent = String(index + 1);
 
     const iconWrap = document.createElement('div');
     iconWrap.className = 'icon';
@@ -139,8 +160,9 @@
 
     const badge = document.createElement('span');
     badge.className = 'badge ' + (score >= 9 ? 'must-watch' : score >= 8 ? 'underrated' : 'unrated');
-    badge.textContent = score >= 9 ? 'top score' : score >= 8 ? 'strong' : 'unrated';
+    badge.textContent = getScoreLabel(score);
 
+    row.appendChild(number);
     row.appendChild(iconWrap);
     row.appendChild(title);
     row.appendChild(scoreEl);
@@ -164,13 +186,13 @@
     animeList.innerHTML = '';
 
     if (!entries.length) {
-      animeList.innerHTML = '<p class="empty-state">No anime found for this account and status.</p>';
+      animeList.innerHTML = '<p class="empty-state">No anime found for this account.</p>';
       return;
     }
 
     const fragment = document.createDocumentFragment();
-    entries.forEach(entry => {
-      fragment.appendChild(createRow(entry));
+    entries.forEach((entry, index) => {
+      fragment.appendChild(createRow(entry, index));
     });
     animeList.appendChild(fragment);
     applyFilter();
