@@ -2,12 +2,9 @@ import { writeFile } from 'node:fs/promises';
 import { readFile } from 'node:fs/promises';
 
 const USERNAME = 'uwusu';
-const API_ROOT = 'https://api.jikan.moe/v4';
+const MAL_LIST_URL = `https://myanimelist.net/animelist/${encodeURIComponent(USERNAME)}?status=2`;
 const OUTPUT_FILE = new URL('../anime-data.json', import.meta.url);
 const INPUT_FILE = OUTPUT_FILE;
-const PAGE_SIZE = 100;
-const MAX_ATTEMPTS = 4;
-const RETRYABLE_STATUS = new Set([429, 500, 502, 503, 504]);
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -30,51 +27,63 @@ function compareEntries(left, right) {
 }
 
 function normalizeEntry(item) {
-  const node = item?.node ?? item?.anime ?? item ?? {};
-  const listStatus = item?.list_status ?? item?.listStatus ?? {};
+  const imageUrl = item?.anime_image_path ? String(item.anime_image_path) : '';
+  const malUrl = item?.anime_url ? String(item.anime_url) : '';
 
   return {
-    id: node?.mal_id ?? item?.mal_id ?? null,
-    title: node?.title ?? item?.title ?? 'unknown title',
-    score: Number(listStatus?.score ?? item?.score ?? 0) || 0,
-    imageUrl: node?.images?.jpg?.image_url ?? item?.imageUrl ?? '',
-    malUrl: node?.url ?? item?.malUrl ?? '',
-    status: listStatus?.status ?? item?.status ?? 'completed',
-    mediaType: node?.media_type ?? item?.mediaType ?? '',
+    id: item?.anime_id ?? null,
+    title: item?.anime_title_eng || item?.anime_title || 'unknown title',
+    score: Number(item?.score ?? 0) || 0,
+    imageUrl,
+    malUrl: malUrl.startsWith('/') ? `https://myanimelist.net${malUrl}` : malUrl,
+    status: item?.status === 2 ? 'completed' : 'unknown',
+    mediaType: item?.anime_media_type_string ?? '',
   };
 }
 
-async function fetchJsonWithRetry(url, attemptCount = MAX_ATTEMPTS) {
+function decodeHtmlEntities(text) {
+  return text
+    .replaceAll('&quot;', '"')
+    .replaceAll('&#039;', "'")
+    .replaceAll('&amp;', '&')
+    .replaceAll('&lt;', '<')
+    .replaceAll('&gt;', '>');
+}
+
+function extractListItems(html) {
+  const match = html.match(/<table[^>]*class="list-table"[^>]*data-items="([^"]+)"/);
+  if (!match) {
+    throw new Error('Could not find MAL list data-items payload');
+  }
+
+  const rawJson = decodeHtmlEntities(match[1]);
+  const parsed = JSON.parse(rawJson);
+  if (!Array.isArray(parsed)) {
+    throw new Error('MAL list payload did not parse into an array');
+  }
+
+  return parsed;
+}
+
+async function fetchMalListPage(url) {
   let lastError = null;
 
-  for (let attempt = 1; attempt <= attemptCount; attempt += 1) {
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
     try {
       const response = await fetch(url, {
         headers: {
           'User-Agent': 'owusu-anime-data-sync/1.0',
-          'Accept': 'application/json',
+          'Accept': 'text/html,application/xhtml+xml',
         },
       });
 
       if (response.ok) {
-        return await response.json();
+        return await response.text();
       }
 
-      if (response.status === 404) {
-        const notFoundError = new Error('User not found on Jikan (404)');
-        notFoundError.code = 404;
-        throw notFoundError;
-      }
-
-      if (!RETRYABLE_STATUS.has(response.status) || attempt === attemptCount) {
-        const requestError = new Error(`Request failed with status ${response.status}`);
-        requestError.code = response.status;
-        throw requestError;
-      }
-
-      const retryAfter = Number(response.headers.get('Retry-After'));
-      const waitMs = Number.isFinite(retryAfter) ? retryAfter * 1000 : 1000 * attempt * attempt;
-      await sleep(waitMs);
+      const requestError = new Error(`Request failed with status ${response.status}`);
+      requestError.code = response.status;
+      throw requestError;
     } catch (error) {
       lastError = error;
       if (attempt === attemptCount) {
@@ -97,51 +106,20 @@ async function readExistingOutput() {
   } catch (_error) {
     // No existing cache available.
   }
-
-  return {
-    username: USERNAME,
-    generatedAt: null,
-    count: 0,
-    entries: [],
-  };
-}
-
-async function fetchAllAnime(username) {
-  const collected = [];
-  let page = 1;
-
-  while (true) {
-    const url = `${API_ROOT}/users/${encodeURIComponent(username)}/animelist?status=completed&order_by=list_score&sort=desc&limit=${PAGE_SIZE}&page=${page}`;
-    const payload = await fetchJsonWithRetry(url);
-    const data = Array.isArray(payload?.data) ? payload.data : [];
-
-    collected.push(...data);
-
-    if (!payload?.pagination?.has_next_page || data.length === 0) {
-      break;
-    }
-
-    page += 1;
-  }
-
-  return collected;
 }
 
 async function main() {
   let entries = [];
 
   try {
-    const rawEntries = await fetchAllAnime(USERNAME);
+    const html = await fetchMalListPage(MAL_LIST_URL);
+    const rawEntries = extractListItems(html);
     entries = rawEntries.map(normalizeEntry).sort(compareEntries);
   } catch (error) {
-    if (error && error.code === 404) {
-      const fallback = await readExistingOutput();
-      console.warn('Jikan returned 404 for @' + USERNAME + '; keeping existing cached anime data.');
-      await writeFile(OUTPUT_FILE, `${JSON.stringify(fallback, null, 2)}\n`, 'utf8');
-      return;
-    }
-
-    throw error;
+    const fallback = await readExistingOutput();
+    console.warn('Could not refresh MAL list for @' + USERNAME + ': ' + error.message + '. Keeping existing cached anime data.');
+    await writeFile(OUTPUT_FILE, `${JSON.stringify(fallback, null, 2)}\n`, 'utf8');
+    return;
   }
 
   const output = {
