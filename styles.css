@@ -419,6 +419,14 @@ img { max-width: 100%; display: block; }
   font-weight: 500;
 }
 
+.anime-row .progress {
+  width: 4.25rem;
+  flex-shrink: 0;
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  text-align: right;
+}
+
 .anime-row .score {
   font-size: 0.8rem;
   color: var(--ink-soft);
@@ -438,6 +446,21 @@ img { max-width: 100%; display: block; }
 .badge.must-watch { background: var(--teal-bg); color: var(--teal-text); }
 .badge.underrated { background: var(--amber-bg); color: var(--amber-text); }
 .badge.unrated { background: var(--line); color: var(--ink-soft); }
+
+.status-tag {
+  font-size: 0.68rem;
+  padding: 0.16rem 0.5rem;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+.status-watching { background: var(--teal-bg); color: var(--teal-text); }
+.status-completed { background: var(--purple-bg); color: var(--purple-text); }
+.status-on-hold { background: var(--amber-bg); color: var(--amber-text); }
+.status-dropped { background: var(--coral-bg); color: var(--coral-text); }
+.status-plan-to-watch { background: var(--pink-bg); color: var(--pink-text); }
+.status-unknown { background: var(--line); color: var(--ink-soft); }
 
 .empty-state {
   color: var(--ink-soft);

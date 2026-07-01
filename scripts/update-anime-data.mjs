@@ -30,11 +30,15 @@ function compareEntries(left, right) {
 function normalizeEntry(item) {
   const imageUrl = item?.anime_image_path ? String(item.anime_image_path) : '';
   const malUrl = item?.anime_url ? String(item.anime_url) : '';
+  const watchedEpisodes = Number(item?.num_watched_episodes ?? 0) || 0;
+  const totalEpisodes = Number(item?.anime_num_episodes ?? 0) || 0;
 
   return {
     id: item?.anime_id ?? null,
     title: item?.anime_title_eng || item?.anime_title || 'unknown title',
     score: Number(item?.score ?? 0) || 0,
+    watchedEpisodes,
+    totalEpisodes,
     imageUrl,
     malUrl: malUrl.startsWith('/') ? `https://myanimelist.net${malUrl}` : malUrl,
     status: item?.status === 1 ? 'watching'

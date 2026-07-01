@@ -30,12 +30,12 @@
 
   <header class="page-header">
     <h1>anime recommendations</h1>
-    <p>Synced from MyAnimeList on a schedule. This page only reads cached data from the site.</p>
+    <p>Synced from MyAnimeList on a schedule. This page reads your full anime list across all statuses.</p>
     <p class="page-meta" id="last-updated">last updated: loading...</p>
   </header>
 
   <div class="mal-controls" aria-label="MAL sync controls">
-    <span class="mal-label">Cached MAL list for <strong>@uwusu</strong></span>
+    <span class="mal-label">Cached full MAL list for <strong>@uwusu</strong></span>
     <button id="mal-sync" class="filter-chip" type="button">reload cached data</button>
     <span class="sync-note" id="sync-note"><i class="ti ti-database" aria-hidden="true"></i>loading cached list</span>
   </div>
@@ -90,6 +90,29 @@
     return entry.score;
   }
 
+  function getEntryStatus(entry) {
+    return entry && entry.status ? entry.status : 'unknown';
+  }
+
+  function getProgressText(entry) {
+    if (!entry) {
+      return '—';
+    }
+
+    const watched = Number(entry.watchedEpisodes ?? 0) || 0;
+    const total = Number(entry.totalEpisodes ?? 0) || 0;
+
+    if (!watched && !total) {
+      return '—';
+    }
+
+    if (total > 0) {
+      return watched + '/' + total;
+    }
+
+    return String(watched);
+  }
+
   function getScoreLabel(score) {
     const labels = {
       10: 'peak',
@@ -129,6 +152,8 @@
     const imageUrl = getEntryImageUrl(entry);
     const score = getEntryScore(entry);
     const scoreLabel = score > 0 ? String(score) : 'nil';
+    const progressText = getProgressText(entry);
+    const statusText = getEntryStatus(entry);
 
     const number = document.createElement('span');
     number.className = 'number';
@@ -158,15 +183,25 @@
     scoreEl.className = 'score' + (score === 0 ? ' nil' : '');
     scoreEl.textContent = scoreLabel;
 
+    const progress = document.createElement('span');
+    progress.className = 'progress';
+    progress.textContent = progressText;
+
     const badge = document.createElement('span');
     badge.className = 'badge ' + (score >= 9 ? 'must-watch' : score >= 8 ? 'underrated' : 'unrated');
     badge.textContent = getScoreLabel(score);
 
+    const status = document.createElement('span');
+    status.className = 'status-tag status-' + statusText;
+    status.textContent = statusText.replaceAll('-', ' ');
+
     row.appendChild(number);
     row.appendChild(iconWrap);
     row.appendChild(title);
+    row.appendChild(progress);
     row.appendChild(scoreEl);
     row.appendChild(badge);
+    row.appendChild(status);
 
     return row;
   }
