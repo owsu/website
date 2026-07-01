@@ -13,14 +13,14 @@
 
 <nav class="site-nav">
   <div class="wrap">
-    <span class="name">your name</span>
+    <span class="name">owusu kantankah</span>
     <ul>
       <li><a href="index.html">home</a></li>
       <li><a href="projects.html">projects</a></li>
       <li><a href="books.html">books</a></li>
       <li><a href="anime.html" class="active">anime</a></li>
-      <li><a href="resume.pdf" class="icon-link"><i class="ti ti-file-text" aria-hidden="true"></i>resume</a></li>
-      <li><a href="https://github.com/yourhandle" class="icon-link"><i class="ti ti-brand-github" aria-hidden="true"></i>github</a></li>
+      <li><a href="resume.pdf"><i class="ti ti-file-text" aria-hidden="true"></i>resume</a></li>
+      <li><a href="index.html" class="active">github</a></li>
     </ul>
   </div>
 </nav>
@@ -29,70 +29,196 @@
 
   <header class="page-header">
     <h1>anime recommendations</h1>
-    <p>500+ watched — synced from MAL, rated and ranked for new or experienced fans</p>
+    <p>Synced from MyAnimeList on a schedule. This page only reads cached data from the site.</p>
+    <p class="page-meta" id="last-updated">last updated: loading...</p>
   </header>
 
-  <div class="filter-row" role="group" aria-label="filter by audience">
+  <div class="mal-controls" aria-label="MAL sync controls">
+    <span class="mal-label">Cached MAL list for <strong>@uwusu</strong></span>
+    <button id="mal-sync" class="filter-chip" type="button">reload cached data</button>
+    <span class="sync-note" id="sync-note"><i class="ti ti-database" aria-hidden="true"></i>loading cached list</span>
+  </div>
+
+  <div class="filter-row" role="group" aria-label="filter by score">
     <button class="filter-chip active" data-filter="all">all</button>
-    <button class="filter-chip" data-filter="new">new to anime</button>
-    <button class="filter-chip" data-filter="experienced">experienced</button>
-    <span class="sync-note"><i class="ti ti-refresh" aria-hidden="true"></i>synced with MAL</span>
+    <button class="filter-chip" data-filter="9plus">9+</button>
+    <button class="filter-chip" data-filter="8plus">8+</button>
+    <button class="filter-chip" data-filter="unrated">unrated</button>
   </div>
 
-  <div class="anime-list" id="anime-list">
-
-    <div class="anime-row" data-audience="new experienced">
-      <div class="icon" aria-hidden="true"><i class="ti ti-sword"></i></div>
-      <span class="title">fullmetal alchemist: brotherhood</span>
-      <span class="score">9.5</span>
-      <span class="badge must-watch">must watch</span>
-    </div>
-
-    <div class="anime-row" data-audience="experienced">
-      <div class="icon" aria-hidden="true"><i class="ti ti-ghost"></i></div>
-      <span class="title">mushishi</span>
-      <span class="score">9.0</span>
-      <span class="badge underrated">underrated</span>
-    </div>
-
-    <div class="anime-row" data-audience="new experienced">
-      <div class="icon" aria-hidden="true"><i class="ti ti-run"></i></div>
-      <span class="title">haikyuu!!</span>
-      <span class="score">8.8</span>
-      <span class="badge must-watch">must watch</span>
-    </div>
-
-    <div class="anime-row" data-audience="new">
-      <div class="icon" aria-hidden="true"><i class="ti ti-mountain"></i></div>
-      <span class="title">a newly aired series</span>
-      <span class="score nil">nil</span>
-      <span class="badge unrated">unrated</span>
-    </div>
-
-  </div>
+  <div class="anime-list" id="anime-list"></div>
 
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">built by your name</div>
+  <div class="wrap">built by owusu kantankah</div>
 </footer>
 
 <script>
-  const chips = document.querySelectorAll('.filter-chip');
-  const rows = document.querySelectorAll('.anime-row');
+  const ANIME_DATA_URL = './anime-data.json';
+
+  const syncButton = document.getElementById('mal-sync');
+  const syncNote = document.getElementById('sync-note');
+  const animeList = document.getElementById('anime-list');
+  const lastUpdated = document.getElementById('last-updated');
+  const chips = document.querySelectorAll('.filter-row .filter-chip');
+
+  let allEntries = [];
+  let activeFilter = 'all';
+
+  function setSyncNote(text, icon = 'ti-refresh') {
+    syncNote.innerHTML = '<i class="ti ' + icon + '" aria-hidden="true"></i>' + text;
+  }
+
+  function setLastUpdated(text) {
+    lastUpdated.textContent = 'last updated: ' + text;
+  }
+
+  function getEntryTitle(entry) {
+    return entry && entry.title ? entry.title : 'unknown title';
+  }
+
+  function getEntryImageUrl(entry) {
+    return entry && entry.imageUrl ? entry.imageUrl : '';
+  }
+
+  function getEntryScore(entry) {
+    if (!entry || typeof entry.score !== 'number') {
+      return 0;
+    }
+    return entry.score;
+  }
+
+  function scoreToFilter(score) {
+    if (!score || score === 0) {
+      return 'unrated';
+    }
+    if (score >= 9) {
+      return '9plus';
+    }
+    if (score >= 8) {
+      return '8plus';
+    }
+    return 'all';
+  }
+
+  function createRow(entry) {
+    const row = document.createElement('div');
+    row.className = 'anime-row';
+    row.dataset.filter = scoreToFilter(getEntryScore(entry));
+
+    const safeTitle = getEntryTitle(entry);
+    const imageUrl = getEntryImageUrl(entry);
+    const score = getEntryScore(entry);
+    const scoreLabel = score > 0 ? String(score) : 'nil';
+
+    const iconWrap = document.createElement('div');
+    iconWrap.className = 'icon';
+    iconWrap.setAttribute('aria-hidden', 'true');
+
+    if (imageUrl) {
+      const image = document.createElement('img');
+      image.src = imageUrl;
+      image.alt = safeTitle + ' cover';
+      image.loading = 'lazy';
+      iconWrap.appendChild(image);
+    } else {
+      const fallbackIcon = document.createElement('i');
+      fallbackIcon.className = 'ti ti-photo-off';
+      iconWrap.appendChild(fallbackIcon);
+    }
+
+    const title = document.createElement('span');
+    title.className = 'title';
+    title.textContent = safeTitle;
+
+    const scoreEl = document.createElement('span');
+    scoreEl.className = 'score' + (score === 0 ? ' nil' : '');
+    scoreEl.textContent = scoreLabel;
+
+    const badge = document.createElement('span');
+    badge.className = 'badge ' + (score >= 9 ? 'must-watch' : score >= 8 ? 'underrated' : 'unrated');
+    badge.textContent = score >= 9 ? 'top score' : score >= 8 ? 'strong' : 'unrated';
+
+    row.appendChild(iconWrap);
+    row.appendChild(title);
+    row.appendChild(scoreEl);
+    row.appendChild(badge);
+
+    return row;
+  }
+
+  function applyFilter() {
+    const rows = document.querySelectorAll('.anime-row');
+    rows.forEach(row => {
+      const rowFilter = row.dataset.filter;
+      const show = activeFilter === 'all'
+        || rowFilter === activeFilter
+        || (activeFilter === '8plus' && rowFilter === '9plus');
+      row.style.display = show ? 'flex' : 'none';
+    });
+  }
+
+  function renderList(entries) {
+    animeList.innerHTML = '';
+
+    if (!entries.length) {
+      animeList.innerHTML = '<p class="empty-state">No anime found for this account and status.</p>';
+      return;
+    }
+
+    const fragment = document.createDocumentFragment();
+    entries.forEach(entry => {
+      fragment.appendChild(createRow(entry));
+    });
+    animeList.appendChild(fragment);
+    applyFilter();
+  }
+
+  async function loadAnimeData() {
+    syncButton.disabled = true;
+    setSyncNote('loading cached list...', 'ti-loader');
+
+    try {
+      const response = await fetch(ANIME_DATA_URL, { cache: 'no-store' });
+
+      if (!response.ok) {
+        throw new Error('could not load anime-data.json (' + response.status + ')');
+      }
+
+      const payload = await response.json();
+      const entries = Array.isArray(payload) ? payload : (payload && Array.isArray(payload.entries) ? payload.entries : []);
+
+      allEntries = entries.slice().sort((left, right) => getEntryScore(right) - getEntryScore(left));
+      renderList(allEntries);
+      if (payload && payload.generatedAt) {
+        const updatedText = new Date(payload.generatedAt).toLocaleString();
+        setLastUpdated(updatedText);
+        setSyncNote('cached list loaded from ' + updatedText, 'ti-database');
+      } else {
+        setLastUpdated('unknown');
+        setSyncNote('cached list loaded', 'ti-database');
+      }
+    } catch (error) {
+      setLastUpdated('unavailable');
+      setSyncNote('could not load cached anime data', 'ti-alert-triangle');
+      animeList.innerHTML = '<p class="empty-state">No cached anime data found yet. Run the GitHub Action once to generate anime-data.json.</p>';
+    } finally {
+      syncButton.disabled = false;
+    }
+  }
 
   chips.forEach(chip => {
     chip.addEventListener('click', () => {
       chips.forEach(c => c.classList.remove('active'));
       chip.classList.add('active');
-      const filter = chip.dataset.filter;
-
-      rows.forEach(row => {
-        const audiences = row.dataset.audience.split(' ');
-        row.style.display = (filter === 'all' || audiences.includes(filter)) ? 'flex' : 'none';
-      });
+      activeFilter = chip.dataset.filter;
+      applyFilter();
     });
   });
+
+  syncButton.addEventListener('click', loadAnimeData);
+  loadAnimeData();
 </script>
 
 </body>
