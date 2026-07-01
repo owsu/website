@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>owusu - anime</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/@tabler/icons-webfont/2.44.0/tabler-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <span class="name">your name</span>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="projects.html">projects</a></li>
+      <li><a href="books.html">books</a></li>
+      <li><a href="anime.html" class="active">anime</a></li>
+      <li><a href="resume.pdf" class="icon-link"><i class="ti ti-file-text" aria-hidden="true"></i>resume</a></li>
+      <li><a href="https://github.com/yourhandle" class="icon-link"><i class="ti ti-brand-github" aria-hidden="true"></i>github</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <header class="page-header">
+    <h1>anime recommendations</h1>
+    <p>500+ watched — synced from MAL, rated and ranked for new or experienced fans</p>
+  </header>
+
+  <div class="filter-row" role="group" aria-label="filter by audience">
+    <button class="filter-chip active" data-filter="all">all</button>
+    <button class="filter-chip" data-filter="new">new to anime</button>
+    <button class="filter-chip" data-filter="experienced">experienced</button>
+    <span class="sync-note"><i class="ti ti-refresh" aria-hidden="true"></i>synced with MAL</span>
+  </div>
+
+  <div class="anime-list" id="anime-list">
+
+    <div class="anime-row" data-audience="new experienced">
+      <div class="icon" aria-hidden="true"><i class="ti ti-sword"></i></div>
+      <span class="title">fullmetal alchemist: brotherhood</span>
+      <span class="score">9.5</span>
+      <span class="badge must-watch">must watch</span>
+    </div>
+
+    <div class="anime-row" data-audience="experienced">
+      <div class="icon" aria-hidden="true"><i class="ti ti-ghost"></i></div>
+      <span class="title">mushishi</span>
+      <span class="score">9.0</span>
+      <span class="badge underrated">underrated</span>
+    </div>
+
+    <div class="anime-row" data-audience="new experienced">
+      <div class="icon" aria-hidden="true"><i class="ti ti-run"></i></div>
+      <span class="title">haikyuu!!</span>
+      <span class="score">8.8</span>
+      <span class="badge must-watch">must watch</span>
+    </div>
+
+    <div class="anime-row" data-audience="new">
+      <div class="icon" aria-hidden="true"><i class="ti ti-mountain"></i></div>
+      <span class="title">a newly aired series</span>
+      <span class="score nil">nil</span>
+      <span class="badge unrated">unrated</span>
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">built by your name</div>
+</footer>
+
+<script>
+  const chips = document.querySelectorAll('.filter-chip');
+  const rows = document.querySelectorAll('.anime-row');
+
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      const filter = chip.dataset.filter;
+
+      rows.forEach(row => {
+        const audiences = row.dataset.audience.split(' ');
+        row.style.display = (filter === 'all' || audiences.includes(filter)) ? 'flex' : 'none';
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

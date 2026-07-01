@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>owusu - projects</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/@tabler/icons-webfont/2.44.0/tabler-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <span class="name">your name</span>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="projects.html" class="active">projects</a></li>
+      <li><a href="books.html">books</a></li>
+      <li><a href="anime.html">anime</a></li>
+      <li><a href="resume.pdf" class="icon-link"><i class="ti ti-file-text" aria-hidden="true"></i>resume</a></li>
+      <li><a href="https://github.com/yourhandle" class="icon-link"><i class="ti ti-brand-github" aria-hidden="true"></i>github</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <header class="page-header">
+    <h1>projects</h1>
+    <p>a few things I've built and what I learned making them</p>
+  </header>
+
+  <div class="project-list">
+
+    <article class="project-card" id="flappy-bird">
+      <div class="thumb-icon" aria-hidden="true"><i class="ti ti-chart-dots"></i></div>
+      <div>
+        <h3>flappy bird decision boundary</h3>
+        <p>A decision boundary from a neural network trained on Flappy Bird using REINFORCE and A2C.
+        I like this one because a simple project ended up encapsulating most of what I've learned in ML so far.</p>
+        <span class="tag">reinforcement learning</span>
+      </div>
+    </article>
+
+    <article class="project-card" id="drone-swarm">
+      <div class="thumb-icon" aria-hidden="true"><i class="ti ti-drone"></i></div>
+      <div>
+        <h3>drone swarm simulation</h3>
+        <p>A three.js environment simulating a drone swarm — my first graphics-adjacent project. three.js is more
+        limiting than OpenGL or Vulkan, but it was still far more freeing than my earlier Roblox projects.</p>
+        <span class="tag">graphics</span>
+      </div>
+    </article>
+
+    <article class="project-card" id="upl-calendar">
+      <div class="thumb-icon" aria-hidden="true"><i class="ti ti-calendar"></i></div>
+      <div>
+        <h3>UPL calendar</h3>
+        <p>A calendar built as part of UPL. Working on the backend was new for me — my first time collaborating
+        long-term with someone on a codebase, and my first time actually deploying a project.</p>
+        <span class="tag">backend</span>
+      </div>
+    </article>
+
+    <article class="project-card" id="extension">
+      <div class="thumb-icon" aria-hidden="true"><i class="ti ti-puzzle"></i></div>
+      <div>
+        <h3>hackathon extension</h3>
+        <p>A small but practical browser extension built with a classmate and a friend from ColorStack during a
+        hackathon. A good first taste of how extensions actually get made.</p>
+        <span class="tag">browser extension</span>
+      </div>
+    </article>
+
+  </div>
+
+  <p class="footnote">more projects on <a href="https://github.com/yourhandle" style="text-decoration:underline;">github</a> or my <a href="resume.pdf" style="text-decoration:underline;">resume</a></p>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">built by your name</div>
+</footer>
+
+</body>
+</html>
