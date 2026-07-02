@@ -30,20 +30,23 @@
 
   <header class="page-header">
     <h1>My Personal Anime List</h1>
-    <p>Synced from MyAnimeList on a schedule. This page reads your full anime list across all statuses.</p>
+    <p>Synced from MyAnimeList periodically.</p>
     <p class="page-meta" id="last-updated">last updated: loading...</p>
   </header>
 
   <div class="mal-controls" aria-label="MAL sync controls">
-    <span class="mal-label">Cached full MAL list for <strong>@uwusu</strong></span>
-    <button id="mal-sync" class="filter-chip" type="button">reload cached data</button>
-    <span class="sync-note" id="sync-note"><i class="ti ti-database" aria-hidden="true"></i>loading cached list</span>
+    <span class="mal-label">MAL list for <strong>@uwusu</strong></span>
+    <button id="mal-sync" class="filter-chip" type="button">reload data</button>
+    <span class="sync-note" id="sync-note"><i class="ti ti-database" aria-hidden="true"></i>loading list</span>
   </div>
 
   <div class="filter-row" role="group" aria-label="filter by score">
     <button class="filter-chip active" data-filter="all">all</button>
     <button class="filter-chip" data-filter="9plus">9+</button>
     <button class="filter-chip" data-filter="8plus">8+</button>
+    <button class="filter-chip" data-filter="7plus">7+</button>
+    <button class="filter-chip" data-filter="6plus">6+</button>
+    <button class="filter-chip" data-filter="5plus">5+</button>
     <button class="filter-chip" data-filter="unrated">unrated</button>
   </div>
 
@@ -140,17 +143,26 @@
     if (score >= 8) {
       return '8plus';
     }
+    if (score >= 7) {
+      return '7plus';
+    }
+    if (score >= 6) {
+      return '6plus';
+    }
+    if (score >= 5) {
+      return '5plus';
+    }
     return 'all';
   }
 
   function createRow(entry, index) {
     const row = document.createElement('div');
     row.className = 'anime-row';
-    row.dataset.filter = scoreToFilter(getEntryScore(entry));
-
+    const score = getEntryScore(entry);
+    row.dataset.score = String(score);
+    
     const safeTitle = getEntryTitle(entry);
     const imageUrl = getEntryImageUrl(entry);
-    const score = getEntryScore(entry);
     const scoreLabel = score > 0 ? String(score) : 'nil';
     const progressText = getProgressText(entry);
     const statusText = getEntryStatus(entry);
@@ -206,13 +218,29 @@
     return row;
   }
 
+  const FILTER_THRESHOLDS = {
+    all: null,
+    '9plus': 9,
+    '8plus': 8,
+    '7plus': 7,
+    '6plus': 6,
+    '5plus': 5,
+    unrated: 0,
+  };
+
   function applyFilter() {
+    const threshold = FILTER_THRESHOLDS[activeFilter];
     const rows = document.querySelectorAll('.anime-row');
     rows.forEach(row => {
-      const rowFilter = row.dataset.filter;
-      const show = activeFilter === 'all'
-        || rowFilter === activeFilter
-        || (activeFilter === '8plus' && rowFilter === '9plus');
+      const score = Number(row.dataset.score) || 0;
+      let show;
+      if (activeFilter === 'all') {
+        show = true;
+      } else if (activeFilter === 'unrated') {
+        show = score === 0;
+      } else {
+        show = score >= threshold;
+      }
       row.style.display = show ? 'flex' : 'none';
     });
   }
