@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-07-03T19:01:12.480Z",
-  "count": 582,
+  "generatedAt": "2026-07-04T01:54:39.423Z",
+  "count": 585,
   "entries": [
     {
       "id": 38524,
@@ -6109,6 +6109,17 @@
       "mediaType": "TV"
     },
     {
+      "id": 62513,
+      "title": "Clevatess Season 2",
+      "score": 0,
+      "watchedEpisodes": 0,
+      "totalEpisodes": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1741/157105.jpg?s=73bcb4cfa8d9285b94d881aaf220aba4",
+      "malUrl": "https://myanimelist.net/anime/62513/Clevatess_II__Majuu_no_Ou_to_Itsuwari_no_Yuusha_Denshou",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
       "id": 11843,
       "title": "Daily Lives of High School Boys",
       "score": 0,
@@ -6252,6 +6263,17 @@
       "mediaType": "TV"
     },
     {
+      "id": 59193,
+      "title": "Mushoku Tensei: Jobless Reincarnation Season 3",
+      "score": 0,
+      "watchedEpisodes": 0,
+      "totalEpisodes": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1527/158340.jpg?s=e012dfde3e82418c55be96baaf487f76",
+      "malUrl": "https://myanimelist.net/anime/59193/Mushoku_Tensei_III__Isekai_Ittara_Honki_Dasu",
+      "status": "plan-to-watch",
+      "mediaType": "TV"
+    },
+    {
       "id": 53065,
       "title": "My Dress-Up Darling Season 2",
       "score": 0,
@@ -6336,6 +6358,17 @@
       "totalEpisodes": 13,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1888/143803.jpg?s=5bf85c1db8c2570886b46c5283b1b33d",
       "malUrl": "https://myanimelist.net/anime/58357/Tensui_no_Sakuna-hime",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62076,
+      "title": "Smoking Behind the Supermarket with You",
+      "score": 0,
+      "watchedEpisodes": 0,
+      "totalEpisodes": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1768/156339.jpg?s=2a9c8704add4ed827c3e1e94af9419d2",
+      "malUrl": "https://myanimelist.net/anime/62076/Super_no_Ura_de_Yani_Suu_Futari",
       "status": "watching",
       "mediaType": "TV"
     },
