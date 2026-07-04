@@ -1,6 +1,6 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-07-04T01:54:39.423Z",
+  "generatedAt": "2026-07-04T08:23:13.252Z",
   "count": 585,
   "entries": [
     {
@@ -1610,6 +1610,17 @@
       "mediaType": "TV"
     },
     {
+      "id": 33486,
+      "title": "My Hero Academia Season 2",
+      "score": 7,
+      "watchedEpisodes": 25,
+      "totalEpisodes": 25,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/12/85221.jpg?s=d65251d6fb3c8aea81b25cafeeea52ee",
+      "malUrl": "https://myanimelist.net/anime/33486/Boku_no_Hero_Academia_2nd_Season",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 36456,
       "title": "My Hero Academia Season 3",
       "score": 7,
@@ -2501,17 +2512,6 @@
       "mediaType": "TV"
     },
     {
-      "id": 61549,
-      "title": "Easygoing Territory Defense by the Optimistic Lord: Production Magic Turns a Nameless Village into the Strongest Fortified City",
-      "score": 6,
-      "watchedEpisodes": 7,
-      "totalEpisodes": 12,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1264/153908.jpg?s=2aef77222d75a7ee744613fd2b36e4cf",
-      "malUrl": "https://myanimelist.net/anime/61549/Okiraku_Ryoushu_no_Tanoshii_Ryouchi_Bouei__Seisankei_Majutsu_de_Na_mo_Naki_Mura_wo_Saikyou_no_Jousai_Toshi_ni",
-      "status": "watching",
-      "mediaType": "TV"
-    },
-    {
       "id": 6702,
       "title": "Fairy Tail",
       "score": 6,
@@ -2718,17 +2718,6 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/7/81992.jpg?s=1a3286e37a8c30ad725e40906e83c349",
       "malUrl": "https://myanimelist.net/anime/32935/Haikyuu_Karasuno_Koukou_vs_Shiratorizawa_Gakuen_Koukou",
       "status": "completed",
-      "mediaType": "TV"
-    },
-    {
-      "id": 60460,
-      "title": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
-      "score": 6,
-      "watchedEpisodes": 7,
-      "totalEpisodes": 12,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1151/152479.jpg?s=2d97e63008cc7b0841472ec5b00e5933",
-      "malUrl": "https://myanimelist.net/anime/60460/Hell_Mode__Yarikomizuki_no_Gamer_wa_Hai_Settei_no_Isekai_de_Musou_suru",
-      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -2941,17 +2930,6 @@
       "mediaType": "TV"
     },
     {
-      "id": 665,
-      "title": "JoJo's Bizarre Adventure (2000)",
-      "score": 6,
-      "watchedEpisodes": 7,
-      "totalEpisodes": 7,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/8/53147.jpg?s=de996ce34c4688a09e92e476d1d7c079",
-      "malUrl": "https://myanimelist.net/anime/665/JoJo_no_Kimyou_na_Bouken__Adventure",
-      "status": "completed",
-      "mediaType": "OVA"
-    },
-    {
       "id": 34933,
       "title": "Kakegurui",
       "score": 6,
@@ -2982,17 +2960,6 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1472/93813.jpg?s=99a274d9dc5c13c7fcf56edb76af9974",
       "malUrl": "https://myanimelist.net/anime/34104/Knights___Magic",
       "status": "completed",
-      "mediaType": "TV"
-    },
-    {
-      "id": 60810,
-      "title": "Kunon the Sorcerer Can See",
-      "score": 6,
-      "watchedEpisodes": 7,
-      "totalEpisodes": 13,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1704/154459.jpg?s=7598032fffd4a81806cfb4d5f340f9cc",
-      "malUrl": "https://myanimelist.net/anime/60810/Majutsushi_Kunon_wa_Mieteiru",
-      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -3084,28 +3051,6 @@
       "mediaType": "TV"
     },
     {
-      "id": 47158,
-      "title": "My Friend's Little Sister Has It In for Me!",
-      "score": 6,
-      "watchedEpisodes": 6,
-      "totalEpisodes": 12,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1699/151694.jpg?s=3f67558aac7d7f84cc5699846332c1a8",
-      "malUrl": "https://myanimelist.net/anime/47158/Tomodachi_no_Imouto_ga_Ore_ni_dake_Uzai",
-      "status": "on-hold",
-      "mediaType": "TV"
-    },
-    {
-      "id": 33486,
-      "title": "My Hero Academia Season 2",
-      "score": 6,
-      "watchedEpisodes": 25,
-      "totalEpisodes": 25,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/12/85221.jpg?s=d65251d6fb3c8aea81b25cafeeea52ee",
-      "malUrl": "https://myanimelist.net/anime/33486/Boku_no_Hero_Academia_2nd_Season",
-      "status": "completed",
-      "mediaType": "TV"
-    },
-    {
       "id": 14813,
       "title": "My Teen Romantic Comedy SNAFU",
       "score": 6,
@@ -3114,17 +3059,6 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1786/120117.jpg?s=df260e70167afdeed0cc3f40ca5b9492",
       "malUrl": "https://myanimelist.net/anime/14813/Yahari_Ore_no_Seishun_Love_Comedy_wa_Machigatteiru",
       "status": "completed",
-      "mediaType": "TV"
-    },
-    {
-      "id": 62913,
-      "title": "Needy Girl Overdose",
-      "score": 6,
-      "watchedEpisodes": 1,
-      "totalEpisodes": 13,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1755/154935.jpg?s=f73c49ba898e6080d61681dab81b1099",
-      "malUrl": "https://myanimelist.net/anime/62913/Needy_Girl_Overdose",
-      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -4085,6 +4019,17 @@
       "mediaType": "TV"
     },
     {
+      "id": 61549,
+      "title": "Easygoing Territory Defense by the Optimistic Lord: Production Magic Turns a Nameless Village into the Strongest Fortified City",
+      "score": 5,
+      "watchedEpisodes": 7,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1264/153908.jpg?s=2aef77222d75a7ee744613fd2b36e4cf",
+      "malUrl": "https://myanimelist.net/anime/61549/Okiraku_Ryoushu_no_Tanoshii_Ryouchi_Bouei__Seisankei_Majutsu_de_Na_mo_Naki_Mura_wo_Saikyou_no_Jousai_Toshi_ni",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 32901,
       "title": "Eromanga Sensei",
       "score": 5,
@@ -4235,6 +4180,17 @@
       "totalEpisodes": 13,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1623/151209.jpg?s=7b30993a304b43f6a7d292fbee55bab0",
       "malUrl": "https://myanimelist.net/anime/5958/Sora_no_Otoshimono",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 60460,
+      "title": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
+      "score": 5,
+      "watchedEpisodes": 12,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1151/152479.jpg?s=2d97e63008cc7b0841472ec5b00e5933",
+      "malUrl": "https://myanimelist.net/anime/60460/Hell_Mode__Yarikomizuki_no_Gamer_wa_Hai_Settei_no_Isekai_de_Musou_suru",
       "status": "completed",
       "mediaType": "TV"
     },
@@ -4437,6 +4393,17 @@
       "mediaType": "TV"
     },
     {
+      "id": 60810,
+      "title": "Kunon the Sorcerer Can See",
+      "score": 5,
+      "watchedEpisodes": 7,
+      "totalEpisodes": 13,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1704/154459.jpg?s=7598032fffd4a81806cfb4d5f340f9cc",
+      "malUrl": "https://myanimelist.net/anime/60810/Majutsushi_Kunon_wa_Mieteiru",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 58172,
       "title": "Let This Grieving Soul Retire",
       "score": 5,
@@ -4511,6 +4478,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1563/139990.jpg?s=5aa75cb0c709d2e08f0f2228a53cfb29",
       "malUrl": "https://myanimelist.net/anime/53494/Boukensha_ni_Naritai_to_Miyako_ni_Deteitta_Musume_ga_S-Rank_ni_Natteta",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 47158,
+      "title": "My Friend's Little Sister Has It In for Me!",
+      "score": 5,
+      "watchedEpisodes": 6,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1699/151694.jpg?s=3f67558aac7d7f84cc5699846332c1a8",
+      "malUrl": "https://myanimelist.net/anime/47158/Tomodachi_no_Imouto_ga_Ore_ni_dake_Uzai",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
@@ -5952,6 +5930,28 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1683/146293.jpg?s=83f5aacc7d7fd57dc52c3651f2ad2d92",
       "malUrl": "https://myanimelist.net/anime/59144/Fuguushoku_Kanteishi_ga_Jitsu_wa_Saikyou_Datta",
       "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 63468,
+      "title": "KAMUI: He's Behind You",
+      "score": 3,
+      "watchedEpisodes": 1,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1071/158366.jpg?s=411877a399d430eb81fa945528cabb5c",
+      "malUrl": "https://myanimelist.net/anime/63468/Ushiro_no_Shoumen_Kamui-san",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62913,
+      "title": "Needy Girl Overdose",
+      "score": 3,
+      "watchedEpisodes": 1,
+      "totalEpisodes": 13,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1755/154935.jpg?s=f73c49ba898e6080d61681dab81b1099",
+      "malUrl": "https://myanimelist.net/anime/62913/Needy_Girl_Overdose",
+      "status": "on-hold",
       "mediaType": "TV"
     },
     {
