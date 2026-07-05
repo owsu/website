@@ -1,6 +1,6 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-07-04T18:56:02.719Z",
+  "generatedAt": "2026-07-05T02:02:24.986Z",
   "count": 585,
   "entries": [
     {
@@ -540,6 +540,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1876/141251.jpg?s=f2f66c5c2903f75be4c965042e4a8975",
       "malUrl": "https://myanimelist.net/anime/55888/Mushoku_Tensei_II__Isekai_Ittara_Honki_Dasu_Part_2",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 59193,
+      "title": "Mushoku Tensei: Jobless Reincarnation Season 3",
+      "score": 8,
+      "watchedEpisodes": 1,
+      "totalEpisodes": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1527/158340.jpg?s=e012dfde3e82418c55be96baaf487f76",
+      "malUrl": "https://myanimelist.net/anime/59193/Mushoku_Tensei_III__Isekai_Ittara_Honki_Dasu",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -6260,17 +6271,6 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/9/75184.jpg?s=e185c1cedb7b58c26a361e8adcfc178d",
       "malUrl": "https://myanimelist.net/anime/10465/Manyuu_Hikenchou",
       "status": "on-hold",
-      "mediaType": "TV"
-    },
-    {
-      "id": 59193,
-      "title": "Mushoku Tensei: Jobless Reincarnation Season 3",
-      "score": 0,
-      "watchedEpisodes": 0,
-      "totalEpisodes": 0,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1527/158340.jpg?s=e012dfde3e82418c55be96baaf487f76",
-      "malUrl": "https://myanimelist.net/anime/59193/Mushoku_Tensei_III__Isekai_Ittara_Honki_Dasu",
-      "status": "plan-to-watch",
       "mediaType": "TV"
     },
     {
