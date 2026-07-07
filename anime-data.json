@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-07-07T14:06:14.776Z",
-  "count": 587,
+  "generatedAt": "2026-07-07T18:28:38.339Z",
+  "count": 588,
   "entries": [
     {
       "id": 38524,
@@ -5039,6 +5039,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1722/135542.jpg?s=03bacacb7f3698f98cc582945434c4fc",
       "malUrl": "https://myanimelist.net/anime/53438/Higeki_no_Genkyou_to_Naru_Saikyou_Gedou_Last_Boss_Joou_wa_Tami_no_Tame_ni_Tsukushimasu",
       "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62080,
+      "title": "The Oblivious Saint Can't Contain Her Power",
+      "score": 5,
+      "watchedEpisodes": 2,
+      "totalEpisodes": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1612/158373.jpg?s=b6fa2f913f1befe1e085f4dfa56f4ee0",
+      "malUrl": "https://myanimelist.net/anime/62080/Mujikaku_Seijo_wa_Kyou_mo_Muishiki_ni_Chikara_wo_Tare_Nagasu",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
