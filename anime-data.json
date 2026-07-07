@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-07-07T02:03:29.691Z",
-  "count": 585,
+  "generatedAt": "2026-07-07T09:23:03.917Z",
+  "count": 587,
   "entries": [
     {
       "id": 38524,
@@ -782,6 +782,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1006/143302.jpg?s=b553cf7ccbda969b973783ddb59463d8",
       "malUrl": "https://myanimelist.net/anime/55791/Oshi_no_Ko_2nd_Season",
       "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62289,
+      "title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires",
+      "score": 7,
+      "watchedEpisodes": 1,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1551/157170.jpg?s=f8ef2563917a0d3dce32df70b79b6f51",
+      "malUrl": "https://myanimelist.net/anime/62289/Buchigire_Reijou_wa_Houfuku_wo_Chikaimashita_Madousho_no_Chikara_de_Sokoku_wo_Tatakitsubushimasu",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -4995,6 +5006,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1432/141123.jpg?s=a491d36a675d0040676b804142972350",
       "malUrl": "https://myanimelist.net/anime/57944/Party_kara_Tsuihou_sareta_Sono_Chiyushi_Jitsu_wa_Saikyou_ni_Tsuki",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 56736,
+      "title": "The Insipid Prince's Furtive Grab for The Throne",
+      "score": 5,
+      "watchedEpisodes": 1,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1529/158522.jpg?s=18e1ac2011feaef9450349dd58184089",
+      "malUrl": "https://myanimelist.net/anime/56736/Saikyou_Degarashi_Ouji_no_Anyaku_Teii_Arasoi",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
