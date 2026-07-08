@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-07-08T13:29:55.757Z",
-  "count": 588,
+  "generatedAt": "2026-07-08T19:06:47.597Z",
+  "count": 589,
   "entries": [
     {
       "id": 38524,
@@ -6062,6 +6062,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1862/128297.jpg?s=fa41629c0c80b14ada00605841ab01fc",
       "malUrl": "https://myanimelist.net/anime/51495/Shin_Shinka_no_Mi__Shiranai_Uchi_ni_Kachigumi_Jinsei",
       "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 49233,
+      "title": "Saga of Tanya the Evil II",
+      "score": 1,
+      "watchedEpisodes": 1,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1917/158371.jpg?s=64b27741fbda13fdfd9be2be04e7c3af",
+      "malUrl": "https://myanimelist.net/anime/49233/Youjo_Senki_II",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
