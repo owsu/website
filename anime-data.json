@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-07-13T01:48:08.633Z",
-  "count": 592,
+  "generatedAt": "2026-07-13T08:47:29.127Z",
+  "count": 594,
   "entries": [
     {
       "id": 38524,
@@ -4228,6 +4228,17 @@
       "mediaType": "TV"
     },
     {
+      "id": 63817,
+      "title": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
+      "score": 5,
+      "watchedEpisodes": 2,
+      "totalEpisodes": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1534/156314.jpg?s=feaa77983b4aa83be14291a74f8b0ff0",
+      "malUrl": "https://myanimelist.net/anime/63817/Hell_Mode__Yarikomizuki_no_Gamer_wa_Hai_Settei_no_Isekai_de_Musou_suru_2nd_Season",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 56854,
       "title": "Hero Without a Class: Who Even Needs Skills?!",
       "score": 5,
@@ -4258,6 +4269,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1088/120068.jpg?s=33be7d88c82f7b3549428460e48b793f",
       "malUrl": "https://myanimelist.net/anime/49930/Genjitsu_Shugi_Yuusha_no_Oukoku_Saikenki_Part_2",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62617,
+      "title": "I Became a Legend After My 10 Year-Long Last Stand.",
+      "score": 5,
+      "watchedEpisodes": 2,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1371/154308.jpg?s=d126f55b338c3ee75a1b1109ad63ad8a",
+      "malUrl": "https://myanimelist.net/anime/62617/Koko_wa_Ore_ni_Makasete_Saki_ni_Ike_to_Itte_kara_10-nen_ga_Tattara_Densetsu_ni_Natteita",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
