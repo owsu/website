@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-07-12T18:49:45.205Z",
-  "count": 589,
+  "generatedAt": "2026-07-13T01:48:08.633Z",
+  "count": 592,
   "entries": [
     {
       "id": 38524,
@@ -4140,6 +4140,17 @@
       "mediaType": "TV"
     },
     {
+      "id": 62535,
+      "title": "Hanaori-san Still Wants to Fight in the Next Life",
+      "score": 5,
+      "watchedEpisodes": 1,
+      "totalEpisodes": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1944/156331.jpg?s=0609860f840da7bdb6d1dcb8ad565c99",
+      "malUrl": "https://myanimelist.net/anime/62535/Hanaori-san_wa_Tensei_shitemo_Kenka_ga_Shitai",
+      "status": "watching",
+      "mediaType": "TV"
+    },
+    {
       "id": 61142,
       "title": "Hands Off: Sawaranaide Kotesashi-kun",
       "score": 5,
@@ -4742,6 +4753,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1191/127909.jpg?s=a66e2e5077f67e9dfb9d7671ecacf05e",
       "malUrl": "https://myanimelist.net/anime/49891/Tensei_shitara_Ken_deshita",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62876,
+      "title": "Rich Girl Caretaker: I'm Secretly the Caregiver of the Most Popular Girl in This Rich Kid School",
+      "score": 5,
+      "watchedEpisodes": 2,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1116/157083.jpg?s=8b99db358f2b2c147e9a010905977e9b",
+      "malUrl": "https://myanimelist.net/anime/62876/Saijo_no_Osewa__Takane_no_Hanadarake_na_Meimonkou_de_Gakuin_Ichi_no_Ojousama_Seikatsu_Nouryoku_Kaimu_wo_Kagenagara_Osewa_suru_Koto_ni_Narimashita",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -5820,6 +5842,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/6/51949.jpg?s=c5f98fcd72f67005ba7ab65a8510ba09",
       "malUrl": "https://myanimelist.net/anime/16706/Kami_nomi_zo_Shiru_Sekai__Megami-hen",
       "status": "dropped",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62435,
+      "title": "The World's Strongest Rearguard",
+      "score": 4,
+      "watchedEpisodes": 1,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1380/157378.jpg?s=0de33d456c567d716f56be530f736d83",
+      "malUrl": "https://myanimelist.net/anime/62435/Sekai_Saikyou_no_Kouei__Meikyuukoku_no_Shinjin_Tansakusha",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
