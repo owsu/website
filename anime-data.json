@@ -1,6 +1,6 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-07-14T13:06:44.404Z",
+  "generatedAt": "2026-07-14T19:01:37.756Z",
   "count": 595,
   "entries": [
     {
@@ -1764,17 +1764,6 @@
       "mediaType": "TV"
     },
     {
-      "id": 38483,
-      "title": "ORESUKI Are you the only one who loves me?",
-      "score": 7,
-      "watchedEpisodes": 12,
-      "totalEpisodes": 12,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1348/102797.jpg?s=ddb1a10d1086d705ee8464a6cc2ee588",
-      "malUrl": "https://myanimelist.net/anime/38483/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo",
-      "status": "completed",
-      "mediaType": "TV"
-    },
-    {
       "id": 40936,
       "title": "ORESUKI Are you the only one who loves me? - Our Playball / Our End Run / Our Game",
       "score": 7,
@@ -1784,6 +1773,17 @@
       "malUrl": "https://myanimelist.net/anime/40936/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo__Oretachi_no_Game_Set",
       "status": "completed",
       "mediaType": "OVA"
+    },
+    {
+      "id": 38483,
+      "title": "Oresuki: Are You the Only One Who Loves Me?",
+      "score": 7,
+      "watchedEpisodes": 12,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1348/102797.jpg?s=ddb1a10d1086d705ee8464a6cc2ee588",
+      "malUrl": "https://myanimelist.net/anime/38483/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo",
+      "status": "completed",
+      "mediaType": "TV"
     },
     {
       "id": 29803,
