@@ -54,7 +54,7 @@ function buildSkyDome(radius) {
 }
 scene.add(buildSkyDome(70));
 
-const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 100);
+const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 150);
 camera.position.set(0, 10, 20);
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
