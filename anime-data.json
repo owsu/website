@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-08-17T12:21:16.412Z",
-  "count": 595,
+  "generatedAt": "2026-08-17T18:22:32.131Z",
+  "count": 596,
   "entries": [
     {
       "id": 38524,
@@ -1727,6 +1727,17 @@
       "totalEpisodes": 12,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1074/111944.jpg?s=47dc6b0ee368ca7e7894f0ab592582b4",
       "malUrl": "https://myanimelist.net/anime/19815/No_Game_No_Life",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 7592,
+      "title": "Nura: Rise of the Yokai Clan",
+      "score": 7,
+      "watchedEpisodes": 24,
+      "totalEpisodes": 24,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/9/75631.jpg?s=b14f90ad55011c0fc1d26c0813aae96b",
+      "malUrl": "https://myanimelist.net/anime/7592/Nurarihyon_no_Mago",
       "status": "completed",
       "mediaType": "TV"
     },
