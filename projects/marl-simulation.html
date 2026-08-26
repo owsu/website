@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Test 3JS</title>
-        <style>
-            body {
-                margin: 0;
-            }
-        </style>
-        <script type="importmap">
-            {
-            "imports": {
-                "three": "https://unpkg.com/three@0.166.0/build/three.module.js",
-                "three/addons/": "https://unpkg.com/three@0.166.0/examples/jsm/"
-            }
-            }
-            </script>
-        <script type="module" src="simulation.js"></script>
-
-    </head>
-    <body>
-    </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MARL Simulation | Owusu Kantankah</title>
+  <meta name="description" content="Interactive browser visualization of a multi-agent reinforcement-learning experiment by Owusu Kantankah.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; font-family: "Inter", sans-serif; background: #8fc7f0; }
+    canvas { display: block; }
+    .sim-overlay { position: fixed; z-index: 20; top: 18px; left: 18px; width: min(390px, calc(100vw - 36px)); padding: 14px 15px 15px; border: 1px solid rgba(255,255,255,.55); border-radius: 14px; background: rgba(250,247,240,.88); backdrop-filter: blur(12px); box-shadow: 0 14px 40px rgba(33,56,74,.14); color: #2C2C2A; }
+    .sim-topline { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin-bottom: 8px; }
+    .sim-back { color: #5F5E5A; text-decoration: none; font-size: 12px; font-weight: 600; }
+    .sim-back:hover { color: #2C2C2A; }
+    .sim-status { display: inline-flex; align-items: center; gap: 6px; font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: #085041; }
+    .sim-status::before { content: ""; width: 7px; height: 7px; border-radius: 999px; background: #1f9d72; }
+    h1 { font-size: 16px; line-height: 1.25; margin: 0 0 6px; }
+    p { font-size: 12px; line-height: 1.55; color: #5F5E5A; margin: 0; }
+    .sim-note { margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(44,44,42,.12); font-size: 11px; color: #6c6a65; }
+    .sim-loading { position: fixed; inset: 0; z-index: 10; display: grid; place-items: center; pointer-events: none; color: rgba(44,44,42,.75); font-size: 12px; letter-spacing: .02em; background: #8fc7f0; transition: opacity .35s ease; }
+    .sim-loading.is-hidden { opacity: 0; }
+    @media (max-width: 720px) {
+      .sim-overlay { top: 10px; left: 10px; width: calc(100vw - 20px); padding: 11px 12px; }
+      .sim-note { display: none; }
+      .lil-gui.root { top: auto !important; right: 10px !important; bottom: 10px !important; max-height: 42vh; overflow: auto; }
+    }
+  </style>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.166.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.166.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="sim-loading" id="sim-loading">loading model + trained policy weights…</div>
+  <aside class="sim-overlay">
+    <div class="sim-topline">
+      <a class="sim-back" href="projects.html#marl">← back to projects</a>
+      <span class="sim-status">interactive</span>
+    </div>
+    <h1>Multi-Agent Reinforcement Learning</h1>
+    <p>This browser demo runs exported neural-policy weights in a 40-agent Three.js environment. Use the controls to compare rule-based flocking with individual, shared, and mixed learned policies.</p>
+    <div class="sim-note">Drag to orbit · scroll to zoom · use the panel at right to switch policy modes and reset the scene.</div>
+  </aside>
+  <script type="module" src="simulation.js"></script>
+</body>
 </html>
