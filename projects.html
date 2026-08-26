@@ -1,97 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>owusu - projects</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/@tabler/icons-webfont/2.44.0/tabler-icons.min.css">
-<link rel="stylesheet" href="styles.css">
-<link rel="icon" type="image/x-icon" href="Images/pfp.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Owusu Kantankah</title>
+  <meta name="description" content="Selected machine learning, graphics, systems, and software engineering projects by Owusu Kantankah.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/@tabler/icons-webfont/2.44.0/tabler-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="Images/pfp.jpg">
 </head>
 <body>
-
 <nav class="site-nav">
-  <div class="wrap">
-    <span class="name">owusu kantankah</span>
+  <div class="wrap nav-inner">
+    <a class="name" href="index.html">owusu kantankah</a>
     <ul>
-      <li><a href="index.html">home</a></li>
-      <li><a href="projects.html" class="active">projects</a></li>
-      <li><a href="books.html">books</a></li>
-      <li><a href="anime.html">anime</a></li>
-      <li><a href="resume.html" target="_blank"><i class="ti ti-file-text" aria-hidden="true"></i>resume</a></li>
-      <li><a href="https://github.com/owsu" target="_blank" class="active">github</a></li>
+      <li><a class="active" href="projects.html">projects</a></li>
+      <li><a href="resume.html" target="_blank" rel="noopener noreferrer">resume</a></li>
+      <li><a href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">github</a></li>
+      <li><a href="https://linkedin.com/in/owusukantankah" target="_blank" rel="noopener noreferrer">linkedin</a></li>
     </ul>
   </div>
 </nav>
 
-<main class="wrap">
-
-  <header class="page-header">
-    <h1>projects</h1>
-    <p>a few things I've built and what I learned making them</p>
+<main class="wrap projects-page">
+  <header class="page-header project-page-header">
+    <p class="eyebrow">selected work</p>
+    <h1>Projects</h1>
+    <p>I like projects where performance, algorithms, and visual behavior all meet. These are the ones I'd want to talk about in an interview.</p>
   </header>
 
-  <div class="project-list">
-
-    <article class="project-card" id="flappy-bird">
-      <h3>flappy bird decision boundary</h3>
-      <div class="project-media">
-        <img src="Images/flappyrl.png" alt="Decision boundary plot from the Flappy Bird neural network">
-      </div>
-      <div class="project-body">
-        <p>A decision boundary from a neural network trained on Flappy Bird using REINFORCE and A2C.
-        I like this one because a simple project ended up encapsulating most of what I've learned in ML so far.</p>
-        <span class="tag">reinforcement learning</span>
-      </div>
-    </article>
-
-    <article class="project-card" id="drone-swarm">
-      <h3>drone swarm simulation</h3>
-      <div class="project-media">
-        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDU0Z29ybXZlaWpkd3BqNW12YXNpbHV6Z282YTd1cWR3MTEzN2N1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vTDIMxJBZ0ePlQ5seP/giphy.gif" alt="Screenshot of the three.js drone swarm simulation">
-      </div>
-      <div class="project-body">
-        <p>A three.js environment simulating a drone swarm, my first graphics-adjacent project. three.js is more
-        limiting than OpenGL or Vulkan, but it was still far more freeing than my earlier Roblox projects.</p>
-        <span class="tag">graphics</span>
-      </div>
-    </article>
-
-    <article class="project-card" id="upl-calendar">
-      <h3>UPL calendar</h3>
-      <div class="project-media">
-        <img src="Images/calendar.png" alt="Screenshot of the UPL calendar app">
-      </div>
-      <div class="project-body">
-        <p>A calendar built as part of UPL. Working on the backend was new for me as it was my first time collaborating
-        long-term with someone on a codebase, and my first time actually deploying a project.</p>
-        <span class="tag">backend</span>
+  <div class="case-study-list">
+    <article class="case-study flagship" id="marl">
+      <div class="case-study-topline"><span class="project-number">01</span><span class="project-type">ML systems · research · graphics</span></div>
+      <div class="case-study-grid">
+        <div>
+          <h2>Multi-Agent Reinforcement Learning System</h2>
+          <p class="project-summary">An end-to-end PyTorch/CUDA training system for multi-agent policy experiments, paired with a browser visualization that executes exported policy weights in JavaScript.</p>
+          <div class="project-stats">
+            <div><strong>2.3×</strong><span>training speedup</span></div>
+            <div><strong>100</strong><span>agents in training system</span></div>
+            <div><strong>40</strong><span>agents in current live demo</span></div>
+          </div>
+          <ul class="project-details">
+            <li>Batched per-group linear operations with <code>torch.bmm</code>, then used <code>torch.compile</code> and CUDA graph capture to reduce launch overhead.</li>
+            <li>Compared multiple policy architectures while keeping the environment and training setup controlled.</li>
+            <li>Reimplemented trained-policy inference for the browser and rendered autonomous agents in Three.js.</li>
+          </ul>
+          <div class="button-row">
+            <a class="button primary" href="marl-simulation.html">launch live demo <i class="ti ti-player-play" aria-hidden="true"></i></a>
+            <a class="button" href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">github <i class="ti ti-external-link" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <a class="demo-poster" href="marl-simulation.html" aria-label="Launch the MARL browser simulation">
+          <div class="demo-orbit orbit-a"></div><div class="demo-orbit orbit-b"></div>
+          <div class="demo-node node-a"></div><div class="demo-node node-b"></div><div class="demo-node node-c"></div><div class="demo-node node-d"></div>
+          <span><i class="ti ti-player-play-filled" aria-hidden="true"></i> interactive simulation</span>
+        </a>
       </div>
     </article>
 
-    <article class="project-card" id="extension">
-      <h3> personal AI water tracker extension </h3>
-      <div class="project-media">
-        <img src="Images/waterextension.jpg" alt="Screenshot of the hackathon browser extension">
-      </div>
-      <div class="project-body">
-        <p>A small but practical browser extension built with a classmate and a friend from ColorStack during a
-        hackathon. A good first taste of how extensions actually get made.</p>
-        <span class="tag">browser extension</span>
+    <article class="case-study" id="drone-swarm">
+      <div class="case-study-topline"><span class="project-number">02</span><span class="project-type">computer graphics · performance</span></div>
+      <div class="case-study-grid">
+        <div>
+          <h2>3D Drone Swarm</h2>
+          <p class="project-summary">A real-time 1,000-agent swarm simulation implementing Reynolds-style flocking behavior in Three.js and GLSL.</p>
+          <div class="project-stats">
+            <div><strong>133</strong><span>FPS after optimization</span></div>
+            <div><strong>1</strong><span>InstancedMesh draw call</span></div>
+            <div><strong>9 MB</strong><span>GPU memory</span></div>
+          </div>
+          <ul class="project-details">
+            <li>Collapsed 1,000 individual draw calls into one instanced dispatch.</li>
+            <li>Replaced O(n²) pairwise neighbor search with a 27-cell spatial-hash lookup.</li>
+            <li>Kept the physics loop allocation-free while preserving real-time flock behavior.</li>
+          </ul>
+        </div>
+        <div class="project-visual"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDU0Z29ybXZlaWpkd3BqNW12YXNpbHV6Z282YTd1cWR3MTEzN2N1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vTDIMxJBZ0ePlQ5seP/giphy.gif" alt="Three.js drone swarm simulation"></div>
       </div>
     </article>
 
+    <article class="case-study" id="raytracer">
+      <div class="case-study-topline"><span class="project-number">03</span><span class="project-type">C++ · rendering</span></div>
+      <div class="case-study-grid">
+        <div>
+          <h2>CPU Raytracer</h2>
+          <p class="project-summary">A C++ ray tracer built from first principles to understand the geometry and math underneath a rendering pipeline.</p>
+          <ul class="project-details">
+            <li>Implemented ray–sphere and ray–triangle intersections, surface normals, and camera projection.</li>
+            <li>Added diffuse, metal, and dielectric materials with reflections and refractions.</li>
+            <li>Supported antialiasing, depth-of-field, configurable scenes, and lighting.</li>
+          </ul>
+          <a class="text-link" href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">view GitHub profile <i class="ti ti-arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="code-poster" aria-hidden="true"><i class="ti ti-vector-triangle"></i><span>rays → intersections → materials → pixels</span></div>
+      </div>
+    </article>
+
+    <article class="case-study" id="upl-calendar">
+      <div class="case-study-topline"><span class="project-number">04</span><span class="project-type">backend · deployment · teamwork</span></div>
+      <div class="case-study-grid">
+        <div>
+          <h2>Centralized Morgridge Event Calendar</h2>
+          <p class="project-summary">The backend and deployment layer for a centralized event calendar serving UW–Madison's CDIS community.</p>
+          <ul class="project-details">
+            <li>Built a RESTful Flask/SQLite API for event retrieval and channel management.</li>
+            <li>Deployed the data layer on AWS EC2 between automated scrapers and a React frontend.</li>
+            <li>Worked on a nine-person team and helped define the API schema and deployment pipeline.</li>
+          </ul>
+        </div>
+        <div class="project-visual"><img src="Images/calendar.png" alt="Centralized Morgridge Event Calendar"></div>
+      </div>
+    </article>
+
+    <article class="case-study" id="flappy-bird">
+      <div class="case-study-topline"><span class="project-number">05</span><span class="project-type">reinforcement learning</span></div>
+      <div class="case-study-grid">
+        <div>
+          <h2>Flappy Bird Decision Boundary</h2>
+          <p class="project-summary">A smaller RL experiment that made model behavior visible: a decision boundary from neural policies trained on Flappy Bird using REINFORCE and A2C.</p>
+          <p class="project-note">I keep this one on the site because it captures something I still care about: models are more interesting when you can inspect what they learned.</p>
+        </div>
+        <div class="project-visual"><img src="Images/flappyrl.png" alt="Decision boundary plot from a Flappy Bird reinforcement learning experiment"></div>
+      </div>
+    </article>
   </div>
 
-  <p class="footnote">more projects on <a href="https://github.com/owsu" target="_blank" style="text-decoration:underline;">github</a> or my <a href="resume.html" target="_blank" style="text-decoration:underline;">resume</a></p>
-
+  <div class="projects-footer-cta">
+    <p>More experiments, course work, and in-progress ideas live on GitHub.</p>
+    <a class="button" href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">github.com/owsu <i class="ti ti-arrow-up-right" aria-hidden="true"></i></a>
+  </div>
 </main>
 
-<footer class="site-footer">
-  <div class="wrap">built by owusu kantankah</div>
-</footer>
-
+<footer class="site-footer"><div class="wrap footer-inner"><span>built by owusu kantankah</span><div><a href="mailto:kantankah@wisc.edu">email</a><a href="anime.html">personal</a></div></div></footer>
 </body>
 </html>
