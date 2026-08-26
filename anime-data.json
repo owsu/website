@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-07-31T19:07:17.012Z",
-  "count": 595,
+  "generatedAt": "2026-08-26T19:29:36.885Z",
+  "count": 596,
   "entries": [
     {
       "id": 38524,
@@ -1731,6 +1731,17 @@
       "mediaType": "TV"
     },
     {
+      "id": 7592,
+      "title": "Nura: Rise of the Yokai Clan",
+      "score": 7,
+      "watchedEpisodes": 24,
+      "totalEpisodes": 24,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/9/75631.jpg?s=b14f90ad55011c0fc1d26c0813aae96b",
+      "malUrl": "https://myanimelist.net/anime/7592/Nurarihyon_no_Mago",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
       "id": 34134,
       "title": "One-Punch Man Season 2",
       "score": 7,
@@ -1764,17 +1775,6 @@
       "mediaType": "TV"
     },
     {
-      "id": 40936,
-      "title": "ORESUKI Are you the only one who loves me? - Our Playball / Our End Run / Our Game",
-      "score": 7,
-      "watchedEpisodes": 1,
-      "totalEpisodes": 1,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1155/106799.jpg?s=3960f71e3b138ed2a94fcb0d6494315e",
-      "malUrl": "https://myanimelist.net/anime/40936/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo__Oretachi_no_Game_Set",
-      "status": "completed",
-      "mediaType": "OVA"
-    },
-    {
       "id": 38483,
       "title": "Oresuki: Are You the Only One Who Loves Me?",
       "score": 7,
@@ -1784,6 +1784,17 @@
       "malUrl": "https://myanimelist.net/anime/38483/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo",
       "status": "completed",
       "mediaType": "TV"
+    },
+    {
+      "id": 40936,
+      "title": "Oresuki: Are You the Only One Who Loves Me? - Our Playball / Our End Run / Our Game",
+      "score": 7,
+      "watchedEpisodes": 1,
+      "totalEpisodes": 1,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1155/106799.jpg?s=3960f71e3b138ed2a94fcb0d6494315e",
+      "malUrl": "https://myanimelist.net/anime/40936/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo__Oretachi_no_Game_Set",
+      "status": "completed",
+      "mediaType": "OVA"
     },
     {
       "id": 29803,
@@ -3397,7 +3408,7 @@
       "score": 6,
       "watchedEpisodes": 15,
       "totalEpisodes": 15,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1931/157562.jpg?s=1d1fcb74dff37ec2a3ed5a5ade6c36f2",
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1925/105508.jpg?s=1ed5a890a7d7c8ef775914faea0b7b7d",
       "malUrl": "https://myanimelist.net/anime/41094/Xian_Wang_de_Richang_Shenghuo",
       "status": "completed",
       "mediaType": "ONA"
@@ -4155,8 +4166,8 @@
       "title": "Hanaori-san Still Wants to Fight in the Next Life",
       "score": 5,
       "watchedEpisodes": 1,
-      "totalEpisodes": 0,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1944/156331.jpg?s=0609860f840da7bdb6d1dcb8ad565c99",
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1350/159514.jpg?s=67d769e0f0e35b0cff87ba2e9ef851d1",
       "malUrl": "https://myanimelist.net/anime/62535/Hanaori-san_wa_Tensei_shitemo_Kenka_ga_Shitai",
       "status": "watching",
       "mediaType": "TV"
@@ -4243,7 +4254,7 @@
       "title": "Hell Mode: The Hardcore Gamer Dominates in Another World with Garbage Balancing Season 2",
       "score": 5,
       "watchedEpisodes": 2,
-      "totalEpisodes": 0,
+      "totalEpisodes": 12,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1534/156314.jpg?s=feaa77983b4aa83be14291a74f8b0ff0",
       "malUrl": "https://myanimelist.net/anime/63817/Hell_Mode__Yarikomizuki_no_Gamer_wa_Hai_Settei_no_Isekai_de_Musou_suru_2nd_Season",
       "status": "watching",
@@ -5101,7 +5112,7 @@
       "title": "The Oblivious Saint Can't Contain Her Power",
       "score": 5,
       "watchedEpisodes": 2,
-      "totalEpisodes": 0,
+      "totalEpisodes": 12,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1612/158373.jpg?s=b6fa2f913f1befe1e085f4dfa56f4ee0",
       "malUrl": "https://myanimelist.net/anime/62080/Mujikaku_Seijo_wa_Kyou_mo_Muishiki_ni_Chikara_wo_Tare_Nagasu",
       "status": "watching",
