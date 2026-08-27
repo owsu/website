@@ -46,7 +46,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .
 /* ---------- shared typography / buttons ---------- */
 .eyebrow { margin: 0 0 .6rem; color: var(--ink-mute); font-size: .72rem !important; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; }
 h1, h2, h3 { font-family: var(--font-display); letter-spacing: -.018em; }
-.button-row { display: flex; align-items: center; flex-wrap: wrap; gap: .65rem; }
+.button-row { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: .65rem; }
 .button { min-height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: .4rem; padding: .58rem .9rem; border: 1px solid var(--line-strong); border-radius: 999px; background: rgba(255,255,255,.58); color: var(--ink); font-size: .79rem; font-weight: 600; transition: transform .18s ease, border-color .18s ease, background .18s ease; }
 .button:hover { transform: translateY(-1px); border-color: #aaa79d; background: white; }
 .button.primary { background: var(--ink); border-color: var(--ink); color: white; }
@@ -81,7 +81,7 @@ h1, h2, h3 { font-family: var(--font-display); letter-spacing: -.018em; }
 .status-dot { width: 7px; height: 7px; border-radius: 50%; background: #1e9f74; box-shadow: 0 0 0 4px rgba(30,159,116,.09); }
 .chip-row { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .25rem; }
 .chip { padding: .22rem .55rem; border-radius: 999px; background: var(--purple-bg); color: var(--purple-text); font-size: .68rem; font-weight: 500; }
-.card-actions { margin-top: auto; padding-top: 2rem; display: flex; align-items: center; gap: 1rem; }
+.card-actions { margin-top: auto; padding-top: 2rem; display: flex; align-items: center; justify-content: center; gap: 1rem; }
 .mini-metrics { margin-top: auto; width: 100%; display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 1rem; }
 .mini-metrics span { padding: .75rem 0; color: var(--ink-mute); font-size: .68rem; }
 .mini-metrics span + span { border-left: 1px solid var(--line); padding-left: .75rem; }
@@ -139,7 +139,7 @@ h1, h2, h3 { font-family: var(--font-display); letter-spacing: -.018em; }
 .code-poster { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .7rem; background: #f4f2eb; color: var(--ink-soft); }
 .code-poster i { font-size: 2rem; color: var(--purple-text); }
 .code-poster span { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .7rem; }
-.projects-footer-cta { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.projects-footer-cta { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 1rem; margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); text-align: center; }
 .projects-footer-cta p { margin: 0; color: var(--ink-soft); font-size: .82rem; }
 
 /* ---------- anime page ---------- */

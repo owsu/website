@@ -1,45 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>owusu - anime</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/@tabler/icons-webfont/2.44.0/tabler-icons.min.css">
-<link rel="stylesheet" href="styles.css">
-<link rel="icon" type="image/x-icon" href="Images/pfp.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime List | Owusu Kantankah</title>
+  <meta name="description" content="Owusu Kantankah's personal anime list, synced and filterable by rating.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/3.44.0/tabler-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="Images/pfp.jpg">
 </head>
 <body>
-
 <nav class="site-nav">
-  <div class="wrap">
-    <span class="name">owusu kantankah</span>
+  <div class="wrap nav-inner">
+    <a class="name" href="index.html">owusu kantankah</a>
     <ul>
-      <li><a href="index.html">home</a></li>
       <li><a href="projects.html">projects</a></li>
-      <li><a href="books.html">books</a></li>
-      <li><a href="anime.html" class="active">anime</a></li>
-      <li><a href="resume.html" target="_blank"><i class="ti ti-file-text" aria-hidden="true"></i>resume</a></li>
-      <li><a href="https://github.com/owsu" target="_blank" class="active">github</a></li>
+      <li><a href="resume.html" target="_blank" rel="noopener noreferrer">resume</a></li>
+      <li><a href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">github</a></li>
+      <li><a href="https://linkedin.com/in/owusukantankah" target="_blank" rel="noopener noreferrer">linkedin</a></li>
     </ul>
   </div>
 </nav>
-
-<main class="wrap">
-
+<main class="wrap anime-page">
   <header class="page-header">
-    <h1>My Personal Anime List</h1>
-    <p>Synced from MyAnimeList periodically.</p>
+    <p class="eyebrow">personal</p>
+    <h1>anime list</h1>
+    <p>A very non-professional amount of anime. Synced from MyAnimeList and sorted by my score.</p>
     <p class="page-meta" id="last-updated">last updated: loading...</p>
   </header>
-
   <div class="mal-controls" aria-label="MAL sync controls">
     <span class="mal-label">MAL list for <strong>@uwusu</strong></span>
     <button id="mal-sync" class="filter-chip" type="button">reload data</button>
     <span class="sync-note" id="sync-note"><i class="ti ti-database" aria-hidden="true"></i>loading list</span>
   </div>
-
   <div class="filter-row" role="group" aria-label="filter by score">
     <button class="filter-chip active" data-filter="all">all</button>
     <button class="filter-chip" data-filter="9plus">9+</button>
@@ -49,15 +44,9 @@
     <button class="filter-chip" data-filter="5plus">5+</button>
     <button class="filter-chip" data-filter="unrated">unrated</button>
   </div>
-
   <div class="anime-list" id="anime-list"></div>
-
 </main>
-
-<footer class="site-footer">
-  <div class="wrap">built by owusu kantankah</div>
-</footer>
-
+<footer class="site-footer"><div class="wrap footer-inner"><span>built by owusu kantankah</span><div><a href="index.html">professional side</a><a href="mailto:kantankah@wisc.edu">email</a></div></div></footer>
 <script>
   const ANIME_DATA_URL = './anime-data.json';
 
@@ -306,6 +295,5 @@
   syncButton.addEventListener('click', loadAnimeData);
   loadAnimeData();
 </script>
-
 </body>
 </html>
