@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-08-26T19:29:36.885Z",
-  "count": 596,
+  "generatedAt": "2026-08-27T00:37:19.161Z",
+  "count": 598,
   "entries": [
     {
       "id": 38524,
@@ -546,7 +546,7 @@
       "id": 59193,
       "title": "Mushoku Tensei: Jobless Reincarnation Season 3",
       "score": 8,
-      "watchedEpisodes": 1,
+      "watchedEpisodes": 9,
       "totalEpisodes": 14,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1527/158340.jpg?s=e012dfde3e82418c55be96baaf487f76",
       "malUrl": "https://myanimelist.net/anime/59193/Mushoku_Tensei_III__Isekai_Ittara_Honki_Dasu",
@@ -785,17 +785,6 @@
       "mediaType": "TV"
     },
     {
-      "id": 62289,
-      "title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires",
-      "score": 7,
-      "watchedEpisodes": 1,
-      "totalEpisodes": 12,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1551/157170.jpg?s=f8ef2563917a0d3dce32df70b79b6f51",
-      "malUrl": "https://myanimelist.net/anime/62289/Buchigire_Reijou_wa_Houfuku_wo_Chikaimashita_Madousho_no_Chikara_de_Sokoku_wo_Tatakitsubushimasu",
-      "status": "watching",
-      "mediaType": "TV"
-    },
-    {
       "id": 55866,
       "title": "A Sign of Affection",
       "score": 7,
@@ -854,7 +843,7 @@
       "id": 57466,
       "title": "Ascendance of a Bookworm: Adopted Daughter of an Archduke",
       "score": 7,
-      "watchedEpisodes": 1,
+      "watchedEpisodes": 17,
       "totalEpisodes": 24,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1371/155054.jpg?s=6d7469456864a1d815c6d94efd47e6dc",
       "malUrl": "https://myanimelist.net/anime/57466/Honzuki_no_Gekokujou__Shisho_ni_Naru_Tame_ni_wa_Shudan_wo_Erandeiraremasen_-_Ryoushu_no_Youjo",
@@ -2174,7 +2163,7 @@
       "id": 61240,
       "title": "Though I Am an Inept Villainess",
       "score": 7,
-      "watchedEpisodes": 1,
+      "watchedEpisodes": 7,
       "totalEpisodes": 11,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1958/158341.jpg?s=c0474255bf998a4a0a4c17ddb7de3611",
       "malUrl": "https://myanimelist.net/anime/61240/Futsutsuka_na_Akujo_dewa_Gozaimasu_ga__Suuguu_Chouso_Torikae_Den",
@@ -2322,6 +2311,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1533/140617.jpg?s=9f945e970244903d6dafe71c3b2722e9",
       "malUrl": "https://myanimelist.net/anime/56352/Loop_7-kaime_no_Akuyaku_Reijou_wa_Moto_Tekikoku_de_Jiyuu_Kimama_na_Hanayome_Seikatsu_wo_Mankitsu_suru",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62289,
+      "title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires",
+      "score": 6,
+      "watchedEpisodes": 6,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1551/157170.jpg?s=f8ef2563917a0d3dce32df70b79b6f51",
+      "malUrl": "https://myanimelist.net/anime/62289/Buchigire_Reijou_wa_Houfuku_wo_Chikaimashita_Madousho_no_Chikara_de_Sokoku_wo_Tatakitsubushimasu",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -3202,6 +3202,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1777/117885.jpg?s=79865016b5694df130bd3ef939e3dce5",
       "malUrl": "https://myanimelist.net/anime/48804/Isekai_Shokudou_2",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62876,
+      "title": "Rich Girl Caretaker: I'm Secretly the Caregiver of the Most Popular Girl in This Rich Kid School",
+      "score": 6,
+      "watchedEpisodes": 8,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1116/157083.jpg?s=8b99db358f2b2c147e9a010905977e9b",
+      "malUrl": "https://myanimelist.net/anime/62876/Saijo_no_Osewa__Takane_no_Hanadarake_na_Meimonkou_de_Gakuin_Ichi_no_Ojousama_Seikatsu_Nouryoku_Kaimu_wo_Kagenagara_Osewa_suru_Koto_ni_Narimashita",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -4257,7 +4268,7 @@
       "totalEpisodes": 12,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1534/156314.jpg?s=feaa77983b4aa83be14291a74f8b0ff0",
       "malUrl": "https://myanimelist.net/anime/63817/Hell_Mode__Yarikomizuki_no_Gamer_wa_Hai_Settei_no_Isekai_de_Musou_suru_2nd_Season",
-      "status": "watching",
+      "status": "dropped",
       "mediaType": "TV"
     },
     {
@@ -4800,17 +4811,6 @@
       "mediaType": "TV"
     },
     {
-      "id": 62876,
-      "title": "Rich Girl Caretaker: I'm Secretly the Caregiver of the Most Popular Girl in This Rich Kid School",
-      "score": 5,
-      "watchedEpisodes": 2,
-      "totalEpisodes": 12,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1116/157083.jpg?s=8b99db358f2b2c147e9a010905977e9b",
-      "malUrl": "https://myanimelist.net/anime/62876/Saijo_no_Osewa__Takane_no_Hanadarake_na_Meimonkou_de_Gakuin_Ichi_no_Ojousama_Seikatsu_Nouryoku_Kaimu_wo_Kagenagara_Osewa_suru_Koto_ni_Narimashita",
-      "status": "watching",
-      "mediaType": "TV"
-    },
-    {
       "id": 52461,
       "title": "Saving 80,000 Gold in Another World for My Retirement",
       "score": 5,
@@ -4874,6 +4874,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1361/120706.jpg?s=b3063f34c518e7761200f665c38065ca",
       "malUrl": "https://myanimelist.net/anime/48760/Gaikotsu_Kishi-sama_Tadaima_Isekai_e_Odekakechuu",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 60522,
+      "title": "Skeleton Knight in Another World II",
+      "score": 5,
+      "watchedEpisodes": 4,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1544/157046.jpg?s=301a977ecdb7aaa96858955b1c58518c",
+      "malUrl": "https://myanimelist.net/anime/60522/Gaikotsu_Kishi-sama_Tadaima_Isekai_e_Odekakechuu_II",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -5078,7 +5089,7 @@
       "id": 56736,
       "title": "The Insipid Prince's Furtive Grab for The Throne",
       "score": 5,
-      "watchedEpisodes": 1,
+      "watchedEpisodes": 3,
       "totalEpisodes": 12,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1529/158522.jpg?s=18e1ac2011feaef9450349dd58184089",
       "malUrl": "https://myanimelist.net/anime/56736/Saikyou_Degarashi_Ouji_no_Anyaku_Teii_Arasoi",
@@ -5111,7 +5122,7 @@
       "id": 62080,
       "title": "The Oblivious Saint Can't Contain Her Power",
       "score": 5,
-      "watchedEpisodes": 2,
+      "watchedEpisodes": 4,
       "totalEpisodes": 12,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1612/158373.jpg?s=b6fa2f913f1befe1e085f4dfa56f4ee0",
       "malUrl": "https://myanimelist.net/anime/62080/Mujikaku_Seijo_wa_Kyou_mo_Muishiki_ni_Chikara_wo_Tare_Nagasu",
@@ -5193,6 +5204,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1384/140829.jpg?s=af99b4378537a8e320f01b0618947022",
       "malUrl": "https://myanimelist.net/anime/56845/Saikyou_Tank_no_Meikyuu_Kouryaku__Tairyoku_9999_no_Rare_Skill-mochi_Tank_Yuusha_Party_wo_Tsuihou_sareru",
       "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62322,
+      "title": "The Villager of Level 999",
+      "score": 5,
+      "watchedEpisodes": 2,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1366/158400.jpg?s=2a62d97c28468e9899831bc3fdabc2fa",
+      "malUrl": "https://myanimelist.net/anime/62322/Lv999_no_Murabito",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
@@ -5892,11 +5914,11 @@
       "id": 62435,
       "title": "The World's Strongest Rearguard",
       "score": 4,
-      "watchedEpisodes": 1,
+      "watchedEpisodes": 2,
       "totalEpisodes": 12,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1380/157378.jpg?s=0de33d456c567d716f56be530f736d83",
       "malUrl": "https://myanimelist.net/anime/62435/Sekai_Saikyou_no_Kouei__Meikyuukoku_no_Shinjin_Tansakusha",
-      "status": "watching",
+      "status": "dropped",
       "mediaType": "TV"
     },
     {
