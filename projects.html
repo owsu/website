@@ -7,7 +7,7 @@
   <meta name="description" content="Selected machine learning, graphics, systems, and software engineering projects by Owusu Kantankah.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/@tabler/icons-webfont/2.44.0/tabler-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/3.44.0/tabler-icons.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="Images/pfp.jpg">
 </head>
@@ -28,12 +28,47 @@
   <header class="page-header project-page-header">
     <p class="eyebrow">selected work</p>
     <h1>Projects</h1>
-    <p>I like projects where performance, algorithms, and visual behavior all meet. These are the ones I'd want to talk about in an interview.</p>
+    <p>Selected work across open-source C++, ML systems, computer graphics, and performance engineering — the projects I'd most want to discuss in an interview.</p>
   </header>
 
   <div class="case-study-list">
+    <article class="case-study flagship-open-source" id="godot">
+      <div class="case-study-topline"><span class="project-number">01</span><span class="project-type">open source · C++ · 3D transforms · animation systems</span></div>
+
+      <div class="case-study-grid">
+        <div>
+          <div class="project-badge-row">
+            <span class="project-badge merged"><i class="ti ti-git-merge" aria-hidden="true"></i> upstream merged</span>
+            <span class="project-badge">Godot Engine</span>
+          </div>
+          <h2>Godot Engine — Animation Regression Fix</h2>
+          <p class="project-summary">Authored an upstream-merged fix for a Godot 4.7 animation regression by reproducing it across releases, using <code>git bisect</code> to isolate the offending change, and tracing it through the C++ animation pipeline.</p>
+
+          <div class="project-callout">
+            <span class="project-callout-label">root cause</span>
+            <p>A non-commutative matrix-composition error applied scale in the wrong coordinate space when position, rotation, and scale tracks were combined.</p>
+          </div>
+
+          <ul class="project-details">
+            <li>Identified <code>Basis::scaled()</code> as applying parent/global-space scaling where animated <code>Node3D</code> scale tracks required local-space semantics.</li>
+            <li>Corrected the composition with <code>scaled_local()</code>, preserving non-uniform scale with the expected <code>R × S</code> transform order during TRS animation.</li>
+            <li>Validated the regression across Godot releases and traced the behavior change back to the introducing engine optimization before submitting the upstream fix.</li>
+          </ul>
+
+          <div class="project-actions project-actions-split">
+            <a class="project-button" href="https://github.com/godotengine/godot/issues/121158" target="_blank" rel="noopener noreferrer"><span>View Regression Issue</span><i class="ti ti-external-link" aria-hidden="true"></i></a>
+            <a class="project-button secondary" href="https://github.com/godotengine/godot" target="_blank" rel="noopener noreferrer"><span>Godot Repository</span><i class="ti ti-brand-github" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <div class="project-visual godot-visual">
+          <img src="Images/godot.png" alt="Godot animation regression and transform fix">
+          <div class="visual-caption"><span>C++ engine debugging</span><span>local-space TRS scaling</span></div>
+        </div>
+      </div>
+    </article>
     <article class="case-study flagship" id="marl">
-      <div class="case-study-topline"><span class="project-number">01</span><span class="project-type">ML systems · research · graphics</span></div>
+      <div class="case-study-topline"><span class="project-number">02</span><span class="project-type">ML systems · research · graphics</span></div>
       <div class="case-study-grid">
         <div>
           <h2>Multi-Agent Reinforcement Learning System</h2>
@@ -48,9 +83,9 @@
             <li>Compared multiple policy architectures while keeping the environment and training setup controlled.</li>
             <li>Reimplemented trained-policy inference for the browser and rendered autonomous agents in Three.js.</li>
           </ul>
-          <div class="button-row">
-            <a class="button primary" href="projects/marl-simulation.html">launch live demo <i class="ti ti-player-play" aria-hidden="true"></i></a>
-            <a class="button" href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">github <i class="ti ti-external-link" aria-hidden="true"></i></a>
+          <div class="project-actions project-actions-split">
+            <a class="project-button" href="projects/marl-simulation.html"><span>Launch Live Demo</span><i class="ti ti-player-play" aria-hidden="true"></i></a>
+            <a class="project-button" href="https://github.com/owsu" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span><i class="ti ti-external-link" aria-hidden="true"></i></a>
           </div>
         </div>
         <a class="demo-poster" href="projects/marl-simulation.html" aria-label="Launch the MARL browser simulation">
@@ -60,7 +95,7 @@
     </article>
 
     <article class="case-study" id="drone-swarm">
-      <div class="case-study-topline"><span class="project-number">02</span><span class="project-type">computer graphics · performance</span></div>
+      <div class="case-study-topline"><span class="project-number">03</span><span class="project-type">computer graphics · performance</span></div>
       <div class="case-study-grid">
         <div>
           <h2>3D Drone Swarm</h2>
@@ -75,13 +110,16 @@
             <li>Replaced O(n²) pairwise neighbor search with a 27-cell spatial-hash lookup.</li>
             <li>Kept the physics loop allocation-free while preserving real-time flock behavior.</li>
           </ul>
+          <div class="project-actions">
+            <a class="project-button" href="https://github.com/owsu/Drone-Simulation" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span><i class="ti ti-external-link" aria-hidden="true"></i></a>
+          </div>
         </div>
         <div class="project-visual"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDU0Z29ybXZlaWpkd3BqNW12YXNpbHV6Z282YTd1cWR3MTEzN2N1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vTDIMxJBZ0ePlQ5seP/giphy.gif" alt="Three.js drone swarm simulation"></div>
       </div>
     </article>
 
     <article class="case-study" id="raytracer">
-      <div class="case-study-topline"><span class="project-number">03</span><span class="project-type">C++ · rendering</span></div>
+      <div class="case-study-topline"><span class="project-number">04</span><span class="project-type">C++ · rendering</span></div>
       <div class="case-study-grid">
         <div>
           <h2>CPU Raytracer</h2>
@@ -91,14 +129,16 @@
             <li>Added diffuse, metal, and dielectric materials with reflections and refractions.</li>
             <li>Supported antialiasing, depth-of-field, configurable scenes, and lighting.</li>
           </ul>
-          <a class="text-link" href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">view GitHub profile <i class="ti ti-arrow-up-right" aria-hidden="true"></i></a>
+          <div class="project-actions">
+            <a class="project-button" href="https://github.com/owsu/raytracer" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span><i class="ti ti-arrow-up-right" aria-hidden="true"></i></a>
+          </div>
         </div>
         <div class="project-visual"><img src="Images/raytracer.png" alt="CPU Raytracer"></div>
       </div>
     </article>
 
     <article class="case-study" id="upl-calendar">
-      <div class="case-study-topline"><span class="project-number">04</span><span class="project-type">backend · deployment · teamwork</span></div>
+      <div class="case-study-topline"><span class="project-number">05</span><span class="project-type">backend · deployment · teamwork</span></div>
       <div class="case-study-grid">
         <div>
           <h2>Centralized Morgridge Event Calendar</h2>
@@ -108,13 +148,16 @@
             <li>Deployed the data layer on AWS EC2 between automated scrapers and a React frontend.</li>
             <li>Worked on a nine-person team and helped define the API schema and deployment pipeline.</li>
           </ul>
+          <div class="project-actions">
+            <a class="project-button" href="https://github.com/albertw7711/Morgridge-Centralized-Event-Dashboard" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span><i class="ti ti-external-link" aria-hidden="true"></i></a>
+          </div>
         </div>
         <div class="project-visual"><img src="Images/calendar.png" alt="Centralized Morgridge Event Calendar"></div>
       </div>
     </article>
 
     <article class="case-study" id="flappy-bird">
-      <div class="case-study-topline"><span class="project-number">05</span><span class="project-type">reinforcement learning</span></div>
+      <div class="case-study-topline"><span class="project-number">06</span><span class="project-type">reinforcement learning</span></div>
       <div class="case-study-grid">
         <div>
           <h2>Flappy Bird Decision Boundary</h2>
