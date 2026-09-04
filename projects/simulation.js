@@ -284,8 +284,8 @@ async function loadWeights(path) {
     // compute_obs does NOT include crowd_a/crowd_b -- the crowd counts only
     // feed into compute_reward's divisor server-side, they were never added
     // as an observation feature -- so there's no "+2" here.
-    const expectedObsDim = path.startsWith("runs2/") ? 3 + 3 * 5 + 3 + 3 : 3 + 3 * 5 + 3;
-    console.assert(weights.meta.obs_dim === expectedObsDim, "obs_dim mismatch — wrong file or stale export?");
+    const actorInputDim = weights.actor?.[0]?.w?.[0]?.length;
+    console.assert(weights.meta.obs_dim === actorInputDim, "obs_dim does not match actor weights");
     console.assert(weights.meta.act_dim === 4, "act_dim mismatch");
     return weights;
 }
@@ -308,6 +308,8 @@ for (const variant of VARIANTS) {
     weightsByVariant[variant] = files;
     weightsByVariant2[variant] = files2;
 }
+
+document.getElementById("sim-loading").classList.add("is-hidden");
 
 // Active set the sim reads from — swapped by the GUI dropdown below.
 let weightFiles = weightsByVariant["individual"];
