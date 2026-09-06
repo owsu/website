@@ -5,35 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anime List | Owusu Kantankah</title>
   <meta name="description" content="Owusu Kantankah's personal anime list, synced and filterable by rating.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/3.44.0/tabler-icons.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="Images/pfp.jpg">
 </head>
 <body>
-<nav class="site-nav">
-  <div class="wrap nav-inner">
-    <a class="name" href="index.html">owusu kantankah</a>
-    <ul>
-      <li><a href="projects.html">projects</a></li>
-      <li><a href="resume.html" target="_blank" rel="noopener noreferrer">resume</a></li>
-      <li><a href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">github</a></li>
-      <li><a href="https://linkedin.com/in/owusukantankah" target="_blank" rel="noopener noreferrer">linkedin</a></li>
-    </ul>
-  </div>
-</nav>
-<main class="wrap anime-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<nav class="site-nav" aria-label="Main navigation"><div class="wrap nav-inner"><a class="name" href="index.html">Owusu Kantankah</a><ul><li><a href="projects.html">Projects</a></li><li><a href="resume.html" target="_blank" rel="noopener noreferrer">Résumé</a></li><li><a href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://linkedin.com/in/owusukantankah" target="_blank" rel="noopener noreferrer">LinkedIn</a></li></ul></div></nav>
+<main id="main" class="wrap anime-page">
   <header class="page-header">
-    <p class="eyebrow">personal</p>
-    <h1>anime list</h1>
+    
+    <h1>Anime list</h1>
     <p>A very non-professional amount of anime. Synced from MyAnimeList and sorted by my score.</p>
     <p class="page-meta" id="last-updated">last updated: loading...</p>
   </header>
   <div class="mal-controls" aria-label="MAL sync controls">
     <span class="mal-label">MAL list for <strong>@uwusu</strong></span>
     <button id="mal-sync" class="filter-chip" type="button">reload data</button>
-    <span class="sync-note" id="sync-note"><i class="ti ti-database" aria-hidden="true"></i>loading list</span>
+    <span class="sync-note" id="sync-note" role="status" aria-live="polite">loading list</span>
   </div>
   <div class="filter-row" role="group" aria-label="filter by score">
     <button class="filter-chip active" data-filter="all">all</button>
@@ -60,7 +48,7 @@
   let activeFilter = 'all';
 
   function setSyncNote(text, icon = 'ti-refresh') {
-    syncNote.innerHTML = '<i class="ti ' + icon + '" aria-hidden="true"></i>' + text;
+    syncNote.textContent = text;
   }
 
   function setLastUpdated(text) {
@@ -88,14 +76,14 @@
 
   function getProgressText(entry) {
     if (!entry) {
-      return '—';
+      return 'N/A';
     }
 
     const watched = Number(entry.watchedEpisodes ?? 0) || 0;
     const total = Number(entry.totalEpisodes ?? 0) || 0;
 
     if (!watched && !total) {
-      return '—';
+      return 'N/A';
     }
 
     if (total > 0) {
@@ -172,7 +160,7 @@
       iconWrap.appendChild(image);
     } else {
       const fallbackIcon = document.createElement('i');
-      fallbackIcon.className = 'ti ti-photo-off';
+      fallbackIcon.textContent = '';
       iconWrap.appendChild(fallbackIcon);
     }
 
@@ -277,15 +265,17 @@
     } catch (error) {
       setLastUpdated('unavailable');
       setSyncNote('could not load cached anime data', 'ti-alert-triangle');
-      animeList.innerHTML = '<p class="empty-state">No cached anime data found yet. Run the GitHub Action once to generate anime-data.json.</p>';
+      animeList.innerHTML = '<p class="empty-state">The anime list is currently unavailable. Please try reloading later.</p>';
     } finally {
       syncButton.disabled = false;
     }
   }
 
   chips.forEach(chip => {
+    chip.setAttribute('aria-pressed', String(chip.classList.contains('active')));
     chip.addEventListener('click', () => {
-      chips.forEach(c => c.classList.remove('active'));
+      chips.forEach(c => { c.classList.remove('active'); c.setAttribute('aria-pressed', 'false'); });
+      chip.setAttribute('aria-pressed', 'true');
       chip.classList.add('active');
       activeFilter = chip.dataset.filter;
       applyFilter();
