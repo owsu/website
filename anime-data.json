@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-09-04T15:24:25.506Z",
-  "count": 598,
+  "generatedAt": "2026-09-05T19:41:22.006Z",
+  "count": 599,
   "entries": [
     {
       "id": 38524,
@@ -2031,7 +2031,7 @@
       "id": 59970,
       "title": "That Time I Got Reincarnated as a Slime Season 4",
       "score": 7,
-      "watchedEpisodes": 5,
+      "watchedEpisodes": 21,
       "totalEpisodes": 24,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1695/156389.jpg?s=43fd46a7bb8e8fcfc3b0604f9bbd2c3e",
       "malUrl": "https://myanimelist.net/anime/59970/Tensei_shitara_Slime_Datta_Ken_4th_Season",
@@ -3532,6 +3532,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1902/139271.jpg?s=5580f77764198ebd2f240b5bf8385888",
       "malUrl": "https://myanimelist.net/anime/55129/Oroka_na_Tenshi_wa_Akuma_to_Odoru",
       "status": "on-hold",
+      "mediaType": "TV"
+    },
+    {
+      "id": 62078,
+      "title": "The Frontier Lord Begins with Zero Subjects",
+      "score": 6,
+      "watchedEpisodes": 2,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1891/158566.jpg?s=7bea119164c9bf828dac77473e219efc",
+      "malUrl": "https://myanimelist.net/anime/62078/Ryoumin_0-nin_Start_no_Henkyou_Ryoushu-sama",
+      "status": "watching",
       "mediaType": "TV"
     },
     {
