@@ -23,36 +23,14 @@ let rand = mulberry32(SEED);
 // Scene / camera / renderer.
 // ---------------------------------------------------------------------------
 const scene = new THREE.Scene();
-// Fallback color behind/beyond the sky dome (matches its zenith color) —
-// the dome below is what actually shows under normal use.
-scene.background = new THREE.Color(0x8fc7f0);
-
-// ---------------------------------------------------------------------------
-// Sky dome — a large inverted sphere with a vertex-color gradient. Daytime
-// look: a clear mid-blue at the zenith fading to a pale, slightly hazy blue
-// near the horizon (the usual "sky gets lighter near the ground" effect).
-// Procedural on purpose: no external texture/cubemap assets needed, and
-// it's cheap to render (one big sphere, BackSide only).
-// ---------------------------------------------------------------------------
-function buildSkyDome(radius) {
-    const geo = new THREE.SphereGeometry(radius, 32, 16);
-    const pos = geo.attributes.position;
-    const colors = new Float32Array(pos.count * 3);
-    const zenith  = new THREE.Color(0x3d8ede); // clear mid-blue overhead
-    const horizon = new THREE.Color(0xcfeafc); // pale hazy blue near the ground
-    const tmp = new THREE.Color();
-    for (let i = 0; i < pos.count; i++) {
-        const t = THREE.MathUtils.clamp(pos.getY(i) / radius * 0.5 + 0.5, 0, 1); // 0 bottom, 1 top
-        tmp.copy(horizon).lerp(zenith, Math.pow(t, 0.45)); // wider horizon band
-        colors[i * 3] = tmp.r; colors[i * 3 + 1] = tmp.g; colors[i * 3 + 2] = tmp.b;
-    }
-    geo.setAttribute("color", new THREE.BufferAttribute(colors, 3));
-    const mat = new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.BackSide, depthWrite: false, fog: false });
-    const mesh = new THREE.Mesh(geo, mat);
-    mesh.renderOrder = -1;
-    return mesh;
-}
-scene.add(buildSkyDome(70));
+// The swarm lives in a bounded volume, so a flat stage is more honest than a
+// decorative skybox. The grid gives the camera a quiet spatial reference.
+scene.background = new THREE.Color(0xd9d0c2);
+const stageGrid = new THREE.GridHelper(40, 20, 0xa89d8d, 0xc8bdae);
+stageGrid.position.y = 0;
+stageGrid.material.transparent = true;
+stageGrid.material.opacity = 0.34;
+scene.add(stageGrid);
 
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 150);
 camera.position.set(0, 10, 20);
@@ -68,11 +46,9 @@ controls.target.set(0, 5, 0);
 controls.maxDistance = 55; // stay inside the sky dome (radius 70)
 controls.update();
 
-// Daytime lighting — bright sky-tint fill + a strong "sun" directional light.
-// (Previously dimmed for a night look; the leaders' own point lights still
-// work the same, they're just less visually dominant now that the scene
-// itself is lit.)
-scene.add(new THREE.HemisphereLight(0xaed4ff, 0x6b5847, 1.0));
+// Warm studio lighting keeps the model readable without implying a literal
+// outdoor environment.
+scene.add(new THREE.HemisphereLight(0xf1e8d8, 0x6b5847, 1.0));
 const dirLight = new THREE.DirectionalLight(0xfff4e0, 1.1);
 dirLight.position.set(10, 20, 8);
 scene.add(dirLight);
@@ -258,7 +234,7 @@ instancedMesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
     const c = new THREE.Color();
     for (let i = 0; i < COUNT; i++) {
         const g = Math.floor(i / GROUP_SIZE);
-        c.setHSL(0.45 + (g / N_NETS) * 0.35, 0.7, 0.45); // ~cyan through violet
+        c.setHSL(0.04 + (g / N_NETS) * 0.10, 0.62, 0.44); // amber through russet
         colorAttr.setXYZ(i, c.r, c.g, c.b);
     }
     instancedMesh.instanceColor = colorAttr;

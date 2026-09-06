@@ -5,22 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MARL Simulation | Owusu Kantankah</title>
   <meta name="description" content="Interactive browser visualization of a multi-agent reinforcement-learning experiment by Owusu Kantankah.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; }
-    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; font-family: "Inter", sans-serif; background: #8fc7f0; }
+    html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; font-family: "DM Sans", "Segoe UI", sans-serif; background: #D9D0C2; }
     canvas { display: block; }
-    .sim-overlay { position: fixed; z-index: 20; top: 18px; left: 18px; width: min(390px, calc(100vw - 36px)); padding: 14px 15px 15px; border: 1px solid rgba(255,255,255,.55); border-radius: 14px; background: rgba(250,247,240,.88); backdrop-filter: blur(12px); box-shadow: 0 14px 40px rgba(33,56,74,.14); color: #2C2C2A; }
+    .sim-overlay { position: fixed; z-index: 20; top: 18px; left: 18px; width: min(390px, calc(100vw - 36px)); padding: 16px 17px 17px; border: 1px solid #BFB4A5; border-radius: 8px; background: rgba(252, 250, 245, .94); color: #292722; box-shadow: 0 18px 40px rgba(75, 54, 30, .12); backdrop-filter: blur(12px); }
     .sim-topline { display: flex; justify-content: space-between; gap: 12px; align-items: center; margin-bottom: 8px; }
-    .sim-back { color: #5F5E5A; text-decoration: none; font-size: 12px; font-weight: 600; }
-    .sim-back:hover { color: #2C2C2A; }
-    .sim-status { display: inline-flex; align-items: center; gap: 6px; font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: #085041; }
-    .sim-status::before { content: ""; width: 7px; height: 7px; border-radius: 999px; background: #1f9d72; }
+    .sim-back { color: #625E55; text-decoration: none; font-size: 14px; font-weight: 600; }
+    .sim-back:hover { color: #98462F; }
+    .sim-status { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: #98462F; }
+    .sim-status::before { content: ""; width: 7px; height: 7px; border-radius: 999px; background: #98462F; }
     h1 { font-size: 16px; line-height: 1.25; margin: 0 0 6px; }
-    p { font-size: 12px; line-height: 1.55; color: #5F5E5A; margin: 0; }
-    .sim-note { margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(44,44,42,.12); font-size: 11px; color: #6c6a65; }
-    .sim-loading { position: fixed; inset: 0; z-index: 10; display: grid; place-items: center; pointer-events: none; color: rgba(44,44,42,.75); font-size: 12px; letter-spacing: .02em; background: #8fc7f0; transition: opacity .35s ease; }
+    p { font-size: 14px; line-height: 1.55; color: #625E55; margin: 0; }
+    .sim-note { margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(41,39,34,.14); font-size: 14px; color: #81796D; }
+    .sim-loading { position: fixed; inset: 0; z-index: 10; display: grid; place-items: center; pointer-events: none; color: rgba(41,39,34,.75); font-size: 14px; letter-spacing: .02em; background: #D9D0C2; }
     .sim-loading.is-hidden { opacity: 0; visibility: hidden; }
     @media (max-width: 720px) {
       .sim-overlay { top: 10px; left: 10px; width: calc(100vw - 20px); padding: 11px 12px; }
@@ -38,7 +36,7 @@
   </script>
 </head>
 <body>
-  <div class="sim-loading" id="sim-loading">loading model + trained policy weights…</div>
+  <div class="sim-loading" role="status" aria-live="polite" id="sim-loading">loading model + trained policy weights…</div>
   <aside class="sim-overlay">
     <div class="sim-topline">
       <a class="sim-back" href="../projects.html">← back to projects</a>
@@ -48,6 +46,14 @@
     <p>This browser demo runs exported neural-policy weights in a 40-agent Three.js environment. Use the controls to compare rule-based flocking with individual, shared, and mixed learned policies.</p>
     <div class="sim-note">Drag to orbit · scroll to zoom · use the panel at right to switch policy modes and reset the scene.</div>
   </aside>
-  <script type="module" src="simulation.js"></script>
+  <script type="module">
+    import('./simulation.js').catch(error => {
+      console.error(error);
+      const loading = document.getElementById('sim-loading');
+      loading.classList.remove('is-hidden');
+      loading.textContent = 'The simulation could not load. Please reload or return to projects.';
+      loading.style.padding = '240px 24px 24px';
+    });
+  </script>
 </body>
 </html>
