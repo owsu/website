@@ -5,30 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects | Owusu Kantankah</title>
   <meta name="description" content="Selected machine learning, graphics, systems, and software engineering projects by Owusu Kantankah.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/3.44.0/tabler-icons.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="Images/pfp.jpg">
 </head>
 <body>
-<nav class="site-nav">
-  <div class="wrap nav-inner">
-    <a class="name" href="index.html">owusu kantankah</a>
-    <ul>
-      <li><a class="active" href="projects.html">projects</a></li>
-      <li><a href="resume.html" target="_blank" rel="noopener noreferrer">resume</a></li>
-      <li><a href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">github</a></li>
-      <li><a href="https://linkedin.com/in/owusukantankah" target="_blank" rel="noopener noreferrer">linkedin</a></li>
-    </ul>
-  </div>
-</nav>
+<a class="skip-link" href="#main">Skip to content</a>
+<nav class="site-nav" aria-label="Main navigation"><div class="wrap nav-inner"><a class="name" href="index.html">Owusu Kantankah</a><ul><li><a href="projects.html" aria-current="page">Projects</a></li><li><a href="resume.html" target="_blank" rel="noopener noreferrer">Résumé</a></li><li><a href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">GitHub</a></li><li><a href="https://linkedin.com/in/owusukantankah" target="_blank" rel="noopener noreferrer">LinkedIn</a></li></ul></div></nav>
 
-<main class="wrap projects-page">
+<main id="main" class="wrap projects-page">
   <header class="page-header project-page-header">
-    <p class="eyebrow">selected work</p>
+    
     <h1>Projects</h1>
-    <p>Selected work across open-source C++, ML systems, computer graphics, and performance engineering — the projects I'd most want to discuss in an interview.</p>
+    <p>C++ engine contributions, multi-agent learning systems, and real-time graphics. Six projects, with the implementation details behind each.</p>
   </header>
 
   <div class="case-study-list">
@@ -37,11 +25,10 @@
 
       <div class="case-study-grid">
         <div>
-          <div class="project-badge-row">
-            <span class="project-badge merged"><i class="ti ti-git-merge" aria-hidden="true"></i> upstream merged</span>
+          <h2>Godot Engine: Animation Regression Fix</h2><div class="project-badge-row">
+            <span class="project-badge merged"> upstream merged</span>
             <span class="project-badge">Godot Engine</span>
           </div>
-          <h2>Godot Engine — Animation Regression Fix</h2>
           <p class="project-summary">Authored an upstream-merged fix for a Godot 4.7 animation regression by reproducing it across releases, using <code>git bisect</code> to isolate the offending change, and tracing it through the C++ animation pipeline.</p>
 
           <div class="project-callout">
@@ -56,13 +43,13 @@
           </ul>
 
           <div class="project-actions project-actions-split">
-            <a class="project-button" href="https://github.com/godotengine/godot/issues/121158" target="_blank" rel="noopener noreferrer"><span>View Regression Issue</span><i class="ti ti-external-link" aria-hidden="true"></i></a>
-            <a class="project-button secondary" href="https://github.com/godotengine/godot" target="_blank" rel="noopener noreferrer"><span>Godot Repository</span><i class="ti ti-brand-github" aria-hidden="true"></i></a>
+            <a class="project-button" href="https://github.com/godotengine/godot/issues/121158" target="_blank" rel="noopener noreferrer"><span>View Regression Issue</span></a>
+            <a class="project-button secondary" href="https://github.com/godotengine/godot" target="_blank" rel="noopener noreferrer"><span>Godot Repository</span></a>
           </div>
         </div>
 
         <div class="project-visual godot-visual">
-          <img src="Images/godot.png" alt="Godot animation regression and transform fix">
+          <img onerror="this.hidden=true" loading="lazy" src="Images/godot.png" alt="Godot animation regression and transform fix">
           <div class="visual-caption"><span>C++ engine debugging</span><span>local-space TRS scaling</span></div>
         </div>
       </div>
@@ -84,12 +71,12 @@
             <li>Reimplemented trained-policy inference for the browser and rendered autonomous agents in Three.js.</li>
           </ul>
           <div class="project-actions project-actions-split">
-            <a class="project-button" href="projects/marl-simulation.html"><span>Launch Live Demo</span><i class="ti ti-player-play" aria-hidden="true"></i></a>
-            <a class="project-button" href="https://github.com/owsu" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span><i class="ti ti-external-link" aria-hidden="true"></i></a>
+            <a class="project-button" href="projects/marl-simulation.html"><span>Launch Live Demo</span></a>
+            <a class="project-button" href="https://github.com/owsu" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span></a>
           </div>
         </div>
         <a class="demo-poster" href="projects/marl-simulation.html" aria-label="Launch the MARL browser simulation">
-          <div class="project-visual"><img src="https://media.giphy.com/media/yJWnSdTWY5Db31kx04/giphy.gif" alt="ML swarm simulation"></div>
+          <div class="project-visual"><img onerror="this.hidden=true" loading="lazy" src="https://media.giphy.com/media/yJWnSdTWY5Db31kx04/giphy.gif" alt="ML swarm simulation"></div>
         </a>
       </div>
     </article>
@@ -111,10 +98,10 @@
             <li>Kept the physics loop allocation-free while preserving real-time flock behavior.</li>
           </ul>
           <div class="project-actions">
-            <a class="project-button" href="https://github.com/owsu/Drone-Simulation" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span><i class="ti ti-external-link" aria-hidden="true"></i></a>
+            <a class="project-button" href="https://github.com/owsu/Drone-Simulation" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span></a>
           </div>
         </div>
-        <div class="project-visual"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDU0Z29ybXZlaWpkd3BqNW12YXNpbHV6Z282YTd1cWR3MTEzN2N1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vTDIMxJBZ0ePlQ5seP/giphy.gif" alt="Three.js drone swarm simulation"></div>
+        <div class="project-visual"><img onerror="this.hidden=true" loading="lazy" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDU0Z29ybXZlaWpkd3BqNW12YXNpbHV6Z282YTd1cWR3MTEzN2N1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vTDIMxJBZ0ePlQ5seP/giphy.gif" alt="Three.js drone swarm simulation"></div>
       </div>
     </article>
 
@@ -130,10 +117,10 @@
             <li>Supported antialiasing, depth-of-field, configurable scenes, and lighting.</li>
           </ul>
           <div class="project-actions">
-            <a class="project-button" href="https://github.com/owsu/raytracer" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span><i class="ti ti-arrow-up-right" aria-hidden="true"></i></a>
+            <a class="project-button" href="https://github.com/owsu/raytracer" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span></a>
           </div>
         </div>
-        <div class="project-visual"><img src="Images/raytracer.png" alt="CPU Raytracer"></div>
+        <div class="project-visual"><img onerror="this.hidden=true" loading="lazy" src="Images/raytracer.png" alt="CPU Raytracer"></div>
       </div>
     </article>
 
@@ -149,10 +136,10 @@
             <li>Worked on a nine-person team and helped define the API schema and deployment pipeline.</li>
           </ul>
           <div class="project-actions">
-            <a class="project-button" href="https://github.com/albertw7711/Morgridge-Centralized-Event-Dashboard" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span><i class="ti ti-external-link" aria-hidden="true"></i></a>
+            <a class="project-button" href="https://github.com/albertw7711/Morgridge-Centralized-Event-Dashboard" target="_blank" rel="noopener noreferrer"><span>View GitHub Page</span></a>
           </div>
         </div>
-        <div class="project-visual"><img src="Images/calendar.png" alt="Centralized Morgridge Event Calendar"></div>
+        <div class="project-visual"><img onerror="this.hidden=true" loading="lazy" src="Images/calendar.png" alt="Centralized Morgridge Event Calendar"></div>
       </div>
     </article>
 
@@ -164,14 +151,14 @@
           <p class="project-summary">A smaller RL experiment that made model behavior visible: a decision boundary from neural policies trained on Flappy Bird using REINFORCE and A2C.</p>
           <p class="project-note">I keep this one on the site because it captures something I still care about: models are more interesting when you can inspect what they learned.</p>
         </div>
-        <div class="project-visual"><img src="Images/flappyrl.png" alt="Decision boundary plot from a Flappy Bird reinforcement learning experiment"></div>
+        <div class="project-visual"><img onerror="this.hidden=true" loading="lazy" src="Images/flappyrl.png" alt="Decision boundary plot from a Flappy Bird reinforcement learning experiment"></div>
       </div>
     </article>
   </div>
 
   <div class="projects-footer-cta">
     <p>More experiments, course work, and in-progress ideas live on GitHub.</p>
-    <a class="button" href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">github.com/owsu <i class="ti ti-arrow-up-right" aria-hidden="true"></i></a>
+    <a class="button" href="https://github.com/owsu" target="_blank" rel="noopener noreferrer">github.com/owsu </a>
   </div>
 </main>
 
