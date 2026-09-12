@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-09-12T02:05:16.956Z",
-  "count": 599,
+  "generatedAt": "2026-09-12T09:45:53.336Z",
+  "count": 600,
   "entries": [
     {
       "id": 38524,
@@ -1960,6 +1960,17 @@
       "malUrl": "https://myanimelist.net/anime/3588/Soul_Eater",
       "status": "completed",
       "mediaType": "TV"
+    },
+    {
+      "id": 199,
+      "title": "Spirited Away",
+      "score": 7,
+      "watchedEpisodes": 1,
+      "totalEpisodes": 1,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/6/79597.jpg?s=9be2b26501dad1ef733e2c38e2741c44",
+      "malUrl": "https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi",
+      "status": "completed",
+      "mediaType": "Movie"
     },
     {
       "id": 47194,
