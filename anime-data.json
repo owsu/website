@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-09-20T19:57:05.080Z",
-  "count": 600,
+  "generatedAt": "2026-09-21T02:17:52.407Z",
+  "count": 601,
   "entries": [
     {
       "id": 38524,
@@ -3113,6 +3113,17 @@
       "totalEpisodes": 13,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1786/120117.jpg?s=df260e70167afdeed0cc3f40ca5b9492",
       "malUrl": "https://myanimelist.net/anime/14813/Yahari_Ore_no_Seishun_Love_Comedy_wa_Machigatteiru",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 30016,
+      "title": "Nanbaka",
+      "score": 6,
+      "watchedEpisodes": 13,
+      "totalEpisodes": 13,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/2/81399.jpg?s=dfad9bb47a5aa8d81cfa57912b3bb0ac",
+      "malUrl": "https://myanimelist.net/anime/30016/Nanbaka",
       "status": "completed",
       "mediaType": "TV"
     },
