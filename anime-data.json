@@ -1,6 +1,6 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-09-25T02:26:58.567Z",
+  "generatedAt": "2026-09-25T10:47:31.721Z",
   "count": 601,
   "entries": [
     {
@@ -551,6 +551,17 @@
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1527/158340.jpg?s=e012dfde3e82418c55be96baaf487f76",
       "malUrl": "https://myanimelist.net/anime/59193/Mushoku_Tensei_III__Isekai_Ittara_Honki_Dasu",
       "status": "watching",
+      "mediaType": "TV"
+    },
+    {
+      "id": 33486,
+      "title": "My Hero Academia Season 2",
+      "score": 8,
+      "watchedEpisodes": 25,
+      "totalEpisodes": 25,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/12/85221.jpg?s=d65251d6fb3c8aea81b25cafeeea52ee",
+      "malUrl": "https://myanimelist.net/anime/33486/Boku_no_Hero_Academia_2nd_Season",
+      "status": "completed",
       "mediaType": "TV"
     },
     {
@@ -1628,17 +1639,6 @@
       "totalEpisodes": 13,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/10/78745.jpg?s=844d9959a2cfbc60de12c138ca2837b9",
       "malUrl": "https://myanimelist.net/anime/31964/Boku_no_Hero_Academia",
-      "status": "completed",
-      "mediaType": "TV"
-    },
-    {
-      "id": 33486,
-      "title": "My Hero Academia Season 2",
-      "score": 7,
-      "watchedEpisodes": 25,
-      "totalEpisodes": 25,
-      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/12/85221.jpg?s=d65251d6fb3c8aea81b25cafeeea52ee",
-      "malUrl": "https://myanimelist.net/anime/33486/Boku_no_Hero_Academia_2nd_Season",
       "status": "completed",
       "mediaType": "TV"
     },
