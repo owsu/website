@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-09-27T15:59:29.433Z",
-  "count": 601,
+  "generatedAt": "2026-09-27T20:35:02.252Z",
+  "count": 602,
   "entries": [
     {
       "id": 38524,
@@ -546,11 +546,11 @@
       "id": 59193,
       "title": "Mushoku Tensei: Jobless Reincarnation Season 3",
       "score": 8,
-      "watchedEpisodes": 9,
+      "watchedEpisodes": 14,
       "totalEpisodes": 14,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1527/158340.jpg?s=e012dfde3e82418c55be96baaf487f76",
       "malUrl": "https://myanimelist.net/anime/59193/Mushoku_Tensei_III__Isekai_Ittara_Honki_Dasu",
-      "status": "watching",
+      "status": "completed",
       "mediaType": "TV"
     },
     {
@@ -1795,6 +1795,17 @@
       "malUrl": "https://myanimelist.net/anime/40936/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo__Oretachi_no_Game_Set",
       "status": "completed",
       "mediaType": "OVA"
+    },
+    {
+      "id": 64340,
+      "title": "Overgeared",
+      "score": 7,
+      "watchedEpisodes": 1,
+      "totalEpisodes": 0,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1386/160022.jpg?s=dc837f98c3974bccf187da44bd3d4e60",
+      "malUrl": "https://myanimelist.net/anime/64340/Tempal__Item_no_Chikara",
+      "status": "watching",
+      "mediaType": "TV"
     },
     {
       "id": 29803,
