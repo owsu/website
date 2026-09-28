@@ -1,7 +1,7 @@
 {
   "username": "uwusu",
-  "generatedAt": "2026-09-28T02:31:12.458Z",
-  "count": 602,
+  "generatedAt": "2026-09-28T12:19:30.162Z",
+  "count": 603,
   "entries": [
     {
       "id": 38524,
@@ -825,6 +825,17 @@
       "totalEpisodes": 24,
       "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/1429/95946.jpg?s=7faffc350d3fdfc43bd01d216eff0981",
       "malUrl": "https://myanimelist.net/anime/22199/Akame_ga_Kill",
+      "status": "completed",
+      "mediaType": "TV"
+    },
+    {
+      "id": 32951,
+      "title": "Akashic Records of Bastard Magic Instructor",
+      "score": 7,
+      "watchedEpisodes": 12,
+      "totalEpisodes": 12,
+      "imageUrl": "https://cdn.myanimelist.net/r/192x272/images/anime/8/85593.jpg?s=29aa75226c31f9a7c3cd29acf17378cb",
+      "malUrl": "https://myanimelist.net/anime/32951/Rokudenashi_Majutsu_Koushi_to_Akashic_Records",
       "status": "completed",
       "mediaType": "TV"
     },
